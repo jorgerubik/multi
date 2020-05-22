@@ -1,0 +1,111 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#shop",
+      "menu-item#vtex-website",
+      "menu-item#blog",
+      "menu-item#programa-lealtad",
+      "menu-item#facturacion",
+      "menu-item#bolsa-trabajo"
+    ]
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website",
+      "menu-item#blog",
+      "menu-item#programa-lealtad",
+      "menu-item#facturacion",
+      "menu-item#bolsa-trabajo"
+    ]
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/productos",
+        "noFollow": false,
+        "tagTitle": "Ofertas y promociones",
+        "text": "Ofertas y promociones"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#programa-lealtad": {
+    "props": {
+      "id": "menu-item-programa-lealtad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.circulodelasalud.mx/",
+        "noFollow": false,
+        "tagTitle": "Programa de lealtad",
+        "text": "Programa de lealtad"
+      }
+    }
+  },
+  "menu-item#facturacion": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/facturacion",
+        "noFollow": false,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+  "menu-item#bolsa-trabajo": {
+    "props": {
+      "id": "menu-item-bolsa-trabajo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsa-de-trabajo",
+        "noFollow": false,
+        "tagTitle": "Bolsa de trabajo",
+        "text": "Bolsa de trabajo"
+      }
+    }
+  }
+}

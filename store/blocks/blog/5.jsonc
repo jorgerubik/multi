@@ -1,0 +1,57 @@
+{
+    "store.custom#blog5":{
+        "blocks":[
+            "flex-layout.row#blogbanner5",
+            "flex-layout.row#b5main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner5":{
+        "props":{
+          "blockClass": "blogMBanner5",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b5main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b5colmain"
+        ]
+    },
+    "flex-layout.col#b5colmain":{
+        "children": [
+            "rich-text#b5-title",
+            "rich-text#b5-date",
+            "rich-text#b5-text1"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b5-title":{
+        "props":{
+            "text": "10 pequeños cambios para mejorar tu salud",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b5-date":{
+        "props":{
+            "text": "Publicado el 26 de Febrero del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b5-text1":{
+        "props":{
+            "text": "En Multifarmacias estamos comprometidos con la salud integral, tu bienestar diario y la calidad de vida, y por ello, te ofrecemos 10 pequeños cambios para mejorar tu salud que son sencillos y significativos.\n\n**1..- Toma agua diariamente**\n\nMantenerse hidratado es elemental para un mejor funcionamiento corporal. El consumo regular de agua simple es un sencillo pero importante paso hacia la mejoría de tu salud. Se ha estima regularmente que hombres y mujeres adultos deben tomar alrededor de 8 vasos de agua diarios -es decir, 3 litros de agua al día-, y aunque el consejo es una buena invitación para mantener la hidratación, nuevos estudios han explicado que el consumo de frutas y verduras, por su alto contenido de agua, contribuyen a una hidratación correcta. Esto hace más fácil y dinámico que puedas llevar una salud adecuada. No es imprescindible que lleves la cuenta exacta de tus vasos de agua sino que consumas una dieta adecuada.\n\n**2.-Deja de fumar**\n\nPara un fumador empedernido puede ser difícil dejar este hábito. No obstante, es primordial conocer los beneficios que deja la supresión de esta costumbre para ir tomando medidas inmediatas o graduales contra ella. Dejar de fumar en cualquier momento de la vida implica un menor riesgo de morir de enfermedades emparentadas con el tabaco. Se estima, por ejemplo, que dejar de fumar desde los 30 años reduce hasta en un 90% la posibilidad de muerte prematura.\n\nDejar de fumar no solo ayuda a incrementar el olfato, la condición física o a mejorar el aspecto y salud de la piel, sino que contribuye al óptimo estado de la presión arterial y las funciones pulmonares; además, disminuye el riesgo de contraer infecciones o cáncer de boca, garganta, esófago y vejiga.\n\n**3.-Bebe con moderación**\n\nBeber con moderación o de forma responsable significa hacerlo en cantidades disminuidas y a la par de los alimentos. Una vida con hábitos saludables alrededor del alcohol significa disminuir o eliminar los riesgos de contraer enfermedades como el hígado graso, la cirrosis o diabetes.\n\n**4.-Mantente activo**\n\nEvitar el sedentarismo y la inactividad física ayuda a tu metabolismo y a fortalecer tu energía, entre otras cosas. Aunque el modo de vida actual puede conducir por inercia a este mal hábito, se pueden encontrar múltiples formas para tener actividad física: ve en bicicleta a tu trabajo, haz una rutina de calistenia en tu casa o camina diariamente. Si trabajas sentado mucho tiempo, descansa y camina 5 minutos por cada hora. Hacer cualquier deporte los fines de semana contribuye a tu vida activa. La actividad física es un buen camino contra la obesidad, las enfermedades del corazón o la presión arterial alta.\n\n**5.-Mejora tus hábitos de sueño**\n\nDormir bien, de 7 a 8 horas diarias, es un paso sustancial para la estabilidad emocional. El cansancio no únicamente influye en tu desempeño diario sino que te debilita mentalmente. Desarrollar una rutina de sueño es un pequeño pero importante paso para sentirte mejor. Acostúmbrate a un horario consuetudinario para acostarte a dormir y para despertar, conviértelo en una costumbre. \n\n**6.-Mantén buena higiene bucal**\n\nEl constante mal olor de boca es una señal clara de que debes mejorar tu higiene bucal. Cepilla tus dientes de dos a tres veces al día (preferiblemente, después de cada comida). Aun si no tienes pasta, cepillar tus dientes contribuye a eliminar restos de comida que pueden causar caries y molestias en tus encías. Usar hilo dental y enjuague bucal es benéfico para el control de tu cavidad bucal. Como otra medida de cuidado, visita por lo menos dos veces al año a tu dentista. El sangrado de encía representa un signo que debe ser atendido\n\n**7.-Visita regularmente a tu médico**\n\nDejar pasar molestias físicas constantemente no necesariamente manifiesta una salud precaria pero siempre hay que mantenerse atentos ante síntomas irregulares o molestias de varios días. Un médico siempre podrá valorar mejor toda incomodidad y aportar medios para mejorar tu calidad de vida. Revisa los chequeos médicos que correspondan con tu edad o la de tus hijos y acude escrupulosamente a ellos. Recuerda que en #Multifarmacias nuestros médicos titulados pueden atenderte.\n\n**8.-No te automediques**\n\nNo automedicarte también es una forma de cuidarte. Sólo un especialista de la salud puede indicar las dosis y fármacos adecuados para enfermedades bacterianas o virales. Automedicarte puede ser contraproducente y puede que al hacerlo prolongues una enfermedad que un médico podía haber atendido mejor. \n\n**9.-Toma terapia psicológica**\n\nLa salud mental suele estar estigmatizada pero debe ser tan importante como la salud física. Buscar consejo y consulta psicológica no es una medida frente a la enfermedad sino un ejercicio de estabilidad y tranquilidad para cualquier persona. La forma de con la que vives tu día a día y en que te enfrentas a los obstáculos puede consolidarse con la ayuda de un terapeuta. Tu bienestar físico va de la mano con tu bienestar mental.\n\n**10.-Separa tus espacios de trabajo de tus espacios de descanso**\n\nMantener claridad entre tus espacios de trabajo y de descanso es elemental para una buena salud mental. Date tu espacio para hacer las actividades personales que te vitalizan. Tener un espacio adecuado de descanso, con tiempos significativos dedicados a reposar, puede contribuir a actuar mejor en tu trabajo, con ligereza y claridad mental.\n\n**Recuerda que en Multifarmacias nos preocupamos por tu salud, ya que es lo más importante para nosotros.**"
+            ,"blockClass":"blogText"
+        }
+    }
+}

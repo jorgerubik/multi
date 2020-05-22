@@ -1,0 +1,379 @@
+
+<!-- Código que esta en detalle de producto -->
+
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<style type='text/css'>
+	.title{
+		font-size: 1rem;
+	}
+</style>
+<div id='test' style='color: #004A9B;font-size:.75rem !important;padding-top:10px;padding-bottom:10px; min-height: 100px'></div>
+<script>
+	window.addEventListener('message', function(e){ 
+		brand = window.props.product.brand;
+		categories = window.props.product.categories;
+		count = categories.length;
+		html = '';
+		no_receta = 0;
+		for (i = 0; i< count; i++) {
+			if(categories[i] == '/MEDICAMENTOS/PATENTE/'){
+				html += '<p class=title ><strong>Medicamento de patente:</strong></p><p><ul><li>La venta de este medicamento <strong> requiere receta médica</strong></li><br> <li> En medicamentos antibióticos <strong> no hay cambios ni devoluciones </strong></li></ul></p>';
+			}
+			else if(categories[i] == '/MEDICAMENTOS/CONTROLADO/'){
+				html += '<p class=title ><strong>Medicamento controlado:</strong></p><p><ul><li>La venta de este medicamento <strong>requiere receta médica.</strong></li><br><li>En medicamentos Controlados <strong>solo se surten en mostrador.</strong></li></ul></p>';
+			}
+
+			if(categories[i] == '/MEDICAMENTOS/SIN RECETA OTC/'){
+				no_receta = 1;
+			}
+		}
+		if(no_receta == 1){
+			html = '';
+		}
+		$('#test').html(html);
+	});
+</script>
+     
+      
+<!-- origial de productos -->
+
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<h1 id='test'>initial</h1>
+<script>
+	function render(){
+		current = window.props.productQuery.product.items.findIndex(function(p){
+			return p.itemId === window.props.query.skuId 
+		}); 
+		if (current === -1) {
+			current = 0
+		}; 
+		$('#test').html(window.props.productQuery.product.items[current].sellers[0].commertialOffer.ListPrice)
+	}; 
+	window.addEventListener('message', function(e){ 
+		console.log('got message in product', e.data, window.props); 
+		render();
+	});
+</script>",
+
+<!-- Origial de order  -->
+     
+<script>console.log('Current orderForm: ', window.props.orderForm)</script
+	> 
+<!-- script de api con un ajax común, no funciona correctamente -->
+headers: {'janis-api-key':'212121212' },
+headers: {'Access-Control-Allow-Origin':'*'},
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<script>
+array = [];
+i = 0;
+function render(){
+	objeto = window.props.orderForm.orderForm;
+	objeto2 = Object.values(objeto);
+	objeto2.findIndex(function(p){
+		array[i] = p;
+		i++;
+	});
+	if(typeof array === 'undefined'){
+	}
+	else{
+		var jsonMimeType = 'application/json;charset=UTF-8';
+		$.ajax({
+			url: 'https://multifarmaciasmx.vtexcommercestable.com.br/api/oms/user/orders?clientEmail=jhernandez@fabricadesoluciones.com&page=1&per_page=1',
+			type: 'GET',
+			dataType: 'json',
+			headers:{
+				'content-type': 'application/json',
+				'accept': 'application/json'
+			},
+			success: function(e){
+				console.log('bien', e);
+			},
+			error: function(e){
+				console.log('error', e);
+			}
+		});
+	}
+
+}; 
+
+window.addEventListener('message', function(e){ 
+	render();
+});
+</script>
+<!-- Script para api que no requiere key -->
+
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<style type='text/css'>#test{height: 60px !important;}</style>
+<h1 id='test'></h1>
+<script>
+array = [];
+i = 0;
+function render(){
+	objeto = window.props.orderForm.orderForm;
+	objeto2 = Object.values(objeto);
+	objeto2.findIndex(function(p){
+		array[i] = p;
+		i++;
+	});
+	if(typeof array[0] === 'undefined'){
+	}
+	else{
+		$.getJSON('https://multifarmaciasmx.vtexcommercestable.com.br/api/oms/user/orders?clientEmail=jhernandez@fabricadesoluciones.com&page=1&per_page=1',function(json){
+		  console.log(json);
+		}).done(function() {
+		    $('#test').html('success API');
+		  })
+		  .fail(function() {
+		    $('#test').html('error API');
+		  })
+	}
+
+}; 
+
+window.addEventListener('message', function(e){ 
+	render();
+});
+</script>
+      
+<!-- Script que esta en el tracking-->
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<style type='text/css'>#test{height: 60px !important; color: #004A9B;}</style>
+<h1 id='test'></h1>
+<script>
+array = [];
+i = 0;
+function render(){
+	objeto = window.props.orderForm.orderForm;
+	objeto2 = Object.values(objeto);
+	objeto2.findIndex(function(p){
+		array[i] = p;
+		i++;
+	});
+	if(typeof array[0] === 'undefined'){
+	}
+	else{
+		console.log(array);
+		$.ajax({
+		  url: 'https://janis.in/api/order/get',
+		  headers: {'janis-client': 'multifarmacias', 'Content-Type': 'application/json', 'janis-api-key': 'c2f8990d7a328a663e25e5adc7939744229c933e' },
+		  dataType: 'json',
+		  type: 'GET',
+		  data:{
+		  	'ecommerceId': '1031610128581-01'
+		  },
+		  jsonpCallback: 'logResults',
+		  success: function(data){
+		  	console.log('success', data);
+		  	$('#test').html('success API');
+		  },
+		  error: function(e){
+		  	if(e.responseJSON['code'] == 10){
+		  		$('#test').html('No se encuentra el numero de orden');
+		  	}
+		  	else if(e.responseJSON['code'] == 11){
+		  		$('#test').html('No se encuentra el usuario');
+		  	}
+		  	else{
+		  		$('#test').html('Error desconocido ['+e.responseJSON['code']+']:'+e.responseJSON['message']);
+		  	}
+		  }
+		});
+	}
+
+};
+
+function logResults(json){
+  console.log('JsonCallback: ',json);
+} 
+
+window.addEventListener('message', function(e){ 
+	render();
+});
+</script>
+
+<!-- Otra versión que funciona y no requiere el jsonp para api con key-->
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<script>
+array = [];
+i = 0;
+function render(){
+	objeto = window.props.orderForm.orderForm;
+	objeto2 = Object.values(objeto);
+	objeto2.findIndex(function(p){
+		array[i] = p;
+		i++;
+	});
+	if(typeof array[0] === 'undefined'){
+	}
+	else{
+		console.log('Array: '+array[0]);
+		$.getJSON('https://multifarmaciasmx.vtexcommercestable.com/api/oms/user/orders?clientEmail=jhernandez@fabricadesoluciones.com&page=1&per_page=1',{crossDomain:true, headers:{'content-type':'application/json', 'accept': 'application/json'}},function(json){
+		  console.log('getJson',json);
+		}).done(function() {
+		    console.log( 'second success' );
+		  })
+		  .fail(function() {
+		    console.log( 'error' );
+		  })
+		  .always(function() {
+		    console.log( 'complete' );
+		  });
+	}
+
+}; 
+
+window.addEventListener('message', function(e){ 
+	render();
+});
+</script>
+
+
+
+
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous'>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI' crossorigin='anonymous'></script>
+<!-- Blogs -->
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<script type='text/javascript'>
+	array = [];
+	i = 0;
+	function render(){
+	objeto = window.props.orderForm.orderForm;
+	objeto2 = Object.values(objeto);
+	objeto2.findIndex(function(p){
+		array[i] = p;
+		i++;
+	});
+
+		$.ajax({
+			  url: 'https://multifarmaciasmx.vtexcommercestable.com.br/api/oms/pvt/orders?orderBy=creationDate,desc',
+			  contentType: "application/json; charset=utf-8",
+			  headers: {
+			  	'Access-Control-Allow-Origin': '*',
+			  	'Access-Control-Allow-Methods': 'PUT, GET, POST, DELETE, OPTIONS',
+			  	'Access-Control-Allow-Headers': 'authorization, origin, user-token, x-requested-with, content-type',
+			  	'Content-Type': 'application/json',
+			  	'accept': 'application/json',
+			  	'x-vtex-api-appkey': 'vtexappkey-multifarmaciasmx-UNTPQL',
+			  	'x-vtex-api-apptoken': 'ZGIHZGMQLNJRFMVROBHUCCETFWUVCBJSAWBCHJZNXXCQAKQCNGWACKLWCPCCLRNJDRRILTJFCTXFZNSUFSHWEIPPLEZSGWBFJSMJTHQTWQYINGWOWHWTJREUBBXGTRYF',
+			  	'Cookie': 'janus_sid=2f14aef3-698e-4c46-877d-87eb6e0f1726'
+			  },
+			  dataType: 'jsonp',
+			  type: 'GET',
+			  jsonpCallback: 'fnsuccesscallback',
+			  crossDomain: true,
+			  xhrFields: {
+			        withCredentials: true
+			    },
+			  success: function(data){
+			  	console.log('bien:',data);
+			  },
+			  error: function(e){
+			  	console.log('error:',e);
+			  }
+			});
+
+}; 
+function fnsuccesscallback(json){
+	console.log('function');
+}
+window.addEventListener('message', function(e){ 
+	render();
+});
+	
+</script>
+<!-- Final Blogs -->
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<style type='text/css'>#test{height: 60px !important;}</style>
+<h1 id='test'></h1>
+<script>
+array = [];
+i = 0;
+function render(){
+	objeto = window.props.orderForm.orderForm;
+	objeto2 = Object.values(objeto);
+	objeto2.findIndex(function(p){
+		array[i] = p;
+		i++;
+	});
+	if(typeof array[0] === 'undefined'){
+	}
+	else{
+		$.ajaxSetup({
+		  headers : {   
+		  	'Access-Control-Allow-Origin': '*',
+			  	'Access-Control-Allow-Methods': 'PUT, GET, POST, DELETE, OPTIONS',
+			  	'Access-Control-Allow-Headers': 'authorization, origin, user-token, x-requested-with, content-type',
+		    'Content-Type': 'application/json',
+			  	'accept': 'application/json',
+			  	'x-vtex-api-appkey': 'vtexappkey-multifarmaciasmx-UNTPQL',
+			  	'x-vtex-api-apptoken': 'ZGIHZGMQLNJRFMVROBHUCCETFWUVCBJSAWBCHJZNXXCQAKQCNGWACKLWCPCCLRNJDRRILTJFCTXFZNSUFSHWEIPPLEZSGWBFJSMJTHQTWQYINGWOWHWTJREUBBXGTRYF',
+		  }
+		});
+		$.getJSON('https://multifarmaciasmx.vtexcommercestable.com.br/api/oms/pvt/orders?orderBy=creationDate,desc',function(json){
+		  console.log(json);
+		}).done(function() {
+		    $('#test').html('success API');
+		  })
+		  .fail(function() {
+		    $('#test').html('error API');
+		  })
+	}
+
+}; 
+
+window.addEventListener('message', function(e){ 
+	render();
+});
+</script>
+<!--  -->
+<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script>
+<script>
+	var settings = {
+  'url': 'https://multifarmaciasmx.vtexcommercestable.com.br/api/oms/pvt/orders?orderBy=creationDate,desc',
+  'method": "GET',
+  'timeout': 0,
+  'headers': {
+    'Content-Type': 'application/json',
+    'accept': 'application/json',
+    'x-vtex-api-appkey': 'vtexappkey-multifarmaciasmx-UNTPQL',
+    'x-vtex-api-apptoken': 'ZGIHZGMQLNJRFMVROBHUCCETFWUVCBJSAWBCHJZNXXCQAKQCNGWACKLWCPCCLRNJDRRILTJFCTXFZNSUFSHWEIPPLEZSGWBFJSMJTHQTWQYINGWOWHWTJREUBBXGTRYF',
+    'Cookie': 'janus_sid=2f14aef3-698e-4c46-877d-87eb6e0f1726'
+  },
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+</script>
+
+
+<script type="text/javascript">
+$( document ).ready(function() {
+	$('.summary-template-holder').prepend('<a href="/medicamentos" target="_blank">Seguir comprando</a>');
+  	
+});
+</script>
+
+<script type='text/javascript'>
+	var xhr = new XMLHttpRequest(); 
+	xhr.withCredentials = true; 
+	xhr.onload = function () { 
+		if (xhr.status >= 200 && xhr.status < 300) {
+		        console.log('¡Éxito!', xhr.response);
+		} else { 
+		    console.log('Error en la petición!');    
+		}
+	};
+	xhr.open('GET', 'https://multifarmaciasmx.vtexcommercestable.com.br/api/oms/pvt/orders?orderBy=creationDate,desc');  
+	xhr.setRequestHeader('Content-Type', 'application/json');
+	xhr.setRequestHeader('accept', 'application/json');
+	xhr.setRequestHeader('x-vtex-api-appkey', 'vtexappkey-multifarmaciasmx-UNTPQL');
+	xhr.setRequestHeader('x-vtex-api-apptoken', 'ZGIHZGMQLNJRFMVROBHUCCETFWUVCBJSAWBCHJZNXXCQAKQCNGWACKLWCPCCLRNJDRRILTJFCTXFZNSUFSHWEIPPLEZSGWBFJSMJTHQTWQYINGWOWHWTJREUBBXGTRYF');
+	xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+	xhr.setRequestHeader('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
+	xhr.setRequestHeader('Access-Control-Allow-Headers', 'authorization, origin, user-token, x-requested-with, content-type');
+	xhr.send();  
+</script>
+

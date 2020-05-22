@@ -1,0 +1,36 @@
+{
+	"store.custom#facturacion":{
+		"blocks":[
+			"rich-text#fact-title",
+			"rich-text#fact-content",
+			"rich-text#b1-recuerda",
+			"rich-text#b1-contact-us",
+			"flex-layout.row#cuidamos-salud",
+			"flex-layout.row#cuidamos-salud-info",
+			"flex-layout.row#footer"
+		]
+	},
+
+	"rich-text#fact-title":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Facturación",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-facturacion"
+		 }
+	},
+	"rich-text#fact-content":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "En caso de que requieras facturar tienes que comunicarte con la sucursal que realizó la venta, en el ticket de compra encontrarás el teléfono y dirección. \n\n Toda la información de registro y facturación proporcionada deberá ser verdadera y exacta. Proporcionar cualquier información falsa o inexacta constituye el incumplimiento de los TÉRMINOS Y CONDICIONES. Al confirmar tu compra y finalizar el proceso de pago, estás de acuerdo en aceptar y pagar por los artículos solicitados, así como en los datos de facturación proporcionados a Multifamcias.com.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "factContent"
+		 }
+	}
+
+
+}

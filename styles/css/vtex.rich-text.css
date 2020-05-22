@@ -1,0 +1,418 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #0a4b9b;
+  justify-content: left;
+  text-align: left;
+  padding-left: 30px !important;
+  font-size: 1.5rem;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.image--img-fb, .image--img-tw, .image--img-in{
+  height: 30px;
+}
+.paragraph--img-fb, .paragraph--img-tw, .paragraph--img-in{
+  margin-top: 0px !important;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+.container--modal-trigger-text{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+/*Detalle producto*/
+.paragraph--rich-receta{
+  color: #004A9B;
+  font-size: .75rem;
+}
+.paragraph--shelfTitle { font-weight: bolder; }
+/*Detalle producto*/
+
+
+.container--section1-text{
+  margin-top: 30px !important;
+}
+
+.paragraph--help-message{
+  color: black !important;
+}
+
+.link--help-message{
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 1rem !important;
+}
+/*Blog*/
+.container--blogTitle {
+  color: #0a4b9b;
+  justify-content: left;
+  text-align: left;
+  padding-left: 50px !important;
+  font-size: 1.5rem;
+}
+
+/* Texto debajo del Logo en el footer */
+  .paragraph--section1-text { text-align: center; font-size: 1.25rem; margin-top: 15px; margin-bottom: 0; }
+/* Texto debajo del Logo en el footer */
+.container--blog-Title-2, .container--blog-Title {
+  color: #0a4b9b;
+  justify-content: left;
+  text-align: left;
+  font-size: 1.75rem;
+  height: 6rem;
+}
+
+.container--blogDate {
+  color: #0a4b9b;
+  justify-content: left;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.container--blogText {
+  justify-content: left;
+  text-align: left;
+}
+
+.container--blogText :global(.vtex-rich-text-0-x-strong){
+  color:#0a4b9b !important;
+}
+
+.container--blogText{
+  color:#808080 !important;
+  font-size: 12px;
+}
+
+.container--modalText {
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  color:#808080 !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container--modalText2 {
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  color:#0a4b9b !important;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.container--modalText :global(.vtex-rich-text-0-x-strong){
+  color:#0a4b9b !important;
+}
+/*Blog*/
+/*Sucursales*/
+.paragraph--rich-sucursales{
+  color: #004A9B;
+  margin-left: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.paragraph--nombre-astronomos-richtext{
+  color: #004A9B;
+  font-weight: bold;
+}
+.paragraph--direccion-astronomos-richtext{
+  color: #004A9B;
+  font-size: 1rem;
+  font-weight: bold;
+  min-height: 75px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.paragraph--telefono-astronomos-richtext{
+  color: #004A9B;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.paragraph--telefono-astronomos-richtext-2{
+  color: #004A9B;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.paragraph--telefono-astronomos-richtext-1{
+  color: #004A9B;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.container--llamar-astronomos-richtext{
+  margin-left: 25px;
+  margin-right: 25px;
+  border: solid 1px #004A9B;
+  color: white;
+  background: #004A9B;
+  border-radius: 50px;
+}
+.paragraph--llamar-astronomos-richtext{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.link--llamar-astronomos-richtext{
+  color: white !important;
+  text-decoration: none !important;
+}
+.infoCardCallActionContainer--direccion-astronomos-info-card{
+  display: none;
+}
+.container--vermapa-astronomos-richtext{
+  margin:10px 25px 30px 25px;
+  border: solid 1px #9EC234;
+  color: white;
+  background: #9EC234;
+  border-radius: 50px;
+}
+.paragraph--vermapa-astronomos-richtext{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container--telefono-astronomos-richtext{
+  padding-top: 77px;
+}
+.container--telefono-astronomos-richtext-2{
+  padding-top: 57px;
+}
+.container--telefono-astronomos-richtext-1{
+  padding-top: 126px;
+}
+.container--telefono-astronomos-richtext-four {
+  padding-top: 0;
+  margin-top: -12px;
+}
+.paragraph--telefono-astronomos-richtext-four{
+  color: #004A9B;
+  font-size: 1rem;
+  font-weight: bold
+}
+.link--vermapa-astronomos-richtext{
+  color: white !important;
+  text-decoration: none !important;
+}
+/*Scurusales*/
+
+/*Ofertas*/
+.paragraph--rich-bolsa{
+  color: #004A9B;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/*ofertas*/
+
+/*Terminos*/
+.paragraph--terminosContent{
+  font-size: 1rem;
+  color: #808080 !important;
+}
+.paragraph--terminosContent2{
+  font-size: 1rem;
+  color: #004A9B !important;
+}
+/*Terminos*/
+
+/*Facturacion*/
+.paragraph--factContent{
+  font-size: 1rem;
+  color: #808080 !important;
+}
+.paragraph--factContent2{
+  font-size: 1rem;
+  color: #004A9B !important;
+}
+/*Facturacion*/
+
+/*Preguntas frecuentes*/
+.strong--terminosContent {
+  color: #004A9B;
+}
+.paragraph--rich-facturacion, .paragraph--rich-terminos {
+  color: #004A9B;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.paragraph--rich-preguntas{
+  color: #004A9B;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.paragraph--rich-subtitle{
+  font-size: 1.75rem;
+  color: #004A9B !important;
+  margin-bottom: 0px !important;
+  font-weight: bolder;
+}
+.paragraph--blog-Title { font-weight: bolder; }
+.listItem--rich-question{
+  font-size: 1rem;
+  color: #004A9B !important;
+  font-weight: bolder;
+}
+
+.spanItem--rich-subtitle{
+   font-size: 1rem;
+  color: #004A9B !important;
+}
+
+.paragraph--rich-response, .listItem--rich-response{
+  font-size: 1rem;
+  color: #808080 !important;
+  margin-top: 0px !important;
+  padding-left: 15px;
+}
+
+.list--rich-question{
+  padding-left: 15px;
+  margin-bottom: 0px !important;
+}
+.paragraph--rich-question{
+  font-size: 1rem;
+  color: #004A9B !important;
+  font-weight: bolder;
+}
+/*Preguntas frecuentes*/
+
+.container--blogText,
+.container--blogDate,
+.container--factContent,
+.container--factContent2,
+.container--rich-preguntas,
+.container--rich-subtitle,
+.container--rich-question,
+.container--rich-response,
+.container--terminosContent2,
+.container--terminosContent,
+.container--terminosContent2,
+.container--rich-terminos,
+.container--blog-Title,
+.container--rich-facturacion { width: 1200px; max-width: 100%; margin: 0 auto; padding-left: 15px; padding-right: 15px; }
+.listItem--terminosContent{ color: #808080; }
+
+.container--blog-Title-2,
+.container--shelfTitle,
+.container--rich-bolsa,
+.container--rich-sucursales { width: 96rem; max-width: 100%; margin: 0 auto; padding-left: 15px; padding-right: 15px; }
+
+
+.list--blogText { padding-left: 1rem; }
+.paragraph--blogDate, .paragraph--shelfTitle { font-size: 1.5rem; }
+.list--blogText,
+.strong--blogText,
+.paragraph--blogText { font-size: 1rem; }
+
+
+/* Media Queries */
+@media( max-width: 1125px ) {
+}
+@media( max-width: 990px ) {
+  .container--telefono-astronomos-richtext-2,
+  .container--telefono-astronomos-richtext,
+  .container--telefono-astronomos-richtext-1,
+  .container--telefono-astronomos-richtext-four { padding-top: 60px; }
+}
+@media( max-width: 767px ) {
+  .container--telefono-astronomos-richtext-2,
+  .container--telefono-astronomos-richtext,
+  .container--telefono-astronomos-richtext-1,
+  .container--telefono-astronomos-richtext-four { padding-top: 30px; }
+}
+@media( max-width: 680px ) {
+  .container--telefono-astronomos-richtext-2,
+  .container--telefono-astronomos-richtext,
+  .container--telefono-astronomos-richtext-1,
+  .container--telefono-astronomos-richtext-four { padding-top: 15px; }
+}
+/* Media Queries */

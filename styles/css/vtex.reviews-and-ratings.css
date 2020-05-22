@@ -1,0 +1,51 @@
+.summaryContainer{
+    display:none;
+}
+
+.star--empty{
+    color: #808080;
+}
+
+.star--filled{
+    color: gold;
+}
+
+.container :global(.vtex-dropdown__button ){
+    background-color: #a0c13b;
+    border:transparent;
+    border-radius: 250px !important;
+    -moz-border-radius: 250px !important;
+    -webkit-border-radius: 250px !important;
+    color:white !important;
+}
+
+.container :global(.vtex-styleguide-9-x-container){
+    border:transparent;
+}
+
+.container :global(.vtex-dropdown__arrow){
+    color: white;
+}
+
+.container{
+    color: #0a4b9b;
+    width: 80%;
+}
+
+.formContainer :global(.vtex-button){
+    background-color: #a0c13b;
+    border:transparent;
+    border-radius: 250px !important;
+    -moz-border-radius: 250px !important;
+    -webkit-border-radius: 250px !important;
+    color:white !important;
+}
+
+:global(.vtex-reviews-and-ratings-1-x-container) {
+    width: 96rem;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 35px !important;
+    padding-right: 15px;
+}

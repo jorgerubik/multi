@@ -1,0 +1,71 @@
+{
+    "store.custom#blog4":{
+        "blocks":[
+            "flex-layout.row#blogbanner4",
+            "flex-layout.row#b4main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this2",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner4":{
+        "props":{
+          "blockClass": "blogMBanner4",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b4main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b4colmain"
+        ]
+    },
+    "flex-layout.col#b4colmain":{
+        "children": [
+            "rich-text#b4-title",
+            "rich-text#b4-date",
+            "rich-text#b4-text1",
+            "rich-text#b4-text2",
+            "rich-text#b4-text3"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b4-title":{
+        "props":{
+            "text": "Información que debes saber acerca del coronavirus",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b4-date":{
+        "props":{
+            "text": "Publicado el 3 de Marzo del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b4-text1":{
+        "props":{
+            "text": "Sabemos que en estos momentos, el COVID-19 es un tema importante, y por ello, en Multifarmacias te traemos información que debes saber sobre el Coronavirus.\n\nFrente a la alarma mundial que ha representado el coronavirus para la actualidad y para las expectativas futuras, es importante que te informes sobre el virus y, al conocer más sobre su surgimiento, síntomas y tratamiento, aprendas a mantener la calma y a llevar una actitud higiénica y atenta pero tranquila. En Multifarmacias te contamos la información que debes saber sobre el coronavirus.\n\n**¿Qué es el coronavirus?**\n\nEl COVID-19 es la enfermedad infecciosa, recientemente descubierta, de la familia de los coronavirus. Aunque esta familia de virus ha estado presente desde tiempo atrás, siendo causa de padecimientos respiratorios como el síndrome respiratorio de Oriente Medio (MERS) y el síndrome respiratorio agudo severo (SRAS), la enfermedad actual ha sido detectada desde un brote en diciembre del 2019 en la ciudad de Wuhan, China.\n\n**¿Cuáles son los síntomas?**\n\nAl igual que los coronavirus pasados, el COVID-19 representa afecciones en las vías respiratorias. Los síntomas comunes, que suelen tener aparición gradual y leve, son cansancio, tos seca y fiebre; además, algunos infectados pueden presentar náuseas/vómito, dolores de garganta, diarrea y rinorrea. Aunque no es frecuente, algunas personas infectadas no presentan ningún síntoma.\n\nEn cuanto a porcentajes, se estima que el 2% de las personas que han contraído la enfermedad a nivel mundial han muerto; alrededor de un 80% de las personas infectadas se recupera o no presenta cuadros graves: únicamente 1 de cada 6 individuos presenta cuadros importantes. Factores como otras condiciones médicas subyacentes (diabetes, hipertensión arterial o problemas cardiovasculares) son agravantes para los cuadros de COVID-19.\n\nLas personas que presenten los síntomas mencionados deben acudir al médico con prontitud.\n\n**¿Cómo se contrae la enfermedad?**\n\nLa propagación del virus se basa en el contacto con gotículas expedidas por personas infectadas. La dispersión ocurre cuando las gotículas se inhalan, desde una tos o un estornudo, o se transfieren por el contacto con superficies contaminadas. Relacionado a esto, los estudios en torno al virus señalan que éste puede vivir desde algunas horas hasta varios días en una superficie (esta durabilidad depende de las condiciones de la superficie misma). Según lo anterior, es importante mantener tus espacios limpios, lavar las manos con frecuencia y no tocarse la cara después de la fricción con superficies probablemente antihigiénicas. Es importante, además, mantenerse por lo menos a 1 metro de distancia de una persona infectada.\n\nLos estudios realizados hasta ahora no señalan que el virus pueda contagiarse a través del aire.\n\nMedidas de protección contra el coronavirus:\n\n- Lava tus manos profundamente y por un tiempo considerable. El jabón y los geles desinfectantes son capaces de destruir la membrana lipídica que recubre y protege al virus. Éste no sobrevive una vez que queda expuesto y desprotegido.\n\n- Mantén una distancia mínima de un metro entre personas infectadas y tú. Evita, así, la exposición a gotículas de tos y estornudos. \n\n- Evita tocar tu cara con las manos, sobre todo si no las has lavado con propiedad. Las manos son una vía de recolección del virus por su usual contacto con superficies y objetos. Tocar tu cara con ellas puede conducir el virus a tus vías respiratorias. \n\n- Si necesitas toser o estornudar, tápate la boca con el antebrazo o con un pañuelo. Esta medida es de protección social y asiste considerablemente a evitar la propagación.\n\n- No obstante, bajo la sospecha de estar contagiado, lo más recomendable es quedarse en casa y seguir las instrucciones de las instituciones de salud y los médicos. "
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b4-text2":{
+        "props":{
+            "text": "**Otros apuntes**\n\n- Actualmente no existe una vacuna contra el COVI-19. Las medidas para tratar la aflicción son de apoyo o para tratar los síntomas. El día de hoy, la OMS sigue coordinando las investigaciones y esfuerzos para encontrar los fármacos y vacunas adecuados contra la enfermedad. \n\n- Para toda persona trabajadora de la salud o a cargo de un enfermo del virus, el uso de estos aditamentos es vital y obligatorio. Entre individuos comunes, sólo las personas contagiadas o con la probabilidad de estar contagiados deben usar mascarilla.\n\n- No existen datos que indiquen que animales de compañía puedan contagiarse del virus. "
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b4-text3":{
+        "props":{
+            "text": "**Cuidar de nuestra salud es elemental para casos como el actual. La atención individual es una acción que contribuye a la estabilidad social.**",
+            "blockClass":"blogText"
+        }
+    }
+}

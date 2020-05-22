@@ -1,0 +1,304 @@
+{
+    "store.custom#blog-view":{
+        "blocks":[
+            "rich-text#blog-title",
+            "flex-layout.row#blog-this",
+            "flex-layout.row#blog-this2",
+            "flex-layout.row#blog-this3",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "rich-text#blog-title": {
+        "props": {
+          "text": "Blog",
+          "blockClass": "blog-Title-2"
+        }
+    },
+    "flex-layout.row#blog-this": {
+        "children": ["flex-layout.col#blog1-this","flex-layout.col#blog2-this","flex-layout.col#blog3-this","flex-layout.col#blog4-this"],
+        "props": {
+          "fullWidth": false,
+          "blockClass": "nosotros-home2"
+        }
+    },
+    //Blog 1
+        "flex-layout.col#blog1-this": {
+            "children": ["image#blog1-this", "info-card#blog1-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog1-this": {
+            "props": {
+            "src": "/arquivos/blsaludmujer.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog1-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "Salud de la mujer: lo que debes de saber",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/salud_de_la_mujer"
+            }
+        },
+    //blog2
+        "flex-layout.col#blog2-this": {
+            "children": ["image#blog2-this", "info-card#blog2-this"],
+            "props": {
+                "width": "25%",
+                "blockClass": "blog-layout",
+                "horizontalAlign": "center"
+            }
+        },
+        "image#blog2-this": {
+            "props": {
+            "src": "/arquivos/blcuarentena1920x1080.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog2-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "7 tips para cuidar tu salud esta cuarentena",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/tips_esta_cuarentena"
+            }
+        },
+    //blog 3
+        "flex-layout.col#blog3-this": {
+            "children": ["image#blog3-this", "info-card#blog3-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog3-this": {
+            "props": {
+            "src": "/arquivos/blobesidad1920x1080.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog3-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "¿Qué es la obesidad? Todo lo que debes saber",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/que_es_la_obesidad"
+            }
+        },
+    //blog 4
+        "flex-layout.col#blog4-this": {
+            "children": ["image#blog4-this", "info-card#blog4-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog4-this": {
+            "props": {
+            "src": "/arquivos/blcoronavirus1920x1080.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog4-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "Información que debes saber sobre el coronavirus",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/informacion_coronavirus"
+            }
+        },
+    //Segunda fila de blogs
+        "flex-layout.row#blog-this2": {
+            "children": ["flex-layout.col#blog5-this","flex-layout.col#blog6-this","flex-layout.col#blog7-this","flex-layout.col#blog8-this"],
+            "props": {
+            "fullWidth": false,
+            "blockClass": "nosotros-home2",
+            "marginTop": 7
+            }
+        },
+    //Blog 5
+        "flex-layout.col#blog5-this": {
+            "children": ["image#blog5-this", "info-card#blog5-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog5-this": {
+            "props": {
+            "src": "/arquivos/blpequenioscambios1920x1080.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog5-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "10 pequeños cambios para mejorar tu salud",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/10_pequenios_cambios"
+            }
+        },
+    //blog6
+        "flex-layout.col#blog6-this": {
+            "children": ["image#blog6-this", "info-card#blog6-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog6-this": {
+            "props": {
+            "src": "/arquivos/blcancerinfantil1920x1080.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog6-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "Todo lo que debes saber sobre el cáncer infantil",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/cancer_infantil"
+            }
+        },
+    //blog 7
+        "flex-layout.col#blog7-this": {
+            "children": ["image#blog7-this", "info-card#blog7-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog7-this": {
+            "props": {
+            "src": "/arquivos/blalimentacionsaludable1920x1080.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog7-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "Conoce la importancia de la alimentación saludable",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/alimentacion_saludable"
+            }
+        },
+    //blog 8
+        "flex-layout.col#blog8-this": {
+            "children": ["image#blog8-this", "info-card#blog8-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog8-this": {
+            "props": {
+            "src": "/arquivos/blincidenciacancer1920x1080.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog8-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "Conoce la incidencia del cáncer en México",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/incidencia_cancer_mexico"
+            }
+        },
+        //tercera fila de blogs
+        "flex-layout.row#blog-this3": {
+            "children": ["flex-layout.col#blog9-this","flex-layout.col#blog10-this"],
+            "props": {
+            "fullWidth": false,
+            "blockClass": "nosotros-home2",
+            "marginTop": 7
+            }
+        },
+        //blog 9
+        "flex-layout.col#blog9-this": {
+            "children": ["image#blog9-this", "info-card#blog9-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog9-this": {
+            "props": {
+            "src": "/arquivos/blog9.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog9-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "¿Por qué el lavado de manos previene el COVID-19?",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/por_que_el_lavado_de_manos_previene_el_covid_19"
+            }
+        },
+        //blog 10
+        "flex-layout.col#blog10-this": {
+            "children": ["image#blog10-this", "info-card#blog10-this"],
+            "props": {
+            "width": "25%",
+            "blockClass": "blog-layout",
+            "horizontalAlign": "center"
+            }
+        },
+        "image#blog10-this": {
+            "props": {
+            "src": "/arquivos/blogc10.jpg",
+            "maxHeight": 300,
+            "blockClass": "img-blog"
+            }
+        },
+        "info-card#blog10-this": {
+        "props": {
+                "isFullModeStyle": true,
+                "headline": "Coronavirus: síntomas y cuando ir al médico",
+                "callToActionText": "Saber más",
+                "textPosition": "center",
+                "blockClass": "Title-blog",
+                "callToActionUrl": "/blog/coronavirus-sintomas-y-cuando-ir-al-medico"
+            }
+        }
+}

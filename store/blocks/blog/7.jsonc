@@ -1,0 +1,57 @@
+{
+    "store.custom#blog7":{
+        "blocks":[
+            "flex-layout.row#blogbanner7",
+            "flex-layout.row#b7main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner7":{
+        "props":{
+          "blockClass": "blogMBanner7",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b7main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b7colmain"
+        ]
+    },
+    "flex-layout.col#b7colmain":{
+        "children": [
+            "rich-text#b7-title",
+            "rich-text#b7-date",
+            "rich-text#b7-text1"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b7-title":{
+        "props":{
+            "text": "Conoce la importancia de la alimentación saludable",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b7-date":{
+        "props":{
+            "text": "Publicado el 11 de Marzo del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b7-text1":{
+        "props":{
+            "text": "Comer adecuadamente y balanceado es una parte esencial para una vida vigorosa. Conoce los beneficios de la alimentación saludable.\n\nReconociblemente, la alimentación es uno de los pilares base para una vida sana. De manera ideal, además de practicar un ejercicio habitualmente, de evitar los excesos de tabaco y alcohol y de contar con excelentes rutinas de sueño, acostumbrarse a comer balanceado y dentro de un horario determinado, representa un sistema de vida benéfico.\n\n**¿Qué cosa es una dieta saludable y cómo seguirla?**\n\nUn modelo sencillo y eficiente para conocer el camino hacia una alimentación conveniente se puede encontrar en las pirámides alimentarias. Éstas son representaciones de modelos visuales y prácticos en los que se subdividen escalonadamente los grupos de alimentos según su poder nutricional y, ligado a esto, en función de frecuencia y cantidad.\n\nEn una pirámide nutricional, los niveles más bajos del triángulo, por lo tanto, los más amplios, representan el grupo de alimentos que mayor peso tienen en cuanto a nutrición y aprovechamiento corporal. Consecuentemente, los alimentos situados en la parte superior de la pirámide son aquellos que deben consumirse con menos constancia y en cantidades mínimas.\n\nEl aprovechamiento de una alimentación saludable se basa en la combinación moderada y concienzuda de todos los grupos de comidas. De este modo, para obtener los nutrientes necesarios para tu cuerpo, debes diariamente incluir lácteos, frutos, verduras, carnes, cereales etc. Ninguno de los grupos debe ser consumido en exceso ni solitariamente.\n\n**¿Qué recomendaciones básicas puedes seguir para mejorar tu nutrición?**\n\nDiversos nutricionistas y páginas dedicadas a la promoción de la salud recomiendan cinco comidas al día (desayuno, colación, comida, colación, cena). El propósito de esta práctica persigue la idea de la variedad y la moderación. Más comidas durante tu día facilitan el paso por los distintos grupos alimenticios y contribuyen a que no te empaches en una comida que pretenda satisfacerte durante un largo periodo de tiempo.\n\nEvitar comida procesada es un factor clave para alcanzar una vida saludable en torno a tu alimentación. La ingesta de productos industrializados o de “comida rápida” entorpece la nutrición correcta que necesitas.\n\nComer sanamente sigue, indudablemente, una demanda de motivación. Se suele pensar que una alimentación sana está ligada a comida poco sabrosa o insatisfactoria; no necesariamente tiene que ser así. Las opciones saludables son muchas y de fácil alcance: la comida puede sazonarse sin necesidad de recurrir a grasas o sales excesivas. Con las alternativas gastronómicas ya en la cercanía de las redes, es sencillo hallar y elegir un estilo de nutrición favorable.\n\nTomar suficiente agua durante el día es uno de los incentivos más accesibles y cómodos para una dieta higiénica. Se recomienda que un hombre tome diariamente 3 y medio litros de agua y una mujer 2 y medio. Tomar constantemente durante el día, sin hacerlo de golpe o en una sentada, hace que la acción se perciba como módica y alcanzable. \n\n**¿Qué beneficios obtienes al seguir una dieta nutritiva?**\n\nComer adecuadamente es para tu cuerpo un signo de bienestar puesto que mejora tus defensas naturales y te vuelve menos propenso a enfermedades como la diabetes o la obesidad; así, además de ser una excelente práctica para obtener energía durante todo el día, la alimentación saludable es, como consecuencia de un cuerpo lozano y fuerte, la senda más rápida hacia un cuerpo esbelto y atractivo."
+            ,"blockClass":"blogText"
+        }
+    }
+}

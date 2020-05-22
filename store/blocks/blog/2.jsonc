@@ -1,0 +1,64 @@
+{
+    "store.custom#blog2":{
+        "blocks":[
+            "flex-layout.row#blogbanner2",
+            "flex-layout.row#b2main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this2",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner2":{
+        "props":{
+          "blockClass": "blogMBanner2",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b2main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b2colmain"
+        ]
+    },
+    "flex-layout.col#b2colmain":{
+        "children": [
+            "rich-text#b2-title",
+            "rich-text#b2-date",
+            "rich-text#b2-text1",
+            "rich-text#b2-text2"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b2-title":{
+        "props":{
+            "text": "7 tips para cuidar tu salud esta cuarentena",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b2-date":{
+        "props":{
+            "text": "Publicado el 18 de Marzo del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b2-text1":{
+        "props":{
+            "text": "Ante la reciente situación de COVID-19, la mejor forma de prevenir el contagio es el distanciamiento social. En Multifarmacias te traemos tips para cuidar tu salud esta cuarentena.\n\nLa medida mundial más importante y efectiva que se ha tomado hasta el día de hoy contra la propagación del famoso COVID-19 es el aislamiento y la cuarentena. Con efectividad, varios estudios globales han demostrado que la contención de una pandemia puede neutralizarse siguiendo esta prevención de incomunicación; más aún para casos con enfermedades tan contagiosas como la actual. El autoaislamiento en casa debe considerarse ya no sólo para síntomas débiles: existen casos asintomáticos que deben extremar los cuidados sanitarios; a partir de lo dicho, es imperativo extender el aislamiento al mayor número de personas posibles. El aislamiento ayuda a combatir la saturación de hospitales y clínicas. Si tú contribuyes con esta medida, contribuyes a la salud social. Siguiendo nuestro compromiso contigo, te damos 7 tips para cuidar tu salud esta cuarentena.\n\n**1.- Valora los síntomas**\n\nRecuerda que si cuentas con los síntomas agudos del COVID-19 es imperativo que llames a tu médico y tu tratamiento sea dentro de instalaciones médicas. Aunque existen medidas de la World Health Organization para tratar pacientes en casa (tales medidas pueden encontrarse en la siguiente liga: https://bit.ly/390wJww), éstas sólo deben seguirse cuando el paciente no padezca otras condiciones médicas de importancia (diabetes o enfermedades cardiovasculares, por ejemplo), ni síntomas exacerbados. Recuerda que los síntomas a considerar son: tos seca, fiebre, fatiga crónica, dificultades respiratorias, rinorrea, dolor de garganta.\n\n**2.- Sigue los consejos de higiene habituales**\n\nAunque este tip debe considerarse más exhaustivamente para personas que vivan acompañadas, todo individuo debe considerar un aseo constante de manos (se recomiendan, por lo menos, 20 segundos de limpieza), una limpieza profunda del hogar y un hábito higiénico en cuanto al cuidado de estornudos y tos. Idóneamente, un autoaislamiento debe ser de tiempo completo y sin visitas; no obstante, siguiendo una lógica de necesidades personales o alimenticias, las salidas al supermercado o el contacto con terceras personas son casi inevitables. Según las circunstancias, sigue todas las recomendaciones sanitarias de los organismos de salud.\n\n**3. Evita las compras de pánico**\n\nConsiderar que vivimos en una sociedad conlleva hacer un ejercicio de empatía y responsabilidad. Con la situación actual, objetos como mascarillas o geles desinfectantes se vuelven indispensables para trabajadores de la salud. No sólo eso: todos tenemos las mismas necesidades. Comprar con moderación, como ciudadanos responsables, implica no saturar la compra de productos para no volverlos escasos. Compra considerando los tiempos establecidos en tu comunidad, no más, con inteligencia y mesura. No tiene caso, por ejemplo, hacer compras masivas de geles o toallitas desinfectantes: el jabón en casa es suficiente para lavar tus manos en casos de aislamiento. \n\nA este punto, vale la pena tomar en cuenta los siguientes datos y recomendaciones en torno a tus alimentos:\n\n- Un litro de aceite es suficiente para un mes en una familia de 5 personas.\n\n- Tortillas de harina, maíz y pasta pueden comprarse por 2 kilos. La cantidad es más que suficiente para el aislamiento.\n\n- Es mejor comprar quesos grasosos; duran más que quesos poco grasosos como el panela.\n\n- No se recomienda un arduo consumo de embutidos por su alto contenido de sales y conservadores.\n\n- Compra verduras congeladas y proteínas que puedan ser congeladas. Lo importante a tomar a consideración para casos como el actual es la duración de los productos.\n\n- Compra un filtro de agua o por garrafón. El cuidado personal puede ir de la mano con el cuidado del ambiente.\n\n- No gastes en jugos con alto contenido calórico. Opta por agua sola, de jamaica o limón.- Mantequilla, huevo, harina y azúcar son alimentos que sirven sobremanera para variar la dieta. Además, el uso de estos productos, elemental en la repostería, ayuda a la actividad que contribuye a la estabilidad psicológica.\n\n- Establece un menú en casa y no cambies tus hábitos. No tiene ningún sentido que consumas alimentos enlatados que no consumirías en circunstancias habituales.\n\n- Compra y consume únicamente lo necesario. "
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b2-text2":{
+        "props":{
+            "text": "Además de tener un buen cuidado de salud durante el tiempo de cuarentena establecido, resulta imprescindible contar con una buena estabilidad psicológica. El aislamiento puede ser tedioso y desafiante. Cuidar tu salud mental es tan importante como cuidar tu cuerpo.\n\n**4.- Mantén una rutina estable**\n\nBusca seguir una rutina que no perturbe tus horas de sueño. El rompimiento de las actividades consuetudinarias no debe significar que tus horarios establecidos de comidas, actividades o sueño se quiebren por igual. Esto contribuirá, de entrada, a que te sientas activo y puedas motivarte a realizar actividades en casa. \n\n**5. Manténte ocupado y en actividad**\n\n Derivado del punto anterior, una salud mental adecuada se sostiene sobre una actividad constante. Sentirte útil y laborioso evita que el aislamiento físico recaiga en el humor y el carácter. Te recomendamos, si no tienes la oportunidad de realizar tu trabajo cotidiano en casa, retomar tareas de tu hogar que siempre habías mantenido pendientes, ocuparte en proyectos personales que se han postergado y distraerte en actividades que signifiquen un esfuerzo o una estimulación mental: la lectura, un rompecabezas o juegos de mesa. Cualquiera de estas actividades, entre otras, te ayudarán a ejercitar tu paciencia y a sobrellevar mejor cada día.\n\n**6.- No pierdas contacto interpersonal**\n\nAunque el aislamiento debe ser riguroso, mantener contacto a distancia con familiares y amigos, por teléfono, mensajes de correo, redes sociales o, si es posible, videollamadas, ayuda a neutralizar la sensación de soledad que el aislamiento físico provoca. La interacción humana da sentido de cohesión, de acompañamiento y de empatía. No fractures tus relaciones interpersonales para procurar tu calma mental y emocional. Todos estamos juntos en la situación.\n\n**7.- Toma nuevas consideraciones al pasear a tu perro**\n\nAtender a las necesidades de un perro es una obligación que no debe pasarse por alto. No obstante, para evitar contagios y extremando precauciones, te recomendamos comenzar a optar por paseos breves en rutas poco transitadas y en horarios poco recurridos. De preferencia, realiza las salidas solo: tú y tu mascota."
+            ,"blockClass":"blogText"
+        }
+    }
+}

@@ -1,0 +1,240 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-main",
+      "flex-layout.row#description",
+      "product-reviews",
+      "rich-text#shelf-title-rp",
+      "flex-layout.row#shelf-rp",
+      "flex-layout.row#cuidamos-salud",
+      "flex-layout.row#cuidamos-salud-info",
+      "flex-layout.row#footer"
+    ]
+  },
+  "rich-text#shelf-title-rp": {
+    "props": {
+      "text": "Otros usuarios también se llevaron",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-rp": {
+    "children": ["shelf#first-rp"]
+  },
+  "shelf#first-rp": {
+    "blocks": ["product-summary.shelf#first"],
+    "props": {
+      "category": 2,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "Top sellers"
+      },
+      "blockClass": "shelfFirst"
+    }
+},
+"product-summary.shelf#first-rp": {
+    "props":{
+      "blockClass": "Product"
+    },
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+},
+
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 4,
+      "blockClass":"p-description"
+    },
+    "children": ["flex-layout.col#descr"]
+  },
+  "flex-layout.col#descr":{
+    "children": ["product-description"],
+    "props":{
+      "horizontalAlign": "left"
+    }
+  },
+  "product-description":{
+    "props":{
+
+    }
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": false,
+      "rowGap": 0
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "product-rating-summary",
+      "product-price#product-details",
+      "product-separator",
+      "sku-selector",
+      "product-quantity",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",
+      "share#default",
+      "flex-layout.row#image"
+    ]
+  },
+  "flex-layout.row#image": {
+    "props": {
+      "marginTop": 10
+    },
+    "children": ["flex-layout.col#text-receta","flex-layout.col#img"]
+  },
+  "flex-layout.col#text-receta":{
+    "children": ["sandbox.product"],
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": "rich-receta-antibioticos"
+    }
+  },
+  "rich-text#receta":{
+    "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**Estimado usuario, en la compra de antibióticos y medicamentos controlados, será indispensable presentar su receta médica al recibir su pedido.**",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "rich-receta"
+     }
+  },
+  "sandbox.product": {
+    "props": {
+      "maxWidth": "300px",
+      "height": "auto",
+      "initialContent": "<script src='https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'></script><style type='text/css'>  .title{    font-size: 1rem;  }</style><div id='test' style='color: #004A9B;font-size:.75rem !important;padding-top:10px;padding-bottom:10px; min-height: 100px'></div><script>  window.addEventListener('message', function(e){     brand = window.props.product.brand;    categories = window.props.product.categories;    count = categories.length;    html = '';    no_receta = 0;    for (i = 0; i< count; i++) {      if(categories[i] == '/MEDICAMENTOS/PATENTE/'){        html += '<p class=title ><strong>Medicamento de patente:</strong></p><p><ul><li>La venta de este medicamento <strong> requiere receta médica</strong></li><br> <li> En medicamentos antibióticos <strong> no hay cambios ni devoluciones </strong></li></ul></p>';      }      else if(categories[i] == '/MEDICAMENTOS/CONTROLADO/'){        html += '<p class=title ><strong>Medicamento controlado:</strong></p><p><ul><li>La venta de este medicamento <strong>requiere receta médica.</strong></li><br><li>En medicamentos Controlados <strong>solo se surten en mostrador.</strong></li></ul></p>';      }      if(categories[i] == '/MEDICAMENTOS/SIN RECETA OTC/'){        no_receta = 1;      }    }    if(no_receta == 1){      html = '';    }    $('#test').html(html);  });</script>", 
+      "allowCookies": true
+    }
+  },
+  "flex-layout.col#img":{
+    "children": ["image#example"],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+  "image#example": {
+    "props": {
+      "src": "assets/enviogratis.jpg",
+      "maxHeight": 150
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "blockClass":"quantity"
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "blockClass":"skuSelectorClass",
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true,
+      "visibility": "always",
+      "imageHeight": 100
+    }
+  },
+
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "buy-button"
+    },
+    "children": ["add-to-cart-button#este"]
+  },
+  "add-to-cart-button#este":{
+    "props":{
+      "shouldAddToCart": true,
+      "available": true
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": false
+      },
+      "marginBottom": 7
+    }
+  },
+  "product-reviews":{
+    "props":{
+      "blockClass":"reviws"
+    }
+  }
+}

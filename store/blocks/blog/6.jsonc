@@ -1,0 +1,57 @@
+{
+    "store.custom#blog6":{
+        "blocks":[
+            "flex-layout.row#blogbanner6",
+            "flex-layout.row#b6main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner6":{
+        "props":{
+          "blockClass": "blogMBanner6",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b6main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b6colmain"
+        ]
+    },
+    "flex-layout.col#b6colmain":{
+        "children": [
+            "rich-text#b6-title",
+            "rich-text#b6-date",
+            "rich-text#b6-text1"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b6-title":{
+        "props":{
+            "text": "Todo lo que debes saber sobre el cáncer infantil",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b6-date":{
+        "props":{
+            "text": "Publicado el 19 de Febrero del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b6-text1":{
+        "props":{
+            "text": "Conoce la información básica que debes saber sobre el cáncer infantil y su incidencia.\n\nEl cáncer es una enfermedad que por su incidencia en todas las personas de cualquier edad, y por su riesgo de muerte, es de las que mayor atención requieren en nuestra actualidad. Hoy, como refuerzo a la conmemoración del 15 de febrero, te contamos todo lo que debes saber sobre el cáncer infantil.\n\nEl cáncer es una de las primeras causas mundiales de muerte de niños de menos de 15 años. Aunque la enfermedad no suele tener la frecuencia que tiene en la adultez, ya que únicamente representa entre un 0,5%-4.5% dentro de la tasa de morbilidad, representa una enfermedad de suma atención por el poco conocimiento que tenemos en cuanto a sus causas y los factores de riesgo.\n\nAdemás de los factores genéticos, sobre los que no tenemos control, se ha apuntado, según atestigua la Organización Mundial de la Salud, que otras enfermedades de riesgo como el VIH, el virus de Epstein-Barr y el paludismo contribuyen a que el cáncer sea más propenso en los infantes. Además, se ha valorado que otro variado número de infecciones en la niñez pueden ser factores de riesgo para contraer cáncer en la adultez. Es imperativo que los niños y adolescentes tengan acceso a todas las vacunas reglamentadas en su región y país. \n\nLos cánceres más comunes en la infancia son la leucemia y las tumoraciones en el sistema nervioso central.\n\nEl modo más eficaz para tratar el cáncer infantil, según lo anterior, únicamente consiste en la detección precoz y en la terapia adecuada. Se reconoce que en niños y jóvenes los tratamientos contra el cáncer suelen ser efectivos y de buena respuesta por parte del cuerpo.\n\nDesde el 2018, la OMS ha puesto en marcha la Iniciativa Mundial contra el Cáncer Infantil. El proyecto ofrece asistencia técnica a gobiernos del mundo para la creación y mantenimiento de programas contra la enfermedad. Se pretende, con esta tentativa, alcanzar una tasa de 60% de supervivencia mundial para el 2030. La cifra significaría un aumento de 10% según el porcentaje del día de hoy. En países con buen acceso a la salud y eficientes sistemas médicos, hasta un 80% de casos son superados. La mayoría de los medicamentos para tratar la enfermedad son génericos de bajo costo que figuran en la Lista de Medicamentos Esenciales de la OMS. \n\nSe recomienda, para mejorar el tratamiento y el proceso, que los niños pacientes reciban, además, atención psicológica y tratamientos paliativos constantes para conseguir una mejor calidad de vida."
+            ,"blockClass":"blogText"
+        }
+    }
+}

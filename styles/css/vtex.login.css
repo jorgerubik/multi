@@ -1,0 +1,31 @@
+.container {
+  margin-left: 40px;
+}
+
+.container :global(.vtex-button){
+	background-color: #a0c13b;
+	color: white !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-radius: 50px;
+}
+
+.label{
+	color: white !important;
+	display: block !important;
+}
+
+.contentInitialScreen{
+	display: block;
+}
+/* Media Queries */
+@media( max-width: 767px ) {
+	.container :global(.vtex-button){
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.label { font-size: 12px !important; }
+}
+@media( max-width: 639px ) {
+}
+/* Media Queries */

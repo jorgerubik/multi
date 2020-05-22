@@ -1,0 +1,256 @@
+.menuContainer--submenuClass-one :global(.vtex-menu-2-x-menuItem){
+  border: solid 1px white !important;
+  box-shadow: none !important;
+  color: #004A9B !important;
+}
+.menuItem--submenuClass-li{
+  border: solid 1px white !important;
+  box-shadow: none !important;
+  color: #004A9B !important;
+}
+
+.menuItem--submenuClass-li:hover{
+  background-color: #004A9B !important;
+}
+
+.menuItem--submenuClass-li:hover :global(.vtex-menu-2-x-styledLinkContent){
+  color: #ffff !important; 
+
+}
+
+.menuContainer--menuClass :global(.vtex-menu-2-x-menuItem){
+  min-width: 185px !important;
+	border: solid 1px #e3e4e6 !important;
+	background-color: white;
+  /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.517); */
+  box-shadow: 0 7px 16px -7px rgba(0, 0, 0, 0.517);
+}
+
+
+.menuItem--menuClass-one{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.styledLinkContainer--menuClass-one,
+.styledLinkContainer--menuClass-two,
+.styledLinkContainer--menuClass-three,
+.styledLinkContainer--menuClass-four,
+.styledLinkContainer--menuClass-five,
+.styledLinkContainer--menuClass-six,
+.styledLinkContainer--menuClass-seven{
+	background: transparent !important;
+}
+
+.menuItem--menuClass-one:hover,
+.menuItem--menuClass-two:hover,
+.menuItem--menuClass-three:hover,
+.menuItem--menuClass-four:hover,
+.menuItem--menuClass-five:hover,
+.menuItem--menuClass-six:hover,
+.menuItem--menuClass-seven:hover{
+	background: #a0c13b !important;
+}
+
+.menuItem--menuClass-seven{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.styledLinkContent--menuClass-one,
+.styledLinkContent--menuClass-two,
+.styledLinkContent--menuClass-three,
+.styledLinkContent--menuClass-four,
+.styledLinkContent--menuClass-five,
+.styledLinkContent--menuClass-six,
+.styledLinkContent--menuClass-seven{
+  color: #095390 !important;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 12px !important;
+}
+.styledLinkContent--menuClass-one::before{
+	content: '';
+    display: block;
+    height: 30px;  /*height of icon */
+    width: 30px;  /*width of icon */
+    margin-right: 8px;
+    position: relative;
+      /*where to replace the icon */
+      /*background */
+    background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/medicamentoazul___f9715327567a5dc97c259c474ae3d0b1.svg") no-repeat 0px 0px;
+}
+.styledLinkContent--menuClass-two::before{
+	content: '';
+    display: block;
+    height: 30px;  /*height of icon */
+    width: 30px;  /*width of icon */
+    margin-right: 8px;
+    position: relative;
+      /*where to replace the icon */
+      /*background */
+    background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/equipoazul___739a838247412b56e270a77a3dce2a33.svg") no-repeat 0px 0px;
+}
+.styledLinkContent--menuClass-three::before{
+	content: '';
+    display: block;
+    height: 30px;  /*height of icon */
+    width: 30px;  /*width of icon */
+    margin-right: 8px;
+    position: relative;
+      /*where to replace the icon */
+      /*background */
+    background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex/assets-builder/multifarmaciasmx.store-theme/3.32.0/preventivoazul___0a0f50433749855349789dd29c0df7e7.svg") no-repeat 0px 0px;
+}
+.styledLinkContent--menuClass-four::before{
+	content: '';
+    display: block;
+    height: 30px;  /*height of icon */
+    width: 30px;  /*width of icon */
+    margin-right: 8px;
+    position: relative;
+      /*where to replace the icon */
+      /*background */
+    background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/cuidadoazul___783b5f60ce17b465fc47763d59587aa6.svg") no-repeat 0px 0px;
+}
+.styledLinkContent--menuClass-five::before{
+	content: '';
+    display: block;
+    height: 30px;  /*height of icon */
+    width: 30px;  /*width of icon */
+    margin-right: 8px;
+    position: relative;
+      /*where to replace the icon */
+      /*background */
+    background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/bebesazul___66d2bbe6dfd92d39a79a0b732d014ccb.svg") no-repeat 0px 0px;
+}
+.styledLinkContent--menuClass-six::before{
+	content: '';
+    display: block;
+    height: 30px;  /*height of icon */
+    width: 30px;  /*width of icon */
+    margin-right: 8px;
+    position: relative;
+      /*where to replace the icon */
+      /*background */
+    background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/bebesazul___66d2bbe6dfd92d39a79a0b732d014ccb.svg") no-repeat 0px 0px;
+}
+.styledLinkContent--menuClass-seven::before{
+	content: '';
+  display: block;
+  height: 30px;  /*height of icon */
+  width: 30px;  /*width of icon */
+  margin-right: 8px;
+  position: relative;
+    /*where to replace the icon */
+    /*background */
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/saludazul___069f6fbf5803bee4b83956e36c0f56ae.svg") no-repeat 0px 0px;
+
+}
+
+.menuItem--menuClass-one:hover :global(.vtex-menu-2-x-styledLinkContent--menuClass-one),
+.menuItem--menuClass-two:hover :global(.vtex-menu-2-x-styledLinkContent--menuClass-two),
+.menuItem--menuClass-three:hover :global(.vtex-menu-2-x-styledLinkContent--menuClass-three),
+.menuItem--menuClass-four:hover :global(.vtex-menu-2-x-styledLinkContent--menuClass-four),
+.menuItem--menuClass-five:hover :global(.vtex-menu-2-x-styledLinkContent--menuClass-five),
+.menuItem--menuClass-six:hover :global(.vtex-menu-2-x-styledLinkContent--menuClass-six),
+.menuItem--menuClass-seven:hover :global(.vtex-menu-2-x-styledLinkContent--menuClass-seven) { color: #FFF !important; }
+
+.menuItem--menuClass-one:hover .styledLinkContent--menuClass-one::before {
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/medicamentosblanco___485982104f49a627bc8540bc21659a79.svg") no-repeat 0px 0px !important;
+}
+.menuItem--menuClass-two:hover .styledLinkContent--menuClass-two::before {
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/equipoblanco___f339e3d2f12ed78b4840895c8fb2a618.svg") no-repeat 0px 0px !important;
+}
+.menuItem--menuClass-three:hover .styledLinkContent--menuClass-three::before {
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex/assets-builder/multifarmaciasmx.store-theme/3.32.0/preventivoblanco___99973feceaa87f16589a0dd1e82e085e.svg") no-repeat 0px 0px !important;
+}
+.menuItem--menuClass-four:hover .styledLinkContent--menuClass-four::before {
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/cuidadoblanco___384a156354a4eee92158e62590cf1766.svg") no-repeat 0px 0px !important;
+}
+.menuItem--menuClass-five:hover .styledLinkContent--menuClass-five::before {
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/bebesblanco___f41de0a95581ebeac65f727b152c94d9.svg") no-repeat 0px 0px !important;
+}
+.menuItem--menuClass-six:hover .styledLinkContent--menuClass-six::before {
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/bebesblanco___f41de0a95581ebeac65f727b152c94d9.svg") no-repeat 0px 0px !important;
+}
+.menuItem--menuClass-seven:hover .styledLinkContent--menuClass-seven::before {
+  background: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/saludblanco___b3637abd48fd2ceaf21095597158141b.svg") no-repeat 0px 0px !important;
+}
+
+/* .menuItem--menuClass-one:hover svg {
+	fill: #FFF !important;
+} */
+
+/* Media Queries */
+@media( max-width: 1536px ) {
+  .menuContainer--menuClass :global(.vtex-menu-2-x-menuItem){
+    width: auto;
+  }
+}
+@media( max-width: 1214px ) {
+  .styledLinkContent--menuClass-one,
+  .styledLinkContent--menuClass-two,
+  .styledLinkContent--menuClass-three,
+  .styledLinkContent--menuClass-four,
+  .styledLinkContent--menuClass-five,
+  .styledLinkContent--menuClass-six,
+  .styledLinkContent--menuClass-seven {
+    font-size: 12px !important;
+  }
+
+ 
+
+  .styledLinkContent--menuClass-one::before,
+  .styledLinkContent--menuClass-two::before,
+  .styledLinkContent--menuClass-three::before,
+  .styledLinkContent--menuClass-four::before,
+  .styledLinkContent--menuClass-five::before,
+  .styledLinkContent--menuClass-six::before,
+  .styledLinkContent--menuClass-seven::before {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+@media(max-width: 1166px){
+   .menuContainer--menuClass :global(.vtex-menu-2-x-menuItem){
+      min-width: 155px !important;
+  }
+  .styledLinkContent--menuClass-one::before,
+  .styledLinkContent--menuClass-two::before,
+  .styledLinkContent--menuClass-three::before,
+  .styledLinkContent--menuClass-four::before,
+  .styledLinkContent--menuClass-five::before,
+  .styledLinkContent--menuClass-six::before,
+  .styledLinkContent--menuClass-seven::before {
+    width: 0px !important;
+    height: 0px !important;
+  }
+  .styledLinkContent--menuClass-one,
+  .styledLinkContent--menuClass-two,
+  .styledLinkContent--menuClass-three,
+  .styledLinkContent--menuClass-four,
+  .styledLinkContent--menuClass-five,
+  .styledLinkContent--menuClass-six,
+  .styledLinkContent--menuClass-seven {
+    font-size: 11px !important;
+  }
+}
+@media( max-width: 767px ) {
+  .menuContainerNav { display: block; width: 100%; }
+}
+@media( max-width: 639px ) {
+}
+/* Media Queries */
+
+/*Submenus*/
+.menuItem--menuClass-one :global(.vtex-menu-2-x-submenuWrapper), .menuItem--menuClass-two :global(.vtex-menu-2-x-submenuWrapper), .menuItem--menuClass-three :global(.vtex-menu-2-x-submenuWrapper), .menuItem--menuClass-four :global(.vtex-menu-2-x-submenuWrapper), .menuItem--menuClass-six :global(.vtex-menu-2-x-submenuWrapper), .menuItem--menuClass-seven :global(.vtex-menu-2-x-submenuWrapper){
+  margin-left: 0px !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: -10px !important;
+  padding-top: 10px !important;
+}
+.menuContainerNav--submenuClass-one{
+
+}

@@ -1,0 +1,71 @@
+{
+    "store.custom#blog8":{
+        "blocks":[
+            "flex-layout.row#blogbanner8",
+            "flex-layout.row#b8main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner8":{
+        "props":{
+          "blockClass": "blogMBanner8",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b8main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b8colmain"
+        ]
+    },
+    "flex-layout.col#b8colmain":{
+        "children": [
+            "rich-text#b8-title",
+            "rich-text#b8-date",
+            "rich-text#b8-text1",
+            "rich-text#b8-text2",
+            "rich-text#b8-text3"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b8-title":{
+        "props":{
+            "text": "Conoce la incidencia del cáncer en México",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b8-date":{
+        "props":{
+            "text": "Publicado el 5 de Febrero del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b8-text1":{
+        "props":{
+            "text": "¿Qué es el cáncer?, ¿Cuál es la incidencia en México?\n\nEl cáncer es quizá la enfermedad [viral] más conocida en el mundo por su gran índice de mortalidad e incidencia. El trastorno inicia cuando células malignas se multiplican descontroladamente dentro del cuerpo y generan abultamientos conocidos como tumores. La invasión de estas células afecta, principalmente, a vasos sanguíneos y moléculas en torno al tumor. La incidencia del cáncer en México, según datos del Instituto Nacional de Cancerología, se reconoce por ser la tercera causa de muerte en el país. En el 2015, datos estadísticos revelaron que por cada 100 mil habitantes,13 hombres murieron por cáncer de próstata y 11 mujeres por cáncer de mama. \n\nAsí, los cánceres de mama, próstata, cervicouterino, colorrectal y de pulmón representan los casos más frecuentes no solamente en México sino en todo el mundo. El 60% de los casos en nuestro país es detectado tardíamente. **¿Cuáles son los factores de riesgo?, ¿cómo prevenirlos?**\n\nPara un volumen considerable de casos, el riesgo de contraer cáncer es incontrolable  -por factores múltiples, además de la edad o la herencia genética-, pero existen circunstancias que pueden prevenirse y controlarse con el fin de disminuir los riesgos y peligros de la enfermedad. Entre estas, tenemos las siguientes:"
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b8-text2":{
+        "props":{
+            "text": "- Ten un control en el consumo de alcohol, tabaco y drogas.\n\n- Lleva una alimentación y dieta.\n\n- Realiza actividad física.\n\n- Evita la exposición a sustancias cancerígenas, como la radiación solar.\n\n- Ten cuidado con determinadas infecciones."
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b8-text3":{
+        "props":{
+            "text": "**Síntomas y signos**\n\nAunque la variedad de cánceres representa una cantidad proporcional de síntomas específicos, se recomienda un cuidado constante y alerta ante aflicciones constantes o agudas. Ante la presencia de hemorragias imprevistas, cambio en las mamas o la piel, fiebre, dificultad o dolor al respirar, lasitud intensa o fatiga, entre otras dolencias, se recomienda puntualmente la rápida evaluación de un médico. Es importante tomar en cuenta que la existencia de diversos padecimientos físicos no implica necesariamente la infección del virus. Toda duda, para prevenir la incidencia del cáncer, debe ser resuelta por un médico general o un especialista en oncología.\n\n**Tratamientos curativos y paliativos**\n\nA pesar de las cifras duras de incidencia y mortalidad, el cáncer puede ser superado y tratado para dar a los afectados una mejor calidad de vida. La detección temprana de la enfermedad es primordial para un tratamiento de mayor eficacia. Las técnicas quirúrgicas, de radioterapia, quimioterapia, hormonoterapia e inmunoterapia no solamente son tratamientos elementales para atender al cáncer en cualquier estado, sino métodos que pueden ser capaces, en un escenario de régimen temprano, de eliminar tumores y sus alteraciones.\n\n**La calidad de vida como meta**\n\nLa aspiración de toda calidad de vida debe empezar por la salud y por la toma de conciencia de enfermedades y padecimientos. Con la conmemoración del Día Mundial contra el Cáncer se busca informar y mostrar la realidad en torno a este trastorno para que tú y todos participemos en la prevención y atención sobre un dilema de presencia y preocupación mundial. Recuerda siempre tomar tu salud y la de tus seres queridos como un factor primordial en la vida. Únete al avance y movilización contra esta enfermedad para evitar su incidencia y aspirar siempre a la prevención.\n\n**Recuerda que en Multifarmacias cuidamos lo más importante... ¡Tu salud!**\n\n**Visita nuestras sucursales y adquiere todos los productos que buscas.**"
+            ,"blockClass":"blogText"
+        }
+    }
+}

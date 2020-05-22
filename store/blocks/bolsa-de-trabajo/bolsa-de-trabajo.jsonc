@@ -1,0 +1,163 @@
+{
+	"store.custom#bolsa-de-trabajo":{
+		"blocks":[
+			"rich-text#bolsa",
+			"rich-text#en-proceso",
+			"flex-layout.row#bolsa",
+			"flex-layout.row#cuidamos-salud",
+	      	"flex-layout.row#cuidamos-salud-info",
+	      	"flex-layout.row#footer"
+		]
+	},
+
+	"rich-text#bolsa":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Ofertas Laborales",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-bolsa"
+		  }
+	},
+	"rich-text#en-proceso":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "En Multifarmacias seguimos trabajando para ofrecerte las mejores ofertas laborales y seas parte de este gran equipo. ¡Espéralas muy pronto!",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-bolsa"
+		  }
+	},
+
+	"flex-layout.row#bolsa":{
+		"children":["flex-layout.col#encargado", "flex-layout.col#ventas", "flex-layout.col#telefonicas", "flex-layout.col#repartido"],
+		"props": {
+	      "fullWidth": false,
+	      "blockClass": "bolsa-row"
+	    }
+	},
+//Encargados
+	"flex-layout.col#encargado":{
+		"children": ["image#encargados","info-card#encargados"],
+	    "props": {
+	      "width": "25%",
+	      "blockClass": "encargados-col"
+    	}
+	},
+
+	"image#encargados": {
+	    "props": {
+	      "src": "/arquivos/encargado.png",
+	      "maxHeight": 300,
+	      "blockClass": "img-bolsa"
+	    }
+	  },
+
+	 "info-card#encargados": {
+	    "props": {
+	      "id": "info-card-example",
+	      "isFullModeStyle": false,
+	      "textPosition": "center",
+	      "headline": "Encargado sucursal",
+	      "subhead": "· Administrar y operar eficientemente los recursos de la sucursal<br>· Conocimientos necesarios en farmacéutica y negocio minorista",
+	      "callToActionText": "APLICAR",
+	      "callToActionUrl": "#",
+	      "blockClass": "info-card-bolsa",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	 //Ventas mostrador
+	"flex-layout.col#ventas":{
+		"children": ["image#ventas","info-card#ventas"],
+	    "props": {
+	      "width": "25%",
+	      "blockClass": "mostrador-col"
+    	}
+	},
+
+	"image#ventas": {
+	    "props": {
+	      "src": "/arquivos/ventasmostrador.png",
+	      "maxHeight": 300,
+	      "blockClass": "img-bolsa"
+	    }
+	  },
+
+	 "info-card#ventas": {
+	    "props": {
+	      "id": "info-card-example",
+	      "isFullModeStyle": false,
+	      "textPosition": "center",
+	      "headline": "Ventas mostrador",
+	      "subhead": "· Atender y administrar las ventas en mostrador.<br>· Manejo de computadora, punto de venta, comunicaciones vía modem e internet.<br>· Facilidad de palabra para el área de ventas, capacidad de escuchar y acatar instrucciones.",
+	      "callToActionText": "APLICAR",
+	      "callToActionUrl": "#",
+	      "blockClass": "info-card-bolsa",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	 //Ventas teléfonicas
+	"flex-layout.col#telefonicas":{
+		"children": ["image#telefonicas","info-card#telefonicas"],
+	    "props": {
+	      "width": "25%",
+	      "blockClass": "mostrador-col"
+    	}
+	},
+
+	"image#telefonicas": {
+	    "props": {
+	      "src": "/arquivos/ventastelefonicas.png",
+	      "maxHeight": 300,
+	      "blockClass": "img-bolsa"
+	    }
+	  },
+
+	 "info-card#telefonicas": {
+	    "props": {
+	      "id": "info-card-example",
+	      "isFullModeStyle": false,
+	      "textPosition": "center",
+	      "headline": "Ventas telefónicas",
+	      "subhead": "· Atender y administrar las ventas en telefónicas.<br>· Manejo de computadora, punto de venta, comunicaciones vía modem e internet.<br>· Facilidad de palabra para el área de ventas, capacidad de escuchar y acatar instrucciones.",
+	      "callToActionText": "APLICAR",
+	      "callToActionUrl": "#",
+	      "blockClass": "info-card-bolsa",
+	      "textAlignment": "center"
+	    }
+	  },
+	//repartido mensajero 
+	"flex-layout.col#repartido":{
+		"children": ["image#repartido","info-card#repartido"],
+	    "props": {
+	      "width": "25%",
+	      "blockClass": "mansajero-col"
+    	}
+	},
+
+	"image#repartido": {
+	    "props": {
+	      "src": "/arquivos/repartidor.png",
+	      "maxHeight": 300,
+	      "blockClass": "img-bolsa"
+	    }
+	  },
+
+	 "info-card#repartido": {
+	    "props": {
+	      "id": "info-card-example",
+	      "isFullModeStyle": false,
+	      "textPosition": "center",
+	      "headline": "Repartidor mensajero",
+	      "subhead": "· Repartición y cobro de pedidos a domicilio.<br>· Indispensable licencia de conducir y experiencia manejando motocicletas.",
+	      "callToActionText": "APLICAR",
+	      "callToActionUrl": "#",
+	      "blockClass": "info-card-bolsa",
+	      "textAlignment": "center"
+	    }
+	  }
+}

@@ -1,0 +1,41 @@
+
+.quantitySelectorStepper--quantity :global(.vtex-numeric-stepper__minus-button){
+    background-color: #0a4b9b;
+    color:white;
+    border-radius: 250px !important;
+    -moz-border-radius: 250px !important;
+    -webkit-border-radius: 250px !important;
+    width: 25px !important;
+    height: 25px;
+    border:transparent;
+}
+
+.quantitySelectorStepper--quantity :global(.vtex-numeric-stepper__minus-button):disabled{
+    background-color:#979899;
+    color:white;
+    border-radius: 250px !important;
+    -moz-border-radius: 250px !important;
+    -webkit-border-radius: 250px !important;
+    width: 25px !important;
+    height: 25px;
+    border:transparent;
+}
+
+.quantitySelectorStepper--quantity :global(.vtex-numeric-stepper__plus-button){
+    background-color: #0a4b9b;
+    color:white;
+    border-radius:  250px !important;
+    -moz-border-radius:  250px !important;
+    -webkit-border-radius: 250px !important;
+    width: 25px !important;
+    height: 25px;
+    border:transparent;
+}
+
+
+.quantitySelectorStepper--quantity :global(.vtex-numeric-stepper__input){
+    background-color: transparent;
+    border:transparent;
+    width: 80px;
+}
+

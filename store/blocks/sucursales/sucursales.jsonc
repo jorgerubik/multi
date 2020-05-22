@@ -1,0 +1,1475 @@
+{
+	"store.custom#sucursales":{
+		"blocks":[
+			"rich-text#sucursales",
+			"flex-layout.row#sucursales",
+			"flex-layout.row#sucursales2",
+			"flex-layout.row#sucursales3",
+			"flex-layout.row#sucursales4",
+			"flex-layout.row#sucursales5",
+			"flex-layout.row#cuidamos-salud",
+			"flex-layout.row#cuidamos-salud-info",
+			"flex-layout.row#footer"
+		]
+	},
+
+	"rich-text#sucursales": {
+	  "props": {
+	    "textAlignment": "LEFT",
+	    "textPosition": "LEFT",
+	    "text": "Encuentra tu Sucursal",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "rich-sucursales"
+	  }
+	},
+
+	"flex-layout.row#sucursales": {
+		"children":["flex-layout.col#astronomos", "flex-layout.col#berlin", "flex-layout.col#condesa", "flex-layout.col#coyoacan"],
+		"props": {
+	      "fullWidth": "false",
+	      "blockClass": "sucursales-row"
+	    }
+	},
+
+	"flex-layout.row#sucursales2": {
+		"children":["flex-layout.col#valle", "flex-layout.col#norte", "flex-layout.col#ermita", "flex-layout.col#tecamachalco"],
+		"props": {
+	      "fullWidth": "false",
+	      "blockClass": "sucursales-row"
+	    }
+	},
+
+	"flex-layout.row#sucursales3": {
+		"children":["flex-layout.col#quevedo", "flex-layout.col#quevedo2", "flex-layout.col#narvarte", "flex-layout.col#panorama"],
+		"props": {
+	      "fullWidth": "false",
+	      "blockClass": "sucursales-row"
+	    }
+	},
+
+	"flex-layout.row#sucursales4": {
+		"children":["flex-layout.col#argos", "flex-layout.col#quinta", "flex-layout.col#sauces", "flex-layout.col#sotelo"],
+		"props": {
+	      "fullWidth": "false",
+	      "blockClass": "sucursales-row"
+	    }
+	},
+
+	"flex-layout.row#sucursales5": {
+		"children":["flex-layout.col#tecamachalco2"],
+		"props": {
+	      "fullWidth": "false",
+	      "blockClass": "sucursales-row"
+	    }
+	},
+
+	// Sucursal astronomos
+	"flex-layout.col#astronomos": {
+    "children": ["rich-text#nombre-astronomos", "rich-text#direccion-astronomos", "info-card#servicio-astronomos", "info-card#consultorio-astronomos", "rich-text#telefono-astronomos", "rich-text#llamar-astronomos", "rich-text#vermapa-astronomos"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-astronomos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Astrónomos",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-astronomos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Astrónomos 62-C, esq.José Martí. Escandón II Sección C.P. 11800 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-astronomos": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-astronomos": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-astronomos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 91 54 81 19",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-astronomos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:600123456)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-astronomos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/Mb8ssb1ZS2pu8QCdA?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	// Sucursal Berlín
+	"flex-layout.col#berlin": {
+    "children": ["rich-text#nombre-berlin", "rich-text#direccion-berlin", "info-card#servicio-berlin", "info-card#consultorio-berlin", "rich-text#telefono-berlin", "rich-text#llamar-berlin", "rich-text#vermapa-berlin"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-berlin": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Berlín",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-berlin": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Berlín 239, Del Carmén Coyoacán C.P. 11800 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-berlin": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-berlin": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-berlin": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 55 54 80 70",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-berlin": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:55548070)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-berlin": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/Y8ZLJ1N4wLqpts327?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	// Sucursal condesa
+	"flex-layout.col#condesa": {
+    "children": ["rich-text#nombre-condesa", "rich-text#direccion-condesa", "info-card#servicio-condesa", "info-card#consultorio-condesa", "rich-text#telefono-condesa", "rich-text#llamar-condesa", "rich-text#vermapa-condesa"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-condesa": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Condesa",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-condesa": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Insurgentes Sur 373 Local 1 y 2 Hipódromo C.P. 06100 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-condesa": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-condesa": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-condesa": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 52 64 53 37",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-condesa": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:52645337)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-condesa": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://bit.ly/3cym1zZ?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	// Sucursal coyoacan
+	"flex-layout.col#coyoacan": {
+    "children": ["rich-text#nombre-coyoacan", "rich-text#direccion-coyoacan", "info-card#servicio-coyoacan", "info-card#consultorio-coyoacan", "info-card#sala-coyoacan", "rich-text#telefono-coyoacan", "rich-text#llamar-coyoacan", "rich-text#vermapa-coyoacan"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-coyoacan": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Coyoacán",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-coyoacan": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Allende 96-A Del Carmén Coyoacán C.P. 04100 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-coyoacan": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-coyoacan": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "info-card#sala-coyoacan": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/nebulizacion.png",
+	      "headline": "Sala de Nebulización",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-coyoacan": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 55 54 59 54",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-four"
+	  }
+	},
+	  "rich-text#llamar-coyoacan": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:55545954)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-coyoacan": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/mDZLzYLREKzuH6WKA?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal del valle
+	"flex-layout.col#valle": {
+    "children": ["rich-text#nombre-valle", "rich-text#direccion-valle", "info-card#servicio-valle", "info-card#consultorio-valle", "rich-text#telefono-valle", "rich-text#llamar-valle", "rich-text#vermapa-valle"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-valle": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal del Valle",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-valle": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Av. Coyoacán 1435. Del Valle C.P. 03100 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-valle": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-valle": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-valle": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 55 24 79 94",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-valle": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:55247994)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-valle": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/MothGxyXqKnmxdDt7?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal división norte
+	"flex-layout.col#norte": {
+    "children": ["rich-text#nombre-norte", "rich-text#direccion-norte", "info-card#servicio-norte", "info-card#consultorio-norte", "rich-text#telefono-norte", "rich-text#llamar-norte", "rich-text#vermapa-norte"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-norte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Suc. División del Norte",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-norte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "División del Norte 4160, Floresta Coyoacán C.P. 14310 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-norte": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-norte": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-norte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 56 77 71 70",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-norte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:56777170)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-norte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/Qbtu4p64es8F68tR8?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal ermita
+	"flex-layout.col#ermita": {
+    "children": ["rich-text#nombre-ermita", "rich-text#direccion-ermita", "info-card#servicio-ermita", "info-card#consultorio-ermita", "rich-text#telefono-ermita", "rich-text#llamar-ermita", "rich-text#vermapa-ermita"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-ermita": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Ermita",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-ermita": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Emilio Portes 25. Progresista C.P. 09240 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-ermita": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-ermita": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-ermita": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 56 12 67 43",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-ermita": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:56126743)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-ermita": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://bit.ly/3cAXE4W?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal tecamachalco
+	"flex-layout.col#tecamachalco": {
+    "children": ["rich-text#nombre-tecamachalco", "rich-text#direccion-tecamachalco", "info-card#servicio-tecamachalco", "info-card#consultorio-tecamachalco","info-card#sala-tecamachalco" ,"rich-text#telefono-tecamachalco", "rich-text#llamar-tecamachalco", "rich-text#vermapa-tecamachalco"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-tecamachalco": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Suc. Lomas de Tecamachalco",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-tecamachalco": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Av. de los Bosques 234-11, Lomas de Tecamachalco C.P. 52780 Edo. México",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-tecamachalco": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-tecamachalco": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	   "info-card#sala-tecamachalco": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/nebulizacion.png",
+	      "headline": "Sala de Nebulización",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-tecamachalco": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 50 87 78 00",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-four"
+	  }
+	},
+	  "rich-text#llamar-tecamachalco": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:50877800)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-tecamachalco": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/vZ7y13wB3URnzh3NA?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal quevedo1
+	"flex-layout.col#quevedo": {
+    "children": ["rich-text#nombre-quevedo", "rich-text#direccion-quevedo", "info-card#servicio-quevedo",  "rich-text#telefono-quevedo", "rich-text#llamar-quevedo", "rich-text#vermapa-quevedo"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-quevedo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Suc. Miguel Á. de Quevedo 1",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-quevedo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Miguel Ángel de Quevedo 648 Coyoacán C.P. 04000 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-quevedo": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	  "rich-text#telefono-quevedo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 56 59 93 88",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-1"
+	  }
+	},
+	  "rich-text#llamar-quevedo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:56599388)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-quevedo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://bit.ly/2Z1T8bt?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal quevedo2
+	"flex-layout.col#quevedo2": {
+    "children": ["rich-text#nombre-quevedo2", "rich-text#direccion-quevedo2", "info-card#servicio-quevedo2", "info-card#consultorio-quevedo2",  "rich-text#telefono-quevedo2", "rich-text#llamar-quevedo2", "rich-text#vermapa-quevedo2"],
+    "props": {
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-quevedo2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Suc. Miguel Á. de Quevedo 2",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-quevedo2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "M. Fernández Leal 196 Barrio del Niño Jesús C.P. 04330 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-quevedo2": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	  "info-card#consultorio-quevedo2": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	  "rich-text#telefono-quevedo2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 55 54 40 90",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-quevedo2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:55544090)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-quevedo2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://bit.ly/2Wvq7Dl?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal narvarte
+	"flex-layout.col#narvarte": {
+    "children": ["rich-text#nombre-narvarte", "rich-text#direccion-narvarte", "info-card#servicio-narvarte", "info-card#consultorio-narvarte",  "rich-text#telefono-narvarte", "rich-text#llamar-narvarte", "rich-text#vermapa-narvarte"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-narvarte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Narvarte",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-narvarte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Obrero Mundial 311, Narvarte C.P. 03020 CDMX",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-narvarte": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	  "info-card#consultorio-narvarte": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	  "rich-text#telefono-narvarte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 56 39 55 71",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-2"
+	  }
+	},
+	  "rich-text#llamar-narvarte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:56395571)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-narvarte": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/14YyzLApJqk6trSo8?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal panorama
+	"flex-layout.col#panorama": {
+    "children": ["rich-text#nombre-panorama", "rich-text#direccion-panorama", "info-card#servicio-panorama", "info-card#consultorio-panorama","info-card#sala-panorama" ,"rich-text#telefono-panorama", "rich-text#llamar-panorama", "rich-text#vermapa-panorama"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-panorama": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Panorama",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-panorama": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Av. Jesús del Monte 35, Huixquilucan C.P. 52764 Edo. México",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-panorama": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-panorama": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	   "info-card#sala-panorama": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/nebulizacion.png",
+	      "headline": "Sala de Nebulización",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-panorama": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 52 47 31 32",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-four"
+	  }
+	},
+	  "rich-text#llamar-panorama": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:52473132)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-panorama": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://bit.ly/2Luvix6?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal argos
+	"flex-layout.col#argos": {
+    "children": ["rich-text#nombre-argos", "rich-text#direccion-argos", "info-card#servicio-argos",  "rich-text#telefono-argos", "rich-text#llamar-argos", "rich-text#vermapa-argos"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-argos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Plaza Argos",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-argos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "General Agustín de Iturbide 2, Lomas Verdes VI Sección C.P. 53126 Edo. México",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-argos": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	  "rich-text#telefono-argos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 52 95 20 91",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-1"
+	  }
+	},
+	  "rich-text#llamar-argos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:52952091)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-argos": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://g.page/plazaargos?share?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal quinta
+	"flex-layout.col#quinta": {
+    "children": ["rich-text#nombre-quinta", "rich-text#direccion-quinta", "info-card#servicio-quinta",  "rich-text#telefono-quinta", "rich-text#llamar-quinta", "rich-text#vermapa-quinta"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-quinta": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Quinta Ria",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-quinta": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Av. Jesús del Monte 263-3, Huixquilucan C.P. 52764 Edo. México",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-quinta": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+
+	  "rich-text#telefono-quinta": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 58 15 31 25",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-1"
+	  }
+	},
+	  "rich-text#llamar-quinta": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:58153125)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-quinta": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/LDVm2cwXgipC82yK8?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal sauces
+	"flex-layout.col#sauces": {
+    "children": ["rich-text#nombre-sauces", "rich-text#direccion-sauces", "info-card#servicio-sauces", "info-card#consultorio-sauces","info-card#sala-sauces" ,"rich-text#telefono-sauces", "rich-text#llamar-sauces", "rich-text#vermapa-sauces"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-sauces": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Sauces",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-sauces": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Av. Jesús del Monte 269, Huixquilucan C.P. 52764 Edo. México",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-sauces": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-sauces": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	   "info-card#sala-sauces": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/nebulizacion.png",
+	      "headline": "Sala de Nebulización",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-sauces": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 16 67 92 48",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-four"
+	  }
+	},
+	  "rich-text#llamar-sauces": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:16679248)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-sauces": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/kbT577JP4eEVpy8V6?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal sotelo
+	"flex-layout.col#sotelo": {
+    "children": ["rich-text#nombre-sotelo", "rich-text#direccion-sotelo", "info-card#servicio-sotelo", "info-card#consultorio-sotelo","info-card#sala-sotelo" ,"rich-text#telefono-sotelo", "rich-text#llamar-sotelo", "rich-text#vermapa-sotelo"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-sotelo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Sotelo",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-sotelo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Lomas de Sotelo 1130, Loma Hermosa C.P. 11200 Edo. México",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-sotelo": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-sotelo": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	   "info-card#sala-sotelo": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/nebulizacion.png",
+	      "headline": "Sala de Nebulización",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-sotelo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 53 95 70 94",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-four"
+	  }
+	},
+	  "rich-text#llamar-sotelo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:53957094)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-sotelo": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://bit.ly/2Lv8DRe?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	},
+
+	//Sucursal tecamachalco2
+	"flex-layout.col#tecamachalco2": {
+    "children": ["rich-text#nombre-tecamachalco2", "rich-text#direccion-tecamachalco2", "info-card#servicio-tecamachalco2", "info-card#consultorio-tecamachalco2","info-card#sala-tecamachalco2" ,"rich-text#telefono-tecamachalco2", "rich-text#llamar-tecamachalco2", "rich-text#vermapa-tecamachalco2"],
+    "props": {
+      "width": "25%",
+      "blockClass": "sucursales-col"
+    }
+  },
+  "rich-text#nombre-tecamachalco2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Sucursal Tecamachalco",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "nombre-astronomos-richtext"
+	  }
+	},
+	"rich-text#direccion-tecamachalco2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Av. Tecamachalco 104-1, San Miguel Tecamachalco C.P. 53970 Edo. México",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "direccion-astronomos-richtext"
+	  }
+	},
+	"info-card#servicio-tecamachalco2": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/servicioadomicilio2.png",
+	      "headline": "Servicio a domicilio",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	 "info-card#consultorio-tecamachalco2": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/consultorio.png",
+	      "headline": "Consultorio Médico",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	   "info-card#sala-tecamachalco2": {
+	    "props": {
+	      "id": "info-card-home",
+	      "isFullModeStyle": false,
+	      "textPosition": "right",
+	      "imageUrl": "/arquivos/nebulizacion.png",
+	      "headline": "Sala de Nebulización",
+	      "blockClass": "direccion-astronomos-info-card",
+	      "textAlignment": "center"
+	    }
+	  },
+	  "rich-text#telefono-tecamachalco2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "Teléfono: 52 94 30 63",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "telefono-astronomos-richtext-four"
+	  }
+	},
+	  "rich-text#llamar-tecamachalco2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[LLAMAR](tel:52943063)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "llamar-astronomos-richtext"
+	  }
+	},
+	  "rich-text#vermapa-tecamachalco2": {
+	  "props": {
+	    "textAlignment": "CENTER",
+	    "textPosition": "CENTER",
+	    "text": "[VER MAPA](https://goo.gl/maps/PCkYDgdoLb4EKCMR8?target=_blank)",
+	    "textColor": "c-on-emphasis",
+	    "font": "t-heading-5",
+	    "blockClass": "vermapa-astronomos-richtext"
+	  }
+	}
+
+}

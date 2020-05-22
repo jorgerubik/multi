@@ -1,0 +1,485 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #0a4b9b;
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.flexRowContent--main-header {
+  background-color: transparent;
+}
+
+.flexRowContent--main-header-mobile {
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #ffffff;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRowContent--header-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even){
+  width: 90% !important;
+}
+.flexRowContent--header-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd){
+  width: 5% !important;
+}
+
+/* .flexRowContent--header-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even){
+  width: 96rem !important;
+}
+
+.flexRowContent--header-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd){
+  width: 10% !important;
+} */
+
+.flexRow--footer-home{
+  background: #d8d9de !important;
+
+}
+
+.flexCol--blog-layout{
+  margin: 0px 20px !important;
+  border: solid 1px #cccc !important;
+  border-radius: 20px !important;
+}
+
+.flexRowContent--modal-divr{
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+
+.flexColContent--modal-div::after{
+    content: '';
+    display: block;
+    height: 40px;  /*height of icon */
+    width: 40px;  /*width of icon */
+    position: absolute;
+      /*where to replace the icon */
+    top: 0px;
+    left: -40px;
+      /*background */
+    background: #F8E6AE url(https://placehold.it/40x40) no-repeat 0px 0px;
+}
+
+.flexCol--section1-footer{
+  margin: 40px 30px !important;
+  padding-right: 30px !important;
+  border-right: solid 1px #c7c8cc !important;
+  height: auto !important;
+}
+
+.flexCol--section2-footer{
+  margin: 40px 30px !important;
+  border-right: solid 1px #c7c8cc !important;
+  height: auto !important;
+  margin-left: 0 !important;
+}
+.flexColChild--section1-footer{
+  height: auto !important;
+}
+
+.flexColChild--section-footer{
+  height: auto !important;
+}
+
+.flexColChild--section-3-fb{
+  margin: 0px 10px !important;
+}
+
+.flexColChild--section-3-tw{
+  margin: 0px 10px !important;
+}
+
+.flexColChild--section-3-in{
+  margin: 0px 10px !important;
+}
+
+/**Boton agregar al carrito vista producto*/
+.flexRowContent--buy-button{
+  width: 50%;
+}
+
+.flexRowContent--buy-button :global(.vtex-button){
+  background-color: #a0c13b;
+  border:transparent;
+  border-radius: 250px !important;
+  -moz-border-radius: 250px !important;
+  -webkit-border-radius: 250px !important;
+}
+/**Boton agregar al carrito vista producto*/
+
+/*Sucursales*/
+.flexCol--sucursales-col{
+  border: solid 1px #e3e4e6;
+  border-radius: 20px;
+  margin: 0px 20px 0px 20px;
+}
+.flexColChild--sucursales-col{
+  height: auto !important;
+}
+
+.flexRowContent--sucursales-row{
+  margin-top: 20px !important;
+}
+/*Sucursales*/
+
+.flexRowContent--sucursales-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) { margin-bottom: 25px; }
+
+
+.flexRowContent--flex-social :global(.vtex-flex-layout-0-x-stretchChildrenWidth) { width: 80px !important; }
+.flexRowContent--flex-social { width: 250px !important; margin: auto 0; left: -20px; position: relative; }
+
+.flexColChild .vtext-sandbox-iframe { height: 40px !important; }
+
+/**blog**/
+.flexRowContent--blogMBanner{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/saludmujer1920x1080___54377c8f2e2d8ccb2ef589a1361acc54.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flexRowContent--blogMBanner2{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/cuarentena1920x1080___1898fec855dd4ca37fffb179670d6b92.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.flexRowContent--blogMBanner3{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/obesidad1920x1080___02df594c05e3bd91d1a00ebe7fee978b.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.flexRowContent--blogMBanner4{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/coronavirus1920x1080___8060b2aa617d1d72ab47a0b260aac639.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flexRowContent--blogMBanner5{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/pequenioscambios1920x1080___eb1776eb39b5b8d77c5131e4630c6528.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flexRowContent--blogMBanner6{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/cancerinfantil1920x1080___b2e30bac7158a296a1a7696d16d8fcf9.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flexRowContent--blogMBanner7{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/alimentacionsaludable1920x1080___415a17ffe0f8acf29d19f7f3253e8dd0.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flexRowContent--blogMBanner8{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/incidenciacancer1920x1080___b529761a6a2ae0fc57c4cfa4cec110d3.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.flexRowContent--blogMBanner9{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/arquivos/blog9.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.flexRowContent--blogMBanner10{
+  height: 400px;
+  background-image: url("https://multifarmaciasmx.vtexassets.com/arquivos/blogc10.jpg");
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/**blog**/
+
+/*Sucursales*/
+/*Bolsa de trabajo*/
+.flexRow--bolsa-row{
+  margin-right: 70px !important;
+  margin-left: 70px !important;
+}
+.flexCol--encargados-col{
+  border: solid 1px #e3e4e6;
+  border-radius: 20px;
+  margin: 0px 10px 0px 10px;
+}
+
+.flexCol--mostrador-col{
+  border: solid 1px #e3e4e6;
+  border-radius: 20px;
+  margin: 0px 10px 0px 10px;
+}
+
+.flexCol--mansajero-col{
+    border: solid 1px #e3e4e6;
+  border-radius: 20px;
+  margin: 0px 10px 0px 10px;
+}
+/*Bolsa de trabajo*/
+/**descripcion producto**/
+.flexRowContent--p-description{
+  padding-left: 220px;
+  padding-right: 200px;
+}
+/*Search*/
+.flexColChild--filterCol{
+  height: auto !important;
+}
+.flexRow--Searchrow{
+  margin: 30px 70px 20px 83px !important;
+}
+
+.flexRowContent--searchTitle{
+  margin-left: 0 !important;
+  width: auto !important;
+}
+
+.flexRowContent--SearchBrandClass{
+  padding-left: 110px !important;
+  padding-right: 110px !important;
+}
+/*Search*/
+
+
+.flexRowContent--LayoutProduct {
+  -webkit-box-align: center;
+  align-items: center;
+}
+.flexRowContent--LayoutProduct .stretchChildrenWidth:first-child { width: 25% !important; }
+.flexRowContent--LayoutProduct .stretchChildrenWidth { width: 60% !important; }
+.flexRowContent--LayoutProduct .stretchChildrenWidth:last-child { width: 20% !important; }
+
+.flexCol--rich-receta-antibioticos {
+  -webkit-box-align: start;
+  align-items: start;
+}
+
+.flexRowContent--main-header,
+.flexRowContent--LayoutProduct { width: 1200px; max-width: 100%; margin: 0 auto !important; padding-left: 15px; padding-right: 15px; }
+
+.flexRow--nosotros-home2,
+.flexRow--Searchrow,
+.flexRow--footer-home :global(.vtex-store-components-3-x-container),
+.flexRow--nosotros-home,
+.flexRow--bolsa-row,
+.flexRowContent--sucursales-row,
+.flexRowContent--LayoutProduct { width: 96rem !important; max-width: 100%; margin: 0 auto !important; padding-left: 15px; padding-right: 15px; }
+
+/* Alinea logo y tecto del footer */
+.flexRowContent--footer-home :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  -webkit-box-align: center;
+  align-items: center;
+}
+/* Alinea logo y tecto del footer */
+
+
+/* Media Queries */
+@media( max-width: 1536px ) {
+  /* .flexRowContent--header-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even){
+    width: 90% !important;
+  }
+  .flexRowContent--header-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd){
+    width: 5% !important;
+  } */
+}
+@media( max-width: 1125px ) {
+  .flexRowContent--sucursales-row { display: block !important; }
+  .flexRowContent--sucursales-row .stretchChildrenWidth {
+    width: 50% !important;
+    display: block;
+    float: left;
+  }
+  .flexCol--sucursales-col { margin: 0; padding: 15px; }
+  .flexRowContent--sucursales-row .stretchChildrenWidth { padding: 15px; }
+
+}
+@media( max-width: 990px ) {
+  .flexRowContent--footer-home { display: block !important; }
+  .flexRowContent--footer-home .stretchChildrenWidth { float: left; }
+  .flexRowContent--footer-home .stretchChildrenWidth { width: 100% !important; }
+  .flexCol--section1-footer, .flexCol--section2-footer { border: unset !important; }
+  .stretchChildrenWidth :global(.vtex-rich-text-0-x-paragraph) { text-align: center; }
+  .flexRowContent--footer-home .flexCol--section1-footer,
+  .flexRowContent--footer-home .flexCol--section2-footer,
+  .flexRowContent--footer-home .flexCol--section3-footer { margin-top: 15px !important; margin-bottom: 15px !important; }
+
+  .flexRow--buy-button .flexRowContent--buy-button { width: 100%; }
+  .flexRowContent--buy-button :global(.vtex-button){
+    width: 100%;
+    display: block;
+  }
+
+  .flexRowContent--p-description{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media( max-width: 767px ) {
+  .flexCol--blog-layout { margin-bottom: 15px !important; }
+  .flexCol--section1-footer { margin: 15px !important; }
+
+  .flexRow--footer-home :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+  .flexRowContent--main-header-mobile :global(.vtex-login-2-x-container) { margin-left: 10px; }
+}
+@media( max-width: 680px ) {
+  .flexRowContent--sucursales-row .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+}
+/* Media Queries */

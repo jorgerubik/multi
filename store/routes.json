@@ -1,0 +1,68 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#aviso":{
+    "path": "/aviso"
+  },
+  "store.custom#facturacion":{
+    "path": "/facturacion"
+  },
+  "store.blog-home": {
+    "path": "/blog"
+  },
+  "store.custom#sucursales": {
+    "path": "/sucursales"
+  },
+  "store.custom#bolsa-de-trabajo":{
+  	"path": "/bolsa-de-trabajo"
+  },
+  "store.custom#terminos-y-condiciones":{
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#blog-view":{
+    "path": "/blog"
+  },
+  "store.custom#blog-salud_de_la_mujer":{
+    "path": "/blog/salud_de_la_mujer"
+  },
+  "store.custom#blog2":{
+    "path":"/blog/tips_esta_cuarentena"
+  },
+  "store.custom#blog3":{
+    "path":"/blog/que_es_la_obesidad"
+  },
+  "store.custom#blog4":{
+    "path":"/blog/informacion_coronavirus"
+  },
+  "store.custom#preguntas-frecuentes":{
+    "path":"/preguntas-frecuentes"
+  },
+  "store.custom#blog5":{
+
+    "path":"/blog/10_pequenios_cambios"
+  },
+
+  "store.custom#blog6":{
+    "path":"/blog/cancer_infantil"
+  },
+
+  "store.custom#blog7":{
+    "path":"/blog/alimentacion_saludable"
+  },
+  "store.custom#blog8":{
+    "path":"/blog/incidencia_cancer_mexico"
+  },
+  "store.custom#blog9":{
+    "path":"/blog/por_que_el_lavado_de_manos_previene_el_covid_19"
+  },
+  "store.custom#blog10":{
+    "path":"/blog/coronavirus-sintomas-y-cuando-ir-al-medico"
+  },
+  "store.custom#locationPage":{
+    "path": "/:param1/:param2/tracking"
+  },
+  "store.custom#dynamicBlog":{
+    "path": "blogs/:param1"
+  }
+}

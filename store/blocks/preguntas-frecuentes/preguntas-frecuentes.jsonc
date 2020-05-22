@@ -1,0 +1,573 @@
+{
+	"store.custom#preguntas-frecuentes":{
+		"blocks":[
+			"rich-text#preguntas-title",
+			"rich-text#question1",
+			"rich-text#response1",
+			"rich-text#question2",
+			"rich-text#response2",
+			"rich-text#question3",
+			"rich-text#response3",
+			"rich-text#question4",
+			"rich-text#response4",
+			"rich-text#question5",
+			"rich-text#response5",
+			"rich-text#question6",
+			"rich-text#response6",
+			"rich-text#question7",
+			"rich-text#response7",
+			"rich-text#question8",
+			"rich-text#response8",
+			"rich-text#question9",
+			"rich-text#response9",
+			"rich-text#question10",
+			"rich-text#response10",
+			"rich-text#question11",
+			"rich-text#response11",
+			"rich-text#question12",
+			"rich-text#response12",
+			"rich-text#question13",
+			"rich-text#response13",
+			"rich-text#question14",
+			"rich-text#response14",
+			"rich-text#question15",
+			"rich-text#response15",
+			"rich-text#question16",
+			"rich-text#response16",
+			"rich-text#question17",
+			"rich-text#response17",
+			"rich-text#question18",
+			"rich-text#response18",
+			"rich-text#question19",
+			"rich-text#response19",
+			"rich-text#question20",
+			"rich-text#response20",
+			"rich-text#question21",
+			"rich-text#response21",
+			"rich-text#b1-recuerda",
+			"rich-text#b1-contact-us",
+			"flex-layout.row#cuidamos-salud",
+			"flex-layout.row#cuidamos-salud-info",
+			"flex-layout.row#footer"
+		]
+	},
+	"rich-text#preguntas-title":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Preguntas frecuentes",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-preguntas"
+		 }
+	},
+
+	"rich-text#preguntas-subtitle":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Disponibilidad de medicamentos",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-subtitle"
+		 }
+	},
+
+
+	"rich-text#question1":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cómo puedo hacer un pedido?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response1":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Busca un artículo, usando la barra de búsqueda. Da clic en el botón “Agregar” para que el artículo se incluya en tu. Da clic en “Realizar compra”. Posteriormente, selecciona la dirección de envío, enseguida selecciona una forma de entrega. \n En el caso de medicamentos controlados (estupefacientes y Psicotrópicos) la compra deberás realizarla directamente en el mostrador de farmacia. En el caso de medicamentos antibióticos el portal te pedirá que ingreses la información de la receta médica (Cédula y nombre del Médico), una vez registrados estos datos, da clic en Continuar. Enseguida selecciona una forma de pago (efectivo o tarjeta electrónica). Ya que seleccionaste la forma de pago, da clic en Finalizar compra. Para realizar una compra es necesario que tengas una cuenta en el sitio y que tengas tu sesión abierta.",    
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question2":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Puedo comprar medicamentos controlados sin receta médica?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response2":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "No, debido a que: - La legislación mexicana y la autoridad obligan a que se vendan presentando receta médica, o en su caso retenerla. - Los antibióticos que requieren receta médica si pueden ser entregados en domicilio siempre y cuando el Cliente entregue la receta médica.",  
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question3":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cómo veo el contenido de mi carrito de compra?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response3":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Da clic en el ícono de carrito ubicado en la parte superior derecha de la pantalla. Para realizar una compra, NO es necesario que tengas una cuenta en nuestro sitio. Pero puedes crear una.",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question4":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cómo modifico el contenido de mi carrito de compra?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response4":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Da clic en el ícono de carrito de compras ubicado en la parte superior derecha de la pantalla, en dicha sección puedes agregar o eliminar productos.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question5":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Puedo guardar mi pedido y comprar más tarde?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response5":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Sí, siempre y cuando hayas iniciado sesión en tu cuenta.",  
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question6":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Una vez hecho mi pedido puedo modificarlo, cancelarlo o devolverlo?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+	"rich-text#response6":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Solo es posible cancelarlo y/o realizar la devolución. Si tienes duda comunícate con Atención a Clientes.",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#preguntas-subtitle2":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Medicamentos genéricos",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-subtitle"
+		 }
+	},
+
+	"rich-text#question7":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cuáles son las formas de pago válidas?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response7":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Pago contra entrega en su domicilio, y puede pagar con efectivo, o con tarjeta de crédito y débito (VISA y MASTERCARD) y AMEX.",  
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#preguntas-subtitle3":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Servicio a domicilio",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-subtitle"
+		 }
+	},
+
+	"rich-text#question8":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Puedo facturar desde el sitio?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response8":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "No, en caso de que requieras facturar tienes que comunicarte con la sucursal que realizó la venta, en el ticket de compra encontrarás el teléfono y dirección.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question9":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Qué plazo tengo para generar la factura de mi compra?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response9":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Es posible generar la factura hasta 30 días después de la compra.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question10":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cuánto cuesta el servicio a domicilio?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response10":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "En pedido con monto mayor a $100.00 pesos No tiene costo. En caso de ser menor a $100 pesos el envío costará $30.00 pesos", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question11":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cuál es el horario del Servicio a Domicilio?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response11":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Comenzamos a tomar tus pedidos a partir de las 8:00 AM, nuestros pedidos se entregan hasta las 9:30 PM.\n Los pedidos que sean realizados después de las 9:30 PM están sujetos a los tiempos de entrega.",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question12":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Por qué no encuentro el producto que quiero?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response12":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Con la finalidad de ofrecerte el mejor servicio, constantemente actualizamos nuestro catálogo de productos. En caso de que no encuentres alguno, puedes llamar a la sucursal más cercana a tu domicilio, la puedes encontrar en el menú sucursales.",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#preguntas-subtitle4":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Cambios y devoluciones",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-subtitle"
+		 }
+	},
+
+	"rich-text#question13":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Por qué no aparece la misma oferta que vi en la Farmacia?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response13":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Algunas ofertas están solamente disponibles en el mostrador. Para mayor información acerca de las ofertas disponibles puedes llamar a la sucursal más cercana a tu domicilio", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question14":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cuánto tarda en llegar mi pedido?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response14":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Puedes elegir 2 opciones de entrega, en la primera y en caso de contar con todos los productos disponibles te debe llegar entre 20 a 90 minutos*, la segunda opción es programar la entrega, a la hora y fecha seleccionada. Las condiciones del clima y/o tráfico pueden afectar la entrega programada.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question15":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Qué pasa si mi tarjeta es rechazada?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response15":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Puedes intentar pagar con otra tarjeta o pagar en efectivo.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question16":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Puedo pagar con más de una tarjeta?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response16":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Si, solo en pago contra entrega", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question17":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cuáles son las tarjetas aceptadas?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response17":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Pago con tarjeta de vales de despensa respaldadas por VISA y Mastercard, crédito, débito y AMEX.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question18":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Cómo cancelo, modifico o devuelvo mi pedido?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response18":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Debes comunicarte con Atención a Clientes o a la sucursal que te envió el pedido.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question19":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Puedo elegir pago en efectivo y al llegar el repartidor solicitar pago con tarjeta?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response19":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Debido a que el repartidor va preparado por un tipo de cobro es posible que no lleve cambio o no lleve terminal, por lo que No es recomendable hacer cambios, es importante que selecciones Pago contra Entrega al momento de realizar tu pedido.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question20":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- ¿Puedo ver el sito de Multifarmacias desde mi Smartphone o Tablet?",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response20":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Sí, nuestro sitio está optimizado para que puedas verlo desde cualquier dispositivo móvil o tableta.", 
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	},
+
+	"rich-text#question21":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "- Política de cambio y/o devolución de productos.",
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-question"
+		 }
+	},
+
+	"rich-text#response21":{
+		"props": {
+		    "textAlignment": "LEFT",
+		    "textPosition": "LEFT",
+		    "text": "Estimado cliente podrá solicitar devolución en especie o en efectivo de uno o varios productos adquiridos en Multifarmacias siempre y cuando cumpla con los siguientes requisitos: \n 1. El plazo máximo para aceptar la devolución en sucursal es de 3 días naturales a partir de la fecha de compra.\n 2. El Cliente debe presentar en buen estado y sin enmendaduras el ticket original de venta.\n 3. El Cliente debe tramitar personalmente la devolución en la misma sucursal donde se realizó la compra. No se realizarán devoluciones en sucursales distintas a donde se realizó la compra.\n 4. El artículo a devolver por el Cliente debe encontrarse completo y en perfecto estado para su venta (es decir, que el empaque no esté roto, ni maltratado, los sellos de seguridad no deben estar violados, etc.), contar con fecha y lote de caducidad.\n 5. NO existen DEVOLUCIONES en:\n a. Recargas electrónicas. \n b. Cobro de servicios.\n c. Recargas viales.\n d. Medicamentos psicotrópicos (Grupo II y III).\n e. Refrigerados.\n f. Artículos que participan en Programa de Lealtad con Círculo de la Salud. Aplican Restricciones.\n g. Programas de Lealtad de Laboratorio.\n h. Artículos asociados a promoción con cupón donde expiró su vigencia.\n i. Ventas pagadas con Puntos.\n 6. En caso de devolución de un antibiótico no se devolverá la receta\n 7. Si la venta a devolver está facturada debe cancelarse para poder realizar la devolución.\n 8. El Encargado o Responsoble de Farmacia será la persona encargada de determinar si se realiza la devolución en efectivo o en especie. \n Multifarmacias no está obligado realizar cambios y/o devoluciones de productos y se reserva el derecho inclusive si se cumplen los puntos anteriormente mencionados.",  
+		    "textColor": "c-on-emphasis",
+		    "font": "t-heading-5",
+		    "blockClass": "rich-response"
+		 }
+	}
+
+
+
+}

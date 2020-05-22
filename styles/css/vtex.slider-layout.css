@@ -1,0 +1,74 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #FFF;
+  height: 600px !important;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+
+.sliderArrows--carousel{
+  background: #c8c8c8 !important;
+  color: white !important;
+  margin: 0px !important;
+  padding: 15px 10px 15px 15px !important;
+}
+
+
+.sliderArrows--carousel:hover{
+  color: white !important;
+  background: #a0c13b !important;
+  margin: 0px !important;
+  padding: 15px 10px 15px 15px !important;
+}
+
+.sliderLayoutContainer--carousel {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.sliderLayoutContainer--carousel :global(.vtex-slider-layout-0-x-sliderLeftArrow){
+  border-bottom-right-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.sliderLayoutContainer--carousel :global(.vtex-slider-layout-0-x-sliderRightArrow){
+  border-bottom-left-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+.paginationDot--carousel{
+  border: solid 1px gray;
+  background: white;
+}
+.paginationDot--isActive{
+  background-color: #0a4b9b !important;
+}
+
+:global(.vtex-slider-0-x-dotsContainer) {
+  padding-top: 15px !important;
+}
+
+@media( max-width: 639px ) {
+  .paginationDotsContainer--carousel { bottom: -25px; }
+}

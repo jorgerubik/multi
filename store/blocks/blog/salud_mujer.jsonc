@@ -1,0 +1,85 @@
+{
+    "store.custom#blog-salud_de_la_mujer":{
+        "blocks":[
+            "flex-layout.row#banner",
+            "flex-layout.row#b1main",
+            "flex-layout.row#blog-this2",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#banner":{
+        "props":{
+          "blockClass": "blogMBanner",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b1main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b1colmain"
+        ]
+    },
+    "flex-layout.col#b1colmain":{
+        "children": [
+            "rich-text#b1-title",
+            "rich-text#b1-date",
+            "rich-text#b1-text1",
+            "rich-text#b1-text2",
+            // "rich-text#b1-recuerda",
+            // "rich-text#b1-contact-us",
+            "rich-text#b1-read-more"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b1-title":{
+        "props":{
+            "text": "Salud de la mujer: lo que debes de saber",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b1-date":{
+        "props":{
+            "text": "Publicado el 25 de Marzo del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b1-text1":{
+        "props":{
+            "text": "La prevención de la salud es una cuestión que, aunque interesa a todos por igual, se debe atender, como todo problema, según particularidades. Así, entender que existen enfermedades que aquejan más o únicamente a mujeres ayuda a estudiarlas y considerarlas mejor y con mayor puntualidad.\n\n Alternamente, la fisiología de la mujer exige cuidados distintos que los que se procuran para el cuerpo del hombre, no sea ya por enfermedades o padecimientos, sino por determinaciones biológicas específicas. Este artículo es un recordatorio de la atención que merecen la higiene y la salud en el género femenino. Es importante que todo recordatorio sirva para incrementar el flujo de información y para que las medidas de salud personales se acojan a profundidad y por especialistas. En Multifarmacias te contamos sobre la salud de la mujer y todo lo que debes tomar en cuenta para un cuidado posterior, más profundo y puntual.\n\n**Enfermedades y condiciones particulares e importantes de la mujer**\n\nLa fisiología de la mujer, naturalmente distinta a la del hombre, es propensa a padecimientos o circunstancias específicos. Así, como mujer, debes estar atenta, acudiendo con regularidad a chequeos médicos, a síntomas que puedan revelar enfermedades como cáncer de mama, cervicouterino o de ovario. Practica con frecuencia la autoexploración mamaria y visita regularmente a tu ginecólogo; las pruebas de laboratorio como el papanicolau, alternamente, deben ser constantes, todo esto con el afán de descubrir anomalías físicas y seguir los tratamientos específicos para cada caso.\n\nAdemás de lo dicho, trastornos como el síndrome de Turner o el síndrome de Rett afectan únicamente a mujeres. Estas afecciones no tienen una cura concreta y se controlan con medicina endocrinóloga.\n\nLa osteoporosis, aunque también presente en hombres, representa un problema de salubridad mayoritariamente para la mujer. Un 80% de los casos diagnosticados ocurre en el género femenino. Prevé la enfermedad haciendo ejercicio, no fumando y consumiendo suficiente calcio y vitamina D. El consumo moderado del alcohol también contribuye al cuidado contra esta enfermedad.\n\n**Menstruación**\n\nAunque la menstruación no es, desde luego, una enfermedad sino un ciclo fisiológico natural en todas las mujeres, los cuidados en torno a su higiene merecen atención y diligencia. Desde la primer regla, que varía según la edad de cada mujer, aunque se suele presentar alrededor de los 12 años, se recomienda llevar un registro continuo de los periodos. Esto permite detectar irregularidades del ciclo menstrual y, para el caso, considerar las causas. Algunas de éstas a tomar en cuenta son, además del embarazo: trastornos de alimentación, el síndrome de ovario poliquístico, insuficiencia ovárica prematura, enfermedad inflamatoria pélvica o fibromas uterinos. Acude a tu médico, además, si tienes más sangrado de lo habitual o lo haces por más de siete días, si sangras entre periodos, si tu regla se detiene repentinamente por más de tres meses y no estás embarazada, si presentas dolores intensos durante tu menstruación, más allá de los normales, o si presentas fiebre y molestias después de usar un tampón. Relacionada enteramente a la menstruación, la menopausia se manifiesta alrededor de los cuarenta o cincuenta años y por sus implicaciones hormonales afecta físicamente y emocionalmente. La menopausia se advierte cuando el periodo menstrual desaparece por todo un año. Aunque la menopausia forme parte del ciclo natural reproductivo de las mujeres, algunos síntomas requieren ser tratados. Acercarse a un ginecólogo es primordial. \n\n**Enfermedades de transmisión sexual**\n\nLas ETS o ITS (Enfermedades/Infecciones de Transmisión Sexual) afectan tanto a hombres como a mujeres. Sin embargo, padecimientos como la clamidia o el VPH pueden aquejar más gravemente a mujeres que a hombres. Para prevenir estas condiciones, como a todas las demás, procura siempre utilizar preservativos; además, considerando una vida sexual activa, hacer chequeos médicos frecuentes ayuda a mantener una salud estable. Si has tenido relaciones sexuales sin protección y crees tener alguno de los siguientes síntomas, asíste prontamente a tu médico, la mayoría de estas enfermedades puede tratarse completamente si se reconoce a tiempo:\n- Ardor o comezón en la vagina\n- Mayor flujo vaginal del usual\n- Dolor durante el coito\n- Mal olor vaginal\n- Heridas en el órgano genital\n- Cuidado del embarazo"
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b1-text2":{
+        "props":{
+            "text": "El cuidado del embarazo deseado es largo y puede seccionarse por periodos, según el momento en que se encuentre. Los cuidados prenatales (aquellos que promueven un embarazo saludable para la madre y el hijo), por ejemplo, recorren una larga lista de cuidados que toda mujer tiene que estimar y llevar a cabo con la supervisión continua de un especialista de la salud. Las recomendaciones médicas más generales van desde tomar 400 microgramos de ácido fólico diarios, hasta limitar la ingesta de cafeína. Evitar alcohol y tabaco, mantener dieta y peso saludables y vigilar el consumo de fármacos específicos, son cuidados imprescindibles para promover la salud del feto y el bebé. No se deben tomar medidas sanitarias que no sean antes consideradas por un médico. ¡Cuídate! Todos los puntos mencionados previamente deben ser examinados y regulados por un profesional. Llevar con negligencia un embarazo puede provocar malformaciones en el bebé o discapacidades físicas y mentales.\n\nRecuerda que el periodo natural del crecimiento en un embarazo es de 9 meses, es decir, 37 semanas. Los partos que ocurren antes de las 37 semanas se consideran prematuros y pueden ocasionarse por múltiples razones. Seguir las recomendaciones antes mencionadas, con la revisión atenta de un médico, promueve los partos a tiempo, sanos para la madre y el bebé.\n\nSi quieres saber más sobre los cuidados en el embarazo, [te invitamos a leer más aquí.](https://google.com)\nComo punto final de este apartado, se recomienda, en la medida de lo posible, promover la lactancia o amamantamiento. Además de que este cuidado brinda vitaminas, minerales y otros nutrientes esenciales para el bebé, su constancia acerca a la madre, por generación de oxitocina, al hijo y viceversa. Si existe sangrado o dolor excesivo al amamantar, consulta a tu médico especialista."
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b1-recuerda":{
+        "props":{
+            "text": "**Recuerda que en Multifarmacias tenemos todos los medicamentos que necesitas, envíos a domicilio y distintas sucursales a lo largo de la república.**"
+            ,"blockClass":"blogDate"
+        }
+    },
+    "rich-text#b1-read-more":{
+        "props":{
+            "text": "Conoce más de nuestros blogs",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b1-contact-us":{
+        "props":{
+            "text": "**¡Contáctanos!**"
+            ,"blockClass":"blogDate"
+        }
+    }
+}

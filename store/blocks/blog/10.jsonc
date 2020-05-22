@@ -1,0 +1,71 @@
+{
+    "store.custom#blog10":{
+        "blocks":[
+            "flex-layout.row#blogbanner10",
+            "flex-layout.row#b10main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner10":{
+        "props":{
+          "blockClass": "blogMBanner10",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b10main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b10colmain"
+        ]
+    },
+    "flex-layout.col#b10colmain":{
+        "children": [
+            "rich-text#b10-title",
+            "rich-text#b10-date",
+            "rich-text#b10-text1",
+            "rich-text#b10-text2",
+            "rich-text#b10-text3"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b10-title":{
+        "props":{
+            "text": "Coronavirus: síntomas y cuando ir al médico",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b10-date":{
+        "props":{
+            "text": "Publicado el 22 de Abril del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b10-text1":{
+        "props":{
+            "text": "**Conoce los datos más importantes del coronavirus, cuales son los síntomas y cuando debes acudir al médico.**" 
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b10-text2":{
+        "props":{
+            "text": "Desde el 20 de abril se ha anunciado en México el paso a la **tercera fase** de prevención para la pandemia provocada por la COVID-19. Esto significa que como sociedad e individuos debemos incrementar nuestras medidas de higiene y cuidado; esto es, ser rigurosos con el aislamiento, no recibir visitas, salir individualmente a hacer las compras o pedirlas a domicilio, usar cubreboca o mascarilla al salir del hogar, mantener una distancia de un metro entre nosotros, lavar con cuidado nuestras manos, etcétera. \n\n Todos podemos ser vulnerables y estar en probabilidad de contagio si no seguimos las medidas acordadas. **¡Hay que mantener el mejor cuidado!** Recuerda, frente a la incertidumbre, estar atento a síntomas; con una detección temprana es más fácil determinar las medidas de tratamiento. Para tu prevención y la de todos tus seres queridos, te recordamos **cuáles son los síntomas del coronavirus y cuándo debes ir al médico.**" 
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b10-text3":{
+        "props":{
+            "text": "**No hay que asistir al médico, sobre todo a urgencias, por cualquier suposición de contagio.** Los organismos de salud deben mantenerse en sus capacidades para poder atender a las personas que más lo necesitan; sobresaturar clínicas u hospitales es peligroso para ti y todos; la sobresaturación no nada más afecta a los pacientes afectados por la pandemia sino a cualquiera con otra condición que requiera cuidados clínicos. Por otro lado, acercarse a una sala de urgencias sin contagio, por mera conjetura, puede suponer un verdadero contagio y una mayor propagación del virus. **Revisa los siguientes síntomas que mencionamos para aclarar tus dudas:** \n - Fiebre \n - Tos seca \n - Dolor de garganta \n - Malestar general \n - Dolor de cabeza \n - Dificultad para respirar \n\n Recuerda que la gravedad de los síntomas y la particularidad de cada paciente determinan puntualmente cómo se debe atender la enfermedad. **No olvides que existen muchos casos de infección por coronavirus que pueden tratarse en casa.** Debido a que los hospitales del Valle de México están ocupados en un 34% por los pacientes infectados por coronavirus y que instituciones como el Instituto Nacional de Enfermedades Respiratorias se encuentran ya en el límite de sus capacidades, hay que apegarse al aislamiento, la prudencia y a la detección sumamente responsable de los síntomas en personas con menor riesgo y en pacientes con otros padecimientos que merezcan atenciones y cuidados urgentes, como son las personas con diabetes, hipertensión, u obesidad. Apóyate en la aplicación gubernamental COVID-19MX para valorar tu condición y usa los instrumentos de apoyo de tus localidades para saber cómo actuar ante un contagio. " 
+            ,"blockClass":"blogText"
+        }
+    }
+}

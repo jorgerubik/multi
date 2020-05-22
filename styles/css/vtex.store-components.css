@@ -1,0 +1,778 @@
+/*
+verde -> #a0c13b
+azul -> #0a4b9b
+
+Gris para contorno de productos: #e3e4e6
+Gris para botones, estrellas: #808080
+Gris para texto: #808080
+Azul principal: #004A9B
+Verde principal: #9EC234
+Rojo: #FB4C72
+*/
+.notificationBarInner { padding-left: 1rem; padding-right: 1rem; }
+.notificationContent { font-size: .875rem; text-align: center; }
+.notificationBarContainer {
+  width: 96rem !important;
+  max-width: 100%;
+  height: 50px !important;
+  background-color: #f94f75;
+  color: white;
+  font-weight: 700;
+  font-size: 10px;
+  text-decoration: none !important;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  max-width: auto;
+}
+.searchBarContainer :global(.vtex-input-prefix__group){
+  height: 25px !important;
+  border-radius: 50px !important;
+
+}
+
+.logoLink{
+  float: right !important;
+}
+.logoLink :global(.vtex-store-components-3-x-logoContainer) { padding-left: 0; }
+.logoLink .logoContainer .logoImage { width: 400px; }
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.container { max-width: 100%; }
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-left: 0;
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home-hover-1, .infoCardContainer--info-card-home-hover-2, .infoCardContainer--info-card-home-hover-3 .infoCardTextContainer {
+    width: 50%;
+  }
+
+  .infoCardContainer--info-card-home-hover-1, .infoCardContainer--info-card-home-hover-2, .infoCardContainer--info-card-home-hover-3 .infoCardImageContainer {
+    width: 50%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  font-weight: bold;
+}
+
+.sliderTrackContainer { width: 100% !important; }
+/*Estilos slider*/
+  .infoCardContainer--info-card-home-hover-1, .infoCardContainer--info-card-home-hover-2, .infoCardContainer--info-card-home-hover-3 {
+    width: 100%;
+    max-width: 100%;
+    /* max-width: 1520px; */
+    margin: 0 auto;
+    background-color: #ffff;
+    padding: 0px;
+  }
+  .infoCardTextContainer--Info-card-slider-home-1 {
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+  }
+  .infoCardTextContainer--Info-card-slider-home-2, .infoCardTextContainer--Info-card-slider-home-4{
+    padding-left: 8% !important;
+    padding-top: 20px !important;
+  }
+  .infoCardContainer--Info-card-slider-home-1, .infoCardContainer--Info-card-slider-home-2, .infoCardContainer--Info-card-slider-home-3, .infoCardContainer--Info-card-slider-home-4{
+    height: 600px !important;
+    background-position: center center;
+    width: 100% !important;
+    background-repeat: no-repeat;
+  }
+  .infoCardHeadline--Info-card-slider-home,
+  .infoCardHeadline--Info-card-slider-home-1, .infoCardHeadline--Info-card-slider-home-2, .infoCardHeadline--Info-card-slider-home-4{
+    color: #0a4b9b !important;
+  }
+  .infoCardHeadline--Info-card-slider-home-2{
+    max-width: 405px;
+  }
+  .infoCardHeadline--Info-card-slider-home-1 {
+    padding-top: 90px !important;
+  }
+
+  .infoCardHeadline--Info-card-slider-home-3{
+    color: white;
+    margin-top: 0px !important;
+  }
+
+  .infoCardSubhead--Info-card-slider-home-3{
+    color: white;
+    font-size: 1.5rem;
+    max-width: 405px;
+  }
+
+  .infoCardCallActionContainer--Info-card-slider-home-1 :global(.vtex-button), .infoCardCallActionContainer--Info-card-slider-home-2 :global(.vtex-button), .infoCardCallActionContainer--Info-card-slider-home-3 :global(.vtex-button), .infoCardCallActionContainer--Info-card-slider-home-4 :global(.vtex-button){
+    background: #a0c13b !important;
+    color: white !important;
+    border-radius: 20px !important;
+    border: solid 1px #a0c13b !important;
+  }
+
+  .infoCardCallActionContainer--Info-card-slider-home-1 :global(.vtex-button):hover, .infoCardCallActionContainer--Info-card-slider-home-2 :global(.vtex-button):hover, , .infoCardCallActionContainer--Info-card-slider-home-3 :global(.vtex-button):hover, .infoCardCallActionContainer--Info-card-slider-home-4 :global(.vtex-button):hover{
+    background: white !important;
+    color: #a0c13b !important;
+    border-radius: 20px !important;
+    border: solid 1px #a0c13b !important;
+  }
+
+  .infoCardSubhead--Info-card-slider-home-1{
+    padding-top: 125px !important;
+    color: white;
+    max-width: 410px !important;
+    font-size: 1.5rem !important;
+    padding-bottom: 30px;
+  }
+/*Estilos slider*/
+
+.infoCardContainer--Info-card-home-hover-1, .infoCardContainer--Info-card-home-hover-2, .infoCardContainer--Info-card-home-hover-3{
+  margin: 25px !important;
+  border-radius: 20px !important;
+  height: 205px !important;
+}
+
+.infoCardHeadline--Info-card-home-hover-1, .infoCardHeadline--Info-card-home-hover-2, .infoCardHeadline--Info-card-home-hover-3{
+  color: white !important;
+  font-size: 1.2rem !important;
+}
+
+.infoCardCallActionContainer--Info-card-home-hover-1 :global(.vtex-button), .infoCardCallActionContainer--Info-card-home-hover-2 :global(.vtex-button), .infoCardCallActionContainer--Info-card-home-hover-3 :global(.vtex-button){
+  background: #a0c13b !important;
+  color: white !important;
+  border-radius: 20px !important;
+  border: solid 1px #a0c13b !important;
+  width: 190px !important;
+}
+
+.infoCardCallActionContainer--Info-card-home-hover-1 :global(.vtex-button):hover, .infoCardCallActionContainer--Info-card-home-hover-2 :global(.vtex-button):hover, .infoCardCallActionContainer--Info-card-home-hover-3 :global(.vtex-button):hover{
+  background: white !important;
+  color: #a0c13b !important;
+  border-radius: 20px !important;
+  border: solid 1px #a0c13b !important;
+  width: 190px !important;
+}
+
+.infoCardTextContainer--info-card-home-hover-1, .infoCardTextContainer--info-card-home-hover-2, .infoCardTextContainer--info-card-home-hover-3{
+  padding-left: 30px !important;
+  align-items: baseline;
+}
+.infoCardContainer--Info-card-home-hover-1 :global(.vtex-store-components-3-x-infoCardCallActionContainer), .infoCardContainer--Info-card-home-hover-2 :global(.vtex-store-components-3-x-infoCardCallActionContainer), .infoCardContainer--Info-card-home-hover-3 :global(.vtex-store-components-3-x-infoCardCallActionContainer) {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+.infoCardContainer--Info-card-home-hover-1:hover :global(.vtex-store-components-3-x-infoCardCallActionContainer), .infoCardContainer--Info-card-home-hover-2:hover :global(.vtex-store-components-3-x-infoCardCallActionContainer), .infoCardContainer--Info-card-home-hover-3:hover :global(.vtex-store-components-3-x-infoCardCallActionContainer) {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.infoCardContainer--Info-card-home-hover-1:hover {
+  background-image: url("https://fabricadesoluciones.vtexassets.com/assets/vtex.store-theme/3.32.0/600x230muscularazul___ae0df90b4cc0043a73025464960bae9b.jpg") !important;
+}
+.infoCardContainer--Info-card-home-hover-2:hover {
+  background-image: url("https://fabricadesoluciones.vtexassets.com/assets/vtex.store-theme/3.32.0/600x230resfriadoazul___0e7f820922dbf762538eeb79124a55ce.jpg") !important;
+}
+.infoCardContainer--Info-card-home-hover-3:hover {
+  background-image: url("https://fabricadesoluciones.vtexassets.com/assets/vtex.store-theme/3.32.0/600x230articularazul___5595987c2b9bf176300333785c7335dd.jpg") !important;
+}
+
+.infoCardHeadline--info-card-home{
+  font-size: 1rem !important;
+  text-align: left !important;
+}
+.infoCardSubhead--info-card-home{
+  width: 100% !important;
+}
+
+.w50--info-card-home{
+  width: 50%;
+  display: inline-block;
+  padding: 0px 30px !important;
+}
+
+.w100--info-card-home{
+  width: 100%;
+  color: #0a4b9b;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.infoCardCallActionContainer--info-card-home :global(.vtex-button){
+  background: #a0c13b !important;
+  color: white !important;
+  border-radius: 20px !important;
+  border: solid 1px #a0c13b !important;
+}
+
+.infoCardCallActionContainer--info-card-home :global(.vtex-button):hover{
+  background: white !important;
+  color: #a0c13b !important;
+  border-radius: 20px !important;
+  border: solid 1px #a0c13b !important;
+}
+.img--info-card-home {
+  background-image: url('https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/medicos___8c6174d5180cf54f5c8985011716431b.svg');
+  height: 50px !important;
+  display: block;
+  background-position: center;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+}
+.img--info-card-home-2 {
+  background-image: url('https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/nebulizacion___f003b5db5d905f5325907bdb92df8659.svg');
+  height: 50px !important;
+  display: block;
+  background-position: center;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+}
+.textdiv--info-card-home{
+  display: block;
+  width: 100% !important;
+}
+
+.infoCardImage--info-card-home{
+  height: 310px;
+  border-radius: 20px !important;
+}
+
+/* Cuidamos tu salud */
+  .float-left--info-card-home { float: left; }
+  .h1--info-card-home { font-size: 40px; color: #00499b; text-align: center; font-weight: bolder; }
+  .img-fluid--info-card-home { padding-top: 60px; max-width: 100%; display: block; margin: 0 auto; }
+  .sr-only--info-card-home {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .infoCardContainer--info-card-csi-text {
+    background-image: url("https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/1920x400membresia___17b5b46d3b2a0a1f253ad03a8281ad2d.jpg?12345678");
+    border-top-left-radius: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center right;
+  }
+  .infoCardContainer--info-card-csi-img { border-top-right-radius: 20px; }
+  .loyalty-program--info-card-csi-text { font-size: 20px; font-weight: bolder; }
+  .mt-3--info-card-csi-text { margin-top: 15px; }
+  .loyalty-program--info-card-csi-text,
+  .lp-textinfo--info-card-csi-text { color: #FFF; }
+
+  .infoCardCallActionContainer--info-card-csi-text :global(.vtex-button){
+    background: #a0c13b !important;
+    color: white !important;
+    border-radius: 20px !important;
+    border: solid 1px #a0c13b !important;
+  }
+
+  .infoCardCallActionContainer--info-card-csi-text :global(.vtex-button):hover{
+    background: white !important;
+    color: #a0c13b !important;
+    border-radius: 20px !important;
+    border: solid 1px #a0c13b !important;
+  }
+  .infoCardContainer--info-card-csi-img { height: 100%; }
+  .infoCardCallActionContainer--info-card-csi-img :global(.vtex-button){ display: none; }
+
+  .infoCardTextContainer--info-card-csi-text { width: 70%; margin-left: 16%; }
+  .infoCardImageContainer--info-card-csi-text :global(.vtex-store-components-3-x-infoCardImage) { max-width: 100%; display: block; margin: 0 auto; text-align: center; }
+/* Cuidamos tu salud */
+.imageElement--img-blog{
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 200px !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.infoCardHeadline--Title-blog{
+  font-size: 1rem !important;
+  color: #0a4b9b !important;
+  height: 56px !important;
+}
+
+.infoCardTextContainer--Title-blog{
+  width: 80% !important;
+
+}
+.infoCardContainer--Title-blog{
+  border: none !important;
+}
+.infoCardCallActionContainer--Title-blog { margin-bottom: 1.5rem !important; }
+.infoCardCallActionContainer--Title-blog :global(.vtex-button){
+  background: #a0c13b !important;
+  color: white !important;
+  border-radius: 20px !important;
+  border: solid 1px #a0c13b !important;
+}
+
+.infoCardCallActionContainer--Title-blog :global(.vtex-button):hover{
+  background: white !important;
+  color: #a0c13b !important;
+  border-radius: 20px !important;
+  border: solid 1px #a0c13b !important;
+}
+
+.float-left--info-card-home { float: left; }
+
+.discountInsideContainer{
+  background: #0a4b9b;
+}
+
+.newsletter--newsletter-products{
+  background-color: transparent !important;
+}
+.container--newsletter-products{
+  padding: 0px !important;
+}
+
+.form--newsletter-products{
+  text-align: left !important;
+  margin-top: 60px !important;
+}
+
+.label--newsletter-products{
+  font-size: 1.25rem !important;
+  color: black !important;
+}
+
+.inputGroup--newsletter-products{
+  display: block !important;
+  margin-right: 20px !important;
+}
+.inputGroup--newsletter-products :global(.vtex-input-prefix__group) {
+  width: 300px;
+}
+.inputGroup--newsletter-products :global(.vtex-styleguide-9-x-input){
+  color: #606060 !important;
+  border: solid 1px #606060 !important;
+}
+.inputGroup--newsletter-products :global(.vtex-styleguide-9-x-input)::placeholder { color: #606060 ;}
+
+.buttonContainer--newsletter-products :global(.vtex-button){
+  margin-top: 15px;
+  background: #606060 !important;
+  color: white !important;
+  border-radius: 20px !important;
+  border: solid 1px #606060 !important;
+}
+
+.buttonContainer--newsletter-products :global(.vtex-button):hover{
+  background: white !important;
+  color: #606060 !important;
+  border-radius: 20px !important;
+  border: solid 1px #606060 !important;
+}
+/*Pagina producto individual*/
+.productNameContainer{
+  color: #0a4b9b !important;
+  font-weight: bold;
+}
+
+.sellingPriceValue{
+  color: #0a4b9b !important;
+  font-weight: bold;
+}
+
+.price_savings{
+  display:none;
+}
+
+.productDescriptionTitle{
+  color: #0a4b9b !important;
+  font-weight: bolder;
+  font-size: 1.75rem;
+}
+
+.container :global(.vtex-reviews-and-ratings-1-x-container){
+  display:none;
+}
+/*Pagina producto individual*/
+
+/*Pagina producto individual*/
+
+.imageElement--img-footer { width: 300px; }
+
+.imageElement--img-footer,
+.imageElement--img-fb,
+.imageElement--img-tw,
+.imageElement--img-in { max-width: 100% !important; height: auto !important; margin: 0 auto !important; display: block !important; }
+
+.imageElement--img-fb,
+.imageElement--img-tw,
+.imageElement--img-in { margin-bottom: 15px !important; }
+
+/*Sucursales*/
+.infoCardHeadline--direccion-astronomos-info-card{
+  font-size: 1rem;
+  color: #808080;
+  margin-top: 0 !important;
+}
+.infoCardCallActionContainer--direccion-astronomos-info-card :global(.vtex-button){
+  display: none;
+}
+.infoCardContainer--direccion-astronomos-info-card{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+.infoCardImageContainer--direccion-astronomos-info-card{
+  width: 30%;
+}
+.infoCardTextContainer--direccion-astronomos-info-card{
+  -webkit-box-align: start;
+  align-items: start;
+  width: 70%;
+}
+.infoCardTextContainer--direccion-astronomos-info-card .infoCardCallActionContainer--direccion-astronomos-info-card {
+  display: none;
+}
+.infoCardImage--direccion-astronomos-info-card {
+  width: 50px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+/*Sucursales*/
+/*Bolsa de trabajo*/
+.imageElement--img-bolsa{
+  width: 50px;
+  max-width: 100%;
+  display:block;
+  margin: 0 auto;
+  margin-top: 30px !important;
+}
+.infoCardContainer--info-card-bolsa{
+  background: transparent !important;
+}
+.infoCardTextContainer--info-card-bolsa{
+  width: 100% !important;
+  background: transparent !important;
+}
+.infoCardImageContainer--info-card-bolsa{
+  width: 0% !important;
+  display: none !important;
+}
+.infoCardHeadline--info-card-bolsa{
+  color: #004A9B;
+  font-size: 1rem;
+}
+.infoCardSubhead--info-card-bolsa{
+  color: #808080;
+  font-size: .875rem;
+  text-align: left !important;
+  min-height: 95px;
+}
+
+.infoCardCallActionContainer--info-card-bolsa :global(.vtex-button){
+    background-color: #9EC234;
+    border: solid 1px #9EC234;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.infoCardCallActionContainer--info-card-bolsa :global(.vtex-button):hover{
+    background-color: white;
+    border: solid 1px #9EC234;
+    color: #9EC234;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+/*Bolsa de trabajo*/
+
+.infoCardHeadline--info-card-home { font-weight: normal !important; }
+
+.galleryTitle--layout,
+
+.infoCardContainer--info-card-slider-home-1, .infoCardContainer--info-card-slider-home-2,
+.infoCardContainer--info-card-home-hover-1, .infoCardContainer--info-card-home-hover-2, .infoCardContainer--info-card-home-hover-3 { width: 1200px; max-width: 100%; margin: 0 auto !important; padding-left: 15px; padding-right: 15px; }
+
+
+.infoCardContainer--info-card-home { width: 96rem; max-width: 100%; margin: 0 auto !important; padding-left: 15px; padding-right: 15px; }
+
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Media Queries */
+@media( min-width: 1554px ) {
+  :global(.vtex-flex-layout-0-x-flexRow--Searchrow) { width: 1200px; max-width: 100%; margin: 0 auto !important; padding-left: 15px; padding-right: 15px; }
+}
+@media( max-width: 1153px ) {
+  .infoCardContainer--Info-card-slider-home-2, .infoCardContainer--Info-card-slider-home-4{
+    background-position-x: -650px;
+    background-position-y: center; 
+  }
+  .inputGroup--newsletter-products :global(.vtex-input-prefix__group) {
+    width: 100%;
+  }
+}
+@media( max-width: 990px ) {
+  .imageElement--img-footer { width: 300px; }
+  .logoImage--main-header-logo { width: 200px; }
+
+  .infoCardContainer--Info-card-slider-home-1,
+  .infoCardContainer--Info-card-slider-home-2,
+  .infoCardContainer--Info-card-slider-home-4 {
+    background-size: 100% !important;
+    background-position-x: center;
+    background-position-y: bottom;
+    -webkit-box-align: start;
+    align-items: start;
+  }
+
+  .infoCardTextContainer--Info-card-slider-home-2, .infoCardTextContainer--Info-card-slider-home-4{
+    width: 100% !important;
+    padding-left: 30px !important;
+  }
+  .infoCardContainer--Info-card-slider-home-3 {
+    background-position: top center;
+  }
+
+  .infoCardContainer--Info-card-slider-home-1 {
+    background-image: url("/arquivos/1920x600cicloferon1.jpg?1234567891") !important;
+  }
+  .infoCardContainer--Info-card-slider-home-2 {
+    background-image: url("/arquivos/1920x600blogcoronavirus.jpg?1234567891") !important;
+  }
+  .infoCardContainer--Info-card-slider-home-3 {
+    background-image: url("/arquivos/1920x600sliderclarityne1.jpg?1234567891") !important;
+  }
+  .infoCardContainer--Info-card-slider-home-4 {
+    background-image: url("/arquivos/1920x6007tips.jpg?1234567891") !important;
+  }
+  .infoCardContainer--Info-card-slider-home-1,
+  .infoCardContainer--Info-card-slider-home-3 {
+    background-size: 100% !important;
+  }
+  .infoCardSubhead--Info-card-slider-home-1,
+  .infoCardSubhead--Info-card-slider-home-3 {
+    padding-top: 0 !important;
+    color: #000;
+  }
+
+  .infoCardHeadline--Info-card-slider-home-1,
+  .infoCardHeadline--Info-card-slider-home-2,
+  .infoCardHeadline--Info-card-slider-home-4 {
+    padding-top: 90px !important;
+  }
+
+  .infoCardTextContainer--Info-card-slider-home-3 {
+    position: absolute;
+    bottom: 90px;
+  }
+  .infoCardHeadline--Info-card-slider-home-1,
+  .infoCardHeadline--Info-card-slider-home-2,
+  .infoCardHeadline--Info-card-slider-home-3,
+  .infoCardHeadline--Info-card-slider-home-4 {
+    color: #0a4b9b;
+  }
+
+  .infoCardTextContainer--Info-card-slider-home-2,
+  .infoCardTextContainer--Info-card-slider-home-4 {
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+}
+@media( max-width: 767px ) {
+  .w50--info-card-home { width: 100% !important; margin-bottom: 15px; padding-left: 0 !important; }
+  .infoCardImage--info-card-home { height: 200px; border-radius: unset !important; -webkit-border-radius: unset !important; -moz-border-radius: unset !important; -ms-border-radius: unset !important; -o-border-radius: unset !important; }
+  .img-fluid--info-card-home { padding-top: 15px; }
+  .infoCardTextContainer--info-card-csi-text { width: 100%; margin-left: 0; }
+  .notificationBarContainer { height: auto !important; }
+  .logoImage--main-header-logo { width: 130px !important; }
+  .logoContainer--main-header-logo { padding-left: 0 !important; padding-right: 0 !important; }
+
+  .infoCardTextContainer--direccion-astronomos-info-card{
+    -webkit-box-align: unset;
+    align-items: unset;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .infoCardImage--direccion-astronomos-info-card {
+    margin-top: 15px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media( max-width: 639px ) {
+  /* logoImage--main-header-logo */
+  /* height: 80px;
+  width: 130px; */
+  .infoCardContainer--info-card-csi-img { height: 300px; }
+  .infoCardImageContainer--direccion-astronomos-info-card{
+    width: 100%;
+  }
+}
+@media( max-width: 576px ) {
+  .infoCardContainer--Info-card-slider-home-1, .infoCardContainer--Info-card-slider-home-2, .infoCardContainer--Info-card-slider-home-3, .infoCardContainer--Info-card-slider-home-4 {
+    /* background-size: 250px !important; */
+  }
+}
+/* Media Queries */
+/* MODAL */
+.infoCardHeadline--modal-info-card{
+  font-size: 1rem;
+  color: #004A9B;
+  margin-top: 0 !important;
+}
+.infoCardCallActionContainer--modal-info-card :global(.vtex-button){
+  display: none;
+}
+.infoCardContainer--modal-info-card{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+.infoCardImageContainer--modal-info-card{
+  width: 30%;
+}
+.infoCardTextContainer--modal-info-card{
+  -webkit-box-align: start;
+  align-items: start;
+  width: 400px;
+  color:#004A9B !important;
+}
+.infoCardCallActionContainer--modal-info-card {
+  display: none;
+}
+.infoCardImage--modal-info-card {
+  width: 30px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+.infoCardSubhead--modal-info-card{
+  font-size: 1rem;
+  color: #808080;
+  margin-top: 0 !important;
+  text-align: center;
+}
+.infoCardSubhead--modal-info-card{
+  font-size: 1rem;
+  color: #004A9B;
+  margin-top: 0 !important;
+  font-weight: bold;
+}
+/* Modal */
+
+@media( max-width: 1166px ) {
+  .inputGroup--newsletter-products :global(.vtex-input-prefix__group) {
+    width: 240px;
+  }
+}
+@media( max-width: 990px ) {
+  .inputGroup--newsletter-products :global(.vtex-input-prefix__group) {
+    width: 100%;
+  }
+}

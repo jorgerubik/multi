@@ -1,0 +1,829 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "menuClass"
+    },
+    "children": [
+      "menu-item#medicamentos",
+      "menu-item#botiquin",
+      "menu-item#suplementos-y-vitaminas",
+      "menu-item#cuidado-personal",
+      "menu-item#bebes",
+      "menu-item#salud-sexual"
+    ]
+  },
+
+  "menu-item#medicamentos": {
+    "props": {
+      "id": "menu-item-medicamentos",
+      "blockClass": "menuClass-one",
+      "type": "category",
+      "categoryId": 2,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos/",
+        "noFollow": false,
+        "tagTitle": "Medicamentos",
+        "text": "Medicamentos"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#medicamentos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#medicamentos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#medicamentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#medicamentos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenuClass-one"
+    },
+    "children": [
+      "menu-item#medicamentos-especialidad",
+      "menu-item#medicamentos-genericos",
+      "menu-item#medicamentos-analgesico",
+      "menu-item#medicamentos-musculuar",
+      "menu-item#medicamentos-malestar-estomacal",
+      "menu-item#medicamentos-respiratorios",
+      "menu-item#medicamentos-oftalmologicos",
+      "menu-item#medicamentos-diabetes",
+      "menu-item#medicamentos-naturistas-herbolarios",
+      "menu-item#medicamentos-dermatologicos",
+      "menu-item#medicamentos-gripe-tos",
+      "menu-item#medicamentos-antimicoticos"
+    ]
+  },
+   "menu-item#medicamentos-gripe-tos": {
+    "props": {
+      "id": "menu-item-medicamentos-gripe-tos",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,specificationFilter_18&query=/MEDICAMENTOS/GRIPE Y TOS",
+        "noFollow": false,
+        "tagTitle": "Gripe y tos",
+        "text": "Gripe y tos"
+      }
+    }
+  },
+  "menu-item#medicamentos-antimicoticos": {
+    "props": {
+      "id": "menu-item-medicamentos-antimicoticos",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,specificationFilter_18&query=/MEDICAMENTOS/ANTIMICOTICOS",
+        "noFollow": false,
+        "tagTitle": "Antimicoticos",
+        "text": "Antimicoticos"
+      }
+    }
+  },
+  "menu-item#medicamentos-analgesico": {
+    "props": {
+      "id": "menu-item-medicamentos-analgesico",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,c&query=/MEDICAMENTOS/ANALGESICO",
+        "noFollow": false,
+        "tagTitle": "Analgésico",
+        "text": "Analgésico"
+      }
+    }
+  },
+  "menu-item#medicamentos-genericos": {
+    "props": {
+      "id": "menu-item-medicamentos-genericos",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 11,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos/genericos/",
+        "noFollow": false,
+        "tagTitle": "Genericos",
+        "text": "Genericos"
+      }
+    }
+  },
+  "menu-item#medicamentos-musculuar": {
+    "props": {
+      "id": "menu-item-medicamentos-musculuar",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,c&query=/MEDICAMENTOS/MUSCULAR-DESINFLAMATORIO",
+        "noFollow": false,
+        "tagTitle": "Muscular Desinflamatorio",
+        "text": "Muscular Desinflamatorio"
+      }
+    }
+  },
+  "menu-item#medicamentos-malestar-estomacal": {
+    "props": {
+      "id": "menu-item-medicamentos-malestar-estomacal",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 48,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,c&query=/MEDICAMENTOS/MALESTAR-ESTOMACAL",
+        "noFollow": false,
+        "tagTitle": "Malestar estomacal",
+        "text": "Malestar estomacal"
+      }
+    }
+  },
+  "menu-item#medicamentos-respiratorios": {
+    "props": {
+      "id": "menu-item-medicamentos-respiratorios",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 49,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,c&query=/MEDICAMENTOS/RESPIRATORIOS",
+        "noFollow": false,
+        "tagTitle": "Respiratorios",
+        "text": "Respiratorios"
+      }
+    }
+  },
+  "menu-item#medicamentos-oftalmologicos": {
+    "props": {
+      "id": "menu-item-medicamentos-oftalmologicos",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 50,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,c&query=/MEDICAMENTOS/OFTAMOLOGICOS",
+        "noFollow": false,
+        "tagTitle": "Oftalmológicos",
+        "text": "Oftalmológicos"
+      }
+    }
+  },
+  "menu-item#medicamentos-dermatologicos": {
+    "props": {
+      "id": "menu-item-medicamentos-dermatologicos",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,c&query=/MEDICAMENTOS/DERMATOLOGICO",
+        "noFollow": false,
+        "tagTitle": "Dermatológicos",
+        "text": "Dermatológicos"
+      }
+    }
+  },
+  "menu-item#medicamentos-especialidad": {
+    "props": {
+      "id": "menu-item-medicamentos-especialidad",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,specificationFilter_18&query=/MEDICAMENTOS/ESPECIALIDAD",
+        "noFollow": false,
+        "tagTitle": "Especialidad",
+        "text": "Especialidad"
+      }
+    }
+  },
+  "menu-item#medicamentos-naturistas-herbolarios": {
+    "props": {
+      "id": "menu-item-medicamentos-naturistas-herbolarios",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?map=c,c&query=/MEDICAMENTOS/NATURISTA",
+        "noFollow": false,
+        "tagTitle": "Naturistas Herbolarios",
+        "text": "Naturistas Herbolarios"
+      }
+    }
+  },
+  "menu-item#medicamentos-diabetes": {
+    "props": {
+      "id": "menu-item-medicamentos-diabetes",
+      "blockClass": "submenuClass-li",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/medicamentos?_c=medicamentos&map=c,ft&rest=Diabetes",
+        "noFollow": false,
+        "tagTitle": "Diabetes",
+        "text": "Diabetes"
+      }
+    }
+  },
+
+  "menu-item#botiquin": {
+    "props": {
+      "id": "menu-item-botiquin",
+      "blockClass": "menuClass-two",
+      "type": "category",
+      "categoryId": 8,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botiquin/",
+        "noFollow": false,
+        "tagTitle": "Botiquin",
+        "text": "Botiquin"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#botiquin"
+    ]
+  },
+  "vtex.menu@2.x:submenu#botiquin": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#botiquin"
+    ]
+  },
+  "vtex.menu@2.x:menu#botiquin": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenuClass-one"
+    },
+    "children": [
+      "menu-item#botiquin-material-de-curacion"
+    ]
+  },
+  "menu-item#botiquin-material-de-curacion": {
+    "props": {
+      "id": "menu-item-material-de-curacion",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 8,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botiquin/material-de-curacion/",
+        "noFollow": false,
+        "tagTitle": "Material de curación",
+        "text": "Material de curación"
+      }
+    }
+  }, 
+
+
+  "menu-item#suplementos-y-vitaminas": {
+    "props": {
+      "id": "menu-item-suplementos-y-vitaminas",
+      "blockClass": "menuClass-three",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "suplementos-y-vitaminas",
+        "noFollow": true,
+        "tagTitle": "Suplementos y vitaminas",
+        "text": "Suplementos y vitaminas"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      },
+      "iconPosition": "right"
+    }, 
+    "blocks": [
+      "vtex.menu@2.x:submenu#suplementos-y-vitaminas"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#suplementos-y-vitaminas": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#suplementos-y-vitaminas"
+    ]
+  },
+  "vtex.menu@2.x:menu#suplementos-y-vitaminas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenuClass-one"
+    },
+    "children": [
+      "menu-item#suplementos-y-vitaminas-multivitaminicos",
+      "menu-item#suplementos-y-vitaminas-suplementos"
+    ]
+  },
+  "menu-item#suplementos-y-vitaminas-multivitaminicos": {
+    "props": {
+      "id": "menu-item-multivitaminicos",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 4,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos-y-vitaminas/multivitaminicos/",
+        "noFollow": false,
+        "tagTitle": "Multivitaminicos",
+        "text": "Multivitaminicos"
+      }
+    }
+  }, 
+  "menu-item#suplementos-y-vitaminas-suplementos": {
+    "props": {
+      "id": "menu-item-suplementos",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 17,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos-y-vitaminas/suplementos/",
+        "noFollow": false,
+        "tagTitle": "Suplementos",
+        "text": "Suplementos"
+      }
+    }
+  },
+
+
+  "menu-item#cuidado-personal": {
+    "props": {
+      "id": "menu-item-cuidado-personal",
+      "blockClass": "menuClass-four",
+      "type": "category",
+      "categoryId": 5,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/",
+        "noFollow": false,
+        "tagTitle": "Cuidado personal",
+        "text": "Cuidado personal"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#cuidado-personal"
+    ]
+  },
+  "vtex.menu@2.x:submenu#cuidado-personal": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#cuidado-personal"
+    ]
+  },
+  "vtex.menu@2.x:menu#cuidado-personal": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenuClass-one"
+    },
+    "children": [
+      "menu-item#cuidado-personal-higiene-bucal",
+      "menu-item#cuidado-personal-cuerpo",
+      "menu-item#cuidado-personal-cabello",
+      "menu-item#cuidado-personal-incontinencia",
+      "menu-item#cuidado-personal-atencion-e-higiene-femenina",
+      "menu-item#cuidado-personal-cosmeticos"
+    ]
+  },
+  "menu-item#cuidado-personal-higiene-bucal": {
+    "props": {
+      "id": "menu-item-higiene-bucal",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 19,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/higiene-bucal/",
+        "noFollow": false,
+        "tagTitle": "Higiene bucal",
+        "text": "Higiene bucal"
+      }
+    }
+  }, 
+  "menu-item#cuidado-personal-cuerpo": {
+    "props": {
+      "id": "menu-item-cuerpo",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 22,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/cuerpo/",
+        "noFollow": false,
+        "tagTitle": "Cuerpo",
+        "text": "Cuerpo"
+      }
+    }
+  },
+  "menu-item#cuidado-personal-cabello": {
+    "props": {
+      "id": "menu-item-cabello",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 26,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/cabello/",
+        "noFollow": false,
+        "tagTitle": "Cabello",
+        "text": "Cabello"
+      }
+    }
+  },
+  "menu-item#cuidado-personal-atencion-e-higiene-femenina": {
+    "props": {
+      "id": "menu-item-bloqueador-solar",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 28,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/atencion-e-higiene-femenina/",
+        "noFollow": false,
+        "tagTitle": "Atencion e higiene femenina",
+        "text": "Atencion e higiene femenina"
+      }
+    }
+  },
+  "menu-item#cuidado-personal-incontinencia": {
+    "props": {
+      "id": "menu-item-incontinencia",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 27,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/incontinencia/",
+        "noFollow": false,
+        "tagTitle": "Incontinencia",
+        "text": "Incontinencia"
+      }
+    }
+  },
+  "menu-item#cuidado-personal-cosmeticos": {
+    "props": {
+      "id": "menu-item-cosmeticos",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 29,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/cosmeticos/",
+        "noFollow": false,
+        "tagTitle": "Cosméticos",
+        "text": "Cosméticos"
+      }
+    }
+  },
+
+
+
+  "menu-item#bebes": {
+    "props": {
+      "id": "menu-item-bebes",
+      "blockClass": "menuClass-six",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes/",
+        "noFollow": false,
+        "tagTitle": "Bebés",
+        "text": "Bebés"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#bebes"
+    ]
+  },
+  "vtex.menu@2.x:submenu#bebes": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#bebes"
+    ]
+  },
+  "vtex.menu@2.x:menu#bebes": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenuClass-one"
+    },
+    "children": [
+      "menu-item#bebes-formulas-y-leches",
+      "menu-item#bebes-alimento-para-bebe",
+      "menu-item#bebes-panales",
+      "menu-item#bebes-cuidado-del-bebe",
+      "menu-item#bebes-accesorios"
+    ]
+  },
+  "menu-item#bebes-formulas-y-leches": {
+    "props": {
+      "id": "menu-item-formulas-y-leches",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 31,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes/formulas-y-leches/",
+        "noFollow": false,
+        "tagTitle": "Fórmulas y leches",
+        "text": "Fórmulas y leches"
+      }
+    }
+  },
+  "menu-item#bebes-alimento-para-bebe": {
+    "props": {
+      "id": "menu-item-alimento-para-bebe",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 32,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes/alimento-para-bebe/",
+        "noFollow": false,
+        "tagTitle": "Alimento para bebé",
+        "text": "Alimento para bebé"
+      }
+    }
+  },
+  "menu-item#bebes-panales": {
+    "props": {
+      "id": "menu-item-panales",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 33,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes/panales/",
+        "noFollow": false,
+        "tagTitle": "Pañales",
+        "text": "Pañales"
+      }
+    }
+  },
+  "menu-item#bebes-cuidado-del-bebe": {
+    "props": {
+      "id": "menu-item-panales",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 34,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes/cuidado-del-bebe/",
+        "noFollow": false,
+        "tagTitle": "Cuidado del bebé",
+        "text": "Cuidado del bebé"
+      }
+    }
+  },
+  "menu-item#bebes-accesorios": {
+    "props": {
+      "id": "menu-item-panales",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 35,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes/accesorios/",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+
+
+  "menu-item#salud-sexual": {
+    "props": {
+      "id": "menu-item-salud-sexual",
+      "blockClass": "menuClass-seven",
+      "type": "category",
+      "categoryId": 7,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/salud-sexual/",
+        "noFollow": false,
+        "tagTitle": "Salud sexual",
+        "text": "Salud sexual"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#salud-sexual"
+    ]
+  },
+  "vtex.menu@2.x:submenu#salud-sexual": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#salud-sexual"
+    ]
+  },
+  "vtex.menu@2.x:menu#salud-sexual": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenuClass-one"
+    },
+    "children": [
+      "menu-item#salud-sexual-anticonceptivos",
+      "menu-item#salud-sexual-preservativos",
+      "menu-item#salud-sexual-vigorizantes",
+      "menu-item#salud-sexual-pruebas-de-embarazo",
+      "menu-item#salud-sexual-lubricantes"
+    ]
+  },
+  "menu-item#salud-sexual-anticonceptivos": {
+    "props": {
+      "id": "menu-item-anticonceptivos",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 37,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/salud-sexual/anticonceptivos/",
+        "noFollow": false,
+        "tagTitle": "Anticonceptivos",
+        "text": "Anticonceptivos"
+      }
+    }
+  },
+  "menu-item#salud-sexual-preservativos": {
+    "props": {
+      "id": "menu-item-preservativos",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 37,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/salud-sexual/preservativos/",
+        "noFollow": false,
+        "tagTitle": "Preservativos",
+        "text": "Preservativos"
+      }
+    }
+  },
+  "menu-item#salud-sexual-vigorizantes": {
+    "props": {
+      "id": "menu-item-vigorizantes",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 36,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/salud-sexual/vigorizantes/",
+        "noFollow": false,
+        "tagTitle": "Vigorizantes",
+        "text": "Vigorizantes"
+      }
+    }
+  },
+  "menu-item#salud-sexual-pruebas-de-embarazo": {
+    "props": {
+      "id": "menu-item-pruebas-de-embarazo",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 36,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/salud-sexual/pruebas-de-embarazo/",
+        "noFollow": false,
+        "tagTitle": "Pruebas de embarazo",
+        "text": "Pruebas de embarazo"
+      }
+    }
+  },
+  "menu-item#salud-sexual-lubricantes": {
+    "props": {
+      "id": "menu-item-lubricantes",
+      "blockClass": "submenuClass-li",
+      "type": "category",
+      "categoryId": 37,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/salud-sexual/lubricantes/",
+        "noFollow": false,
+        "tagTitle": "Lubricantes",
+        "text": "Lubricantes"
+      }
+    }
+  }
+}

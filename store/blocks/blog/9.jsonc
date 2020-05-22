@@ -1,0 +1,71 @@
+{
+    "store.custom#blog9":{
+        "blocks":[
+            "flex-layout.row#blogbanner9",
+            "flex-layout.row#b9main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner9":{
+        "props":{
+          "blockClass": "blogMBanner9",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b9main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b9colmain"
+        ]
+    },
+    "flex-layout.col#b9colmain":{
+        "children": [
+            "rich-text#b9-title",
+            "rich-text#b9-date",
+            "rich-text#b9-text1",
+            "rich-text#b9-text2",
+            "rich-text#b9-text3"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b9-title":{
+        "props":{
+            "text": "¿Por qué el lavado de manos previene el COVID-19?",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b9-date":{
+        "props":{
+            "text": "Publicado el 11 de Mayo del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b9-text1":{
+        "props":{
+            "text": "**Conoce por qué el lavado de manos previene el COVID-19 y como te puede ayudar a fortalecer. **" 
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b9-text2":{
+        "props":{
+            "text": "Nunca es excesivo seguir mencionando todas las medidas que nos ayudan como individuos y como sociedad a prevenir los contagios por el COVID-19. Hasta que no exista una vacuna en contra de esta enfermedad tendremos que seguir extremando medidas de distancia, de higiene y de etiqueta en cuanto a tos y estornudos. Lavar las manos, como se ha recomendado desde el inicio de esta emergencia, es de los mejores recursos que tenemos para evitar la propagación del virus. Después de salir a la calle o después de interaccionar con otros individuos, lavar las manos puede evitar efectivamente que nos contagiemos del COVID-19; esto lo hemos escuchado ya cientas de veces, pero ¿realmente sabemos la razón de la medida? Lee este artículo informativo para conocer **por qué el lavado de manos previene el contagio por el COVID-19.**" 
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b9-text3":{
+        "props":{
+            "text": "**El COVID-19 es un virus que afecta a las vías respiratorias y se contagia cuando gotículas que lo contienen ingresan en nuestro cuerpo.** Las gotículas son diminutas, prácticamente imperceptibles, de modo que pueden encontrarse en diversas superficies donde se segregan mediante estornudos, tos e, inclusive, por hablar sin que nosotros podamos notarlo. El virus puede sobrevivir por un tiempo considerable en estos espacios de modo que las medidas de lavado de manos deben considerarse siempre después de estar en lugares públicos, transportes públicos y después de tener contacto con superficies como manijas, pasamanos, productos a la venta que pasen por diversas manos, etc.\n\n ¿Cómo es que el virus puede sobrevivir en estos espacios por tanto tiempo? **El COVID-19 es un agente microscópico que se protege por una membrana formada por glucoproteínas y lípidos.** Aunque la protección no es la función principal del virus sino facilitar su contacto y entrada a células sanas, es gracias a esta particularidad que puede sobrevivir en superficies como las mencionadas o nuestra piel.\n\n De este modo, como puede ya haberse supuesto, **el efecto del jabón en el lavado de manos consiste en la disolución y eliminación de esta membrana.** Lavarse las manos ayuda a eliminar gérmenes y bacterias; la capacidad de supervivencia del virus en exteriores es muy breve si su capsula protectora ha sido eliminada. Hay que recordar, por más obvio que pueda parecer, que **el jabón y los activos limpiadores como geles antibacteriales únicamente funcionan para superficies;** una vez que el virus entra en el cuerpo humano se introduce al torrente sanguíneo y no puede ser eliminado con ninguno de estos medios. Ingerir cualquier clase de jabón o gel antibacterial es tóxico para la salud.\n\n **El lavado de manos minucioso debe durar alrededor de 40 segundos,** incluyendo el frotado de palma, dedos, uñas, y el enjuague. Este tiempo puede garantizar tu seguridad, ¡síguelo!\n\n Recuerda que el gel antibacterial únicamente puede sustituir al agua y jabón si contiene más del 60% de alcohol.\n\n Tanto para lavado con jabón como para lavado con gel antibacterial, es importante secar o dejar secar las manos.\n\n ¡Sigamos estas recomendaciones para cuidarnos hoy y siempre! No olvides también procurar dar las mismas instrucciones a tus seres queridos para que ellos también conserven su salud e higiene." 
+            ,"blockClass":"blogText"
+        }
+    }
+}

@@ -1,0 +1,396 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+
+      "flex-layout.row#3-desktop",
+      "flex-layout.row#2-desktop",
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#5-desktop",
+      "sticky-layout#4-desktop",
+      "flex-layout.row#modal"
+    ]
+  },
+  /**Modal**/
+  "flex-layout.row#modal": {
+    "children": ["flex-layout.col#modal-col"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": "modal-divr"
+    }
+  },
+  "flex-layout.col#modal-col":{
+    "props":{
+      "horizontalAlign": "right",
+      "blockClass": "modal-div"
+    },
+    "children":["modal-trigger#phone"]
+  },
+  "modal-trigger#phone": {
+    "children": [
+      "rich-text#example",
+      "modal-layout#example"
+    ],
+    "props":{
+      "blockClass": "modal-link"
+    }
+  },
+  "rich-text#example": {
+    "props": {
+      "text": "¿Tienes alguna duda?",
+      "blockClass": "modal-trigger-text"
+    }
+  },
+  "modal-layout#example": {
+    "children": [
+      "flex-layout.row#modal-content",
+      "flex-layout.row#modal-content4"
+      
+    ],
+    "props": {
+      "blockClass": "product-gifts",
+      "fullScreen": {
+        "phone": false,
+        "desktop": false,
+        "tablet": false
+      }
+    }
+  },
+  "flex-layout.row#modal-content4": {
+    "children":[
+      "flex-layout.col#modal-content4"
+    ]
+  },
+  "flex-layout.col#modal-content4": {
+    "children":[
+      "image#modal-cuidamos-salud"
+    ],
+    "props":{
+      "horizontalAlign":"center"
+    }
+  },
+  "image#modal-cuidamos-salud":{
+    "props":{
+      "src":"assets/780x92slogan.jpg",
+      "maxWidth": 500
+    }
+  },
+  "flex-layout.row#modal-content": {
+    "children":[
+      "flex-layout.col#modal-content"
+    ]
+  },
+  "flex-layout.col#modal-content": {
+    "children":[
+      "logo#modal-logo",
+      "rich-text#modal-text",
+      "info-card#modalcontent1",
+      "info-card#modalcontent2"
+    ],
+    "props":{
+      "horizontalAlign":"center"
+    }
+  },
+  "logo#modal-logo":{
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/ultralogo.png",
+      "width": "200"
+    }
+  },
+  "rich-text#modal-text":{
+    "props":{
+      "text": "En Multifarmacias nuestra prioridad es tu salud y la de los\ntuyos, es por eso que ponemos a tu disposición los siguientes\n números para resolver tus dudas:",
+      "blockClass": "modalText",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "info-card#modalcontent1": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/sucursales/servicioadomicilio.svg",
+      "headline": "Centro de Atención a Clientes",
+      "subhead": "(55) 5087 7800",  
+      "blockClass": "modal-info-card",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#modalcontent2": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/sucursales/servicioadomicilio.svg",
+      "headline": "Comentarios y Sugerencias",
+      "subhead": "(55) 52941 421",  
+      "blockClass": "modal-info-card",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#modal-content2": {
+    "children":[
+      "flex-layout.col#modal-contenti1",
+      "flex-layout.col#modal-contentt2"
+    ],
+    "props":{
+      "blockClass":"modal-tels",
+      "horizontalAlign":"center",
+      "verticalAlign":"center"
+    }
+  },
+  "flex-layout.col#modal-contenti1":{
+    "children":[
+      "image#modal-content-phone"
+    ],
+    "props":{
+      "width": "30%"
+    }
+  },
+  "image#modal-content-phone":{
+    "props":{  
+      "src": "assets/sucursales/servicioadomicilio.svg",
+      "maxHeight": 30,
+      "blockClass": "tels-modal"
+    }
+  },
+  "flex-layout.col#modal-contentt2":{
+    "children":[
+      "rich-text#modal-t1"
+    ],
+    "props":{
+      "width": "50%"
+    }
+  },
+  "rich-text#modal-t1":{
+    "props":{
+      "text": "**Centro de Atención a Clientes**\n**(55) 5087 7800**",
+      "blockClass": "modalText2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#modal-content3": {
+    "children":[
+      "flex-layout.col#modal-contenti1",
+      "flex-layout.col#modal-contentt3"
+    ],
+    "props":{
+      "blockClass":"modal-tels",
+      "horizontalAlign":"center"
+    }
+  },
+  "flex-layout.col#modal-contentt3":{
+    "children":[
+      "rich-text#modal-t3"
+    ],
+    "props":{
+      "width": "50%"
+    }
+  },
+  "rich-text#modal-t3":{
+    "props":{
+      "text": "**Comentarios y Sugeriencias**\n**(55) 52941 421**",
+      "blockClass": "modalText2",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  /**Modal**/
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["flex-layout.col#spacer","notification.bar#home", "minicart.v2"],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "header-two"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "blockClass": "header-two-firts",
+      "content": "Estimado cliente, para tu comodidad, nuestras farmacias seguirán operando de 8:00 am a 10:00 pm. Si tienes alguna duda comunicate a nuestros teléfonos de 7:00 a 22 hrs. Tel. (55) 5087 7800"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "sticky-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "width" : "25%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/ultralogo.png",
+      "width": "250"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#medicamentos",
+      "menu-item#botiquin",
+      "menu-item#suplementos-y-vitaminas",
+      "menu-item#cuidado-personal",
+      "menu-item#bebes",
+      "menu-item#salud-sexual"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "blockClass": "main-header-logo",
+      "url": "/arquivos/ultralogo.png",
+      "width": "70"
+    }
+  },
+
+/*Codigo de jorge*/
+  "flex-layout.row#5-desktop":{
+    "children":["flex-layout.col#logo-desktop", "search-bar", "login"],
+    "props":{
+      "blockClass": "LayoutProduct",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    }
+  },
+
+    "flex-layout.row#NewConta":{
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass": "LayoutcProduct"
+      }
+    },
+    "flex-layout.row#NewConta1":{
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass": "LayoutcProduct"
+      }
+    },
+    "flex-layout.row#NewConta2":{
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass": "LayoutcProduct"
+      }
+    },
+//Acepto términos y condiciones, términos y condiciones marketplace y autorizo el tratamiento de mis datos personales con las siguientes condiciones.
+    "login":{
+      "props":{
+        "blockClass": "LoginClass",
+        "termsAndConditions": "Al iniciar sesion acepta nuestros [términos y condiciones](/terminos-y-condiciones)"
+      }
+    },
+
+    "search-bar":{
+      "props":{
+        "attemptPageTypeSearch": true,
+        "customSearchPageUrl": "/search?query=${term}",
+        "emptyPlaceholder": "No se encontraron resultados, intenta con otra(s) palabras"
+      }
+    },
+    //Esto es para el order placed sin menu
+    "header#empty": {
+      "blocks": ["header-layout.desktop#no-menu", "header-layout.mobile"]
+    },
+    "header-layout.desktop#no-menu": {
+      "children": [
+  
+        "flex-layout.row#3-desktop",
+        "flex-layout.row#2-desktop",
+        "flex-layout.row#1-desktop",
+        "flex-layout.row#5-desktop",
+        "flex-layout.row#modal"
+      ]
+    }
+}

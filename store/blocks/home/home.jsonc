@@ -1,0 +1,679 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#demo-images",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-promociones",
+      "flex-layout.row#shelf-promociones",
+      "rich-text#nosotros",
+      "flex-layout.row#nosotros",
+      "rich-text#consultorios",
+      "info-card#home",
+      "rich-text#blog",
+      "flex-layout.row#blog",
+      "flex-layout.row#cuidamos-salud",
+      "flex-layout.row#cuidamos-salud-info",
+      "flex-layout.row#footer"
+    ]
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+
+  "slider-layout#demo-images": {
+    "children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4"],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "fullWidth": false
+    }
+  },
+
+  "info-card#1": {
+   "props": {
+    "imageUrl": "/arquivos/1920x600cicloferon-sd1.jpg",
+     "isFullModeStyle": true,
+     "headline": "¿Fuego labial?",
+     "subhead": "Cicloferon, el mejor tratamiento para el<br> fuego labial que, gracias a su cómoda <br> presentación es ideal para<br>llevarlo a todas partes</span>" ,
+     "callToActionText": "Agregar a su carrito",
+     "callToActionUrl": "/cicloferon-crema/p",
+     "textPosition": "center",
+     "blockClass": "Info-card-slider-home-1"
+   }
+ },
+ "info-card#2": {
+   "props": {
+      "imageUrl": "/arquivos/1920x600blogcoronavirus.jpg" ,
+     "isFullModeStyle": true,
+     "headline": "Coronavirus: síntomas y cuando ir al médico",
+     "subhead": "Conoce los datos más importantes del coronavirus, cuales son los síntomas y cuando debes acudir al médico" ,
+     "callToActionText": "Saber más",
+     "callToActionUrl": "/blog/coronavirus-sintomas-y-cuando-ir-al-medico",
+     "textPosition": "left",
+     "blockClass": "Info-card-slider-home-2"
+   }
+ },
+
+ "info-card#3": {
+   "props": {
+      "imageUrl": "/arquivos/1920x600sliderclarityne-sd1.jpg" ,
+     "isFullModeStyle": true,
+     "headline": "¿Alergia o gripe?",
+     "subhead": "Clariyne ayuda a aliviar los síntomas de tu alergia sin causar sueño" ,
+     "callToActionText": "Agregar a su carrito",
+     "callToActionUrl": "/clarityne-10mg/p",
+     "textPosition": "center",
+     "blockClass": "Info-card-slider-home-3"
+   }
+ },
+
+ "info-card#4": {
+   "props": {
+      "imageUrl": "/arquivos/1920x6007tips.jpg" ,
+     "isFullModeStyle": true,
+     "headline": "7 tips para cuidar tu<br>salud esta cuarentena",
+     "subhead": "Ante la reciente situación de COVID-19, la mejor<br> forma de prevenir el contagio es el distanciamiento<br> social. En multifarmacias te traemos tips para cuidar<br> tu salud esta cuarentena",
+     "callToActionText": "Saber más",
+     "callToActionUrl": "/blog/tips_esta_cuarentena",
+     "textPosition": "left",
+     "blockClass": "Info-card-slider-home-4"
+   }
+ },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Nuestros productos destacados",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["shelf#first"]
+  },
+  "shelf#first": {
+    "blocks": ["product-summary.shelf#first"],
+    "props": {
+      "category": 2,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "Top sellers"
+      },
+      "blockClass": "shelfFirst"
+    }
+},
+"product-summary.shelf#first": {
+    "props":{
+      "blockClass": "Product"
+    },
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+},
+
+"add-to-cart-button":{
+  "props":{
+    "blockClass": "button-add-home"
+  }
+},
+
+  /*Promociones*/
+  "rich-text#shelf-promociones": {
+    "props": {
+      "text": "Promociones y descuentos",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf-promociones": {
+    "children": ["shelf#second"]
+  },
+  "shelf#second": {
+    "blocks": ["product-summary.shelf#second"],
+    "props": {
+      "category": 2,
+      "orderBy": "OrderByBestDiscountDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "Top sellers"
+      },
+      "blockClass": "shelfFirst"
+    }
+},
+"product-summary.shelf#second": {
+  "props":{
+      "blockClass": "Product"
+    },
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+},
+
+  /*Fin promciones*/
+
+  /*Nosotros te ayudamos*/
+  "rich-text#nosotros": {
+    "props": {
+      "text": "Nosotros te ayudamos a aliviar malestares como:",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#nosotros": {
+    "children": ["flex-layout.col#dolor-muscular","flex-layout.col#resfriado", "flex-layout.col#dolor-articular"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": "nosotros-home"
+    }
+  },
+
+  "flex-layout.col#dolor-muscular": {
+    "children": ["info-card#dolor-muscular"],
+    "props": {
+      "width": "33%",
+      "blockClass": "dolor-muscular-home"
+    }
+  },
+  "info-card#dolor-muscular": {
+   "props": {
+    "imageUrl": "/arquivos/600x230muscular.jpg" ,
+     "isFullModeStyle": true,
+     "headline": "Dolor muscular",
+     "callToActionText": "VER PRODUCTOS",
+     "callToActionUrl": "/medicamentos/dolor-muscular",
+     "textPosition": "center",
+     "blockClass": "Info-card-home-hover-1"
+   }
+ },
+  "flex-layout.col#resfriado": {
+    "children": ["info-card#resfriado"],
+    "props": {
+      "width": "33%"
+    }
+  },
+  "info-card#resfriado": {
+   "props": {
+    "imageUrl": "/arquivos/600x230resfriado.jpg" ,
+     "isFullModeStyle": true,
+     "headline": "Resfriado",
+     "callToActionUrl": "/medicamentos/resfriado",
+     "callToActionText": "VER PRODUCTOS",
+     "textPosition": "center",
+     "blockClass": "Info-card-home-hover-2"
+   }
+ },
+  "flex-layout.col#dolor-articular": {
+    "children": ["info-card#dolor-articular"],
+    "props": {
+      "width": "33%"
+    }
+  },
+   "info-card#dolor-articular": {
+   "props": {
+    "imageUrl": "/arquivos/600x230articular.jpg" ,
+     "isFullModeStyle": true,
+     "headline": "Dolor articular",
+     "callToActionUrl": "/medicamentos/dolor-articular",
+     "callToActionText": "VER PRODUCTOS",
+     "textPosition": "center",
+     "blockClass": "Info-card-home-hover-3"
+   }
+ },
+  /*Fin Nosotros te ayudamos*/
+
+  /* Cuidamos tu salud */
+    /* título */
+      "flex-layout.row#cuidamos-salud": {
+        "children": ["flex-layout.col#cs-title"],
+        "props": {
+          "fullWidth": "true",
+          "blockClass": "cuidamos-salud"
+        }
+      },
+      "flex-layout.col#cs-title": {
+        "children": ["rich-text#cst-text"],
+        "props": {
+          "width": "100%"
+        }
+      },
+      "rich-text#cst-text": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "<img class='vtex-store-components-3-x-img-fluid--info-card-home' src='https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/780x92slogan___26b73947353cf967f22e684031458f24.jpg' alt='cuidamos_lo_mas_importante_tu_salud'> <span class='vtex-store-components-3-x-sr-only--info-card-home'>Cuidamos lo más importante... ¡Tu salud!</span>",
+          "blockClass": "cuidamos-salud-title"
+        }
+      },
+    /* título */
+
+
+    "flex-layout.row#cuidamos-salud-info": {
+      "children": ["flex-layout.col#cs-info", "flex-layout.col#cs-img"],
+      "props": {
+        "fullWidth": "true",
+        "blockClass": "cuidamos-salud"
+      }
+    },
+    "flex-layout.col#cs-info": {
+      "children": ["info-card#csi-text"],
+      "props": {
+        "width": "66.66666666%",
+        "blockClass": "info-card-cst-container"
+      }
+    },
+    "flex-layout.col#cs-img": {
+      "children": ["info-card#csi-img"],
+      "props": {
+        "width": "33.33333333%",
+        "blockClass": "info-card-csi-container"
+      }
+    },
+
+
+    "info-card#csi-text": {
+      "props": {
+        "id": "info-card-csi-text",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        // "imageUrl": "https://placehold.it/300x300.png?text=300x300.png",
+        "headline": "",
+        "subhead": "<div class='vtex-store-components-3-x-w100 vtex-store-components-3-x-w100--info-card-csi-text vtex-store-components-3-x-float-left--info-card-csi-text'> <span class='vtex-store-components-3-x-loyalty-program vtex-store-components-3-x-loyalty-program--info-card-csi-text'>Programa de lealtad</span> </div> <div class='vtex-store-components-3-x-w100 vtex-store-components-3-x-w100--info-card-csi-text vtex-store-components-3-x-float-left--info-card-csi-text vtex-store-components-3-x-mt-3--info-card-csi-text'> <span class='vtex-store-components-3-x-lp-textinfo vtex-store-components-3-x-lp-textinfo--info-card-csi-text'>Beneficios en piezas sin costo y descuentos adicionales en medicamentos. <br> Afíliate para tener una cuenta con nosotros y obtener todos los beneficios de Círculo de la Salud.</span> </div>",
+        "callToActionText": "REGISTRARSE",
+        "callToActionUrl": "https://www.circulodelasalud.mx",
+        "blockClass": "info-card-csi-text",
+        "textAlignment": "left"
+      }
+    },
+    "info-card#csi-img": {
+      "props": {
+        "width": "100%",
+        "id": "info-card-csi-text",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "/arquivos/700x400circulodelasalud.jpg",
+        "blockClass": "info-card-csi-img",
+        "textAlignment": "center"
+      }
+    },
+  /* Cuidamos tu salud */
+
+  "rich-text#consultorios": {
+    "props": {
+      "text": "Y si lo necesitas también contamos con consultorios y médicos especializados",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/980x300consultorios.jpg",
+      "headline": "Preocupados por brindarte el mejor y más completo servicio ponemos a tu disposición nuestros consultorios y sus múltiples beneficios como:",
+      "subhead": "<div class='vtex-store-components-3-x-w50 vtex-store-components-3-x-w50--info-card-home vtex-store-components-3-x-float-left--info-card-home'><div class='vtex-store-components-3-x-img vtex-store-components-3-x-img--info-card-home'></div><span class='vtex-store-components-3-x-textdiv vtex-store-components-3-x-textdiv--info-card-home'>Médicos preparados y titulados para brindarte la mejor atención y servicio de consulta médica.</span></div><div class='vtex-store-components-3-x-w50 vtex-store-components-3-x-w50--info-card-home vtex-store-components-3-x-float-left--info-card-home'><div class='vtex-store-components-3-x-img vtex-store-components-3-x-img--info-card-home-2'></div><span class='vtex-store-components-3-x-textdiv vtex-store-components-3-x-textdiv--info-card-home'>Salas de nebulización totalmente equipadas y seguras.</span> </div>  <div class='vtex-store-components-3-x-w50 vtex-store-components-3-x-w50--info-card-home'></div>  <div class='vtex-store-components-3-x-w100 vtex-store-components-3-x-w100--info-card-home'><span class='vtex-store-components-3-x-textdiv vtex-store-components-3-x-textdiv--info-card-home'>Encuentra tu sucursal más cercana.</span></div>",
+      "callToActionText": "VER SUCURSALES",
+      "callToActionUrl": "/sucursales",
+      "blockClass": "info-card-home",
+      "textAlignment": "left"
+    }
+  },
+
+/*Blog Home*/
+  "rich-text#blog": {
+    "props": {
+      "text": "Últimas entradas al blog",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#blog": {
+    "children": ["flex-layout.col#blog1","flex-layout.col#blog2","flex-layout.col#blog3","flex-layout.col#blog4"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": "nosotros-home"
+    }
+  },
+//Blog1
+  "flex-layout.col#blog1": {
+    "children": ["image#blog1", "info-card#blog1"],
+    "props": {
+      "width": "25%",
+      "blockClass": "blog-layout"
+    }
+  },
+  "image#blog1": {
+    "props": {
+      "src": "/arquivos/blsaludmujer.jpg",
+      "maxHeight": 300,
+      "blockClass": "img-blog"
+    }
+  },
+
+  "info-card#blog1": {
+   "props": {
+     "isFullModeStyle": true,
+     "headline": "Salud de la mujer: lo que debes de saber",
+     "callToActionText": "Saber más",
+     "textPosition": "center",
+     "blockClass": "Title-blog",
+     "callToActionUrl": "/blog/salud_de_la_mujer"
+   }
+ },
+// Blog2
+  "flex-layout.col#blog2": {
+    "children": ["image#blog2", "info-card#blog2"],
+    "props": {
+      "width": "25%",
+      "blockClass": "blog-layout"
+    }
+  },
+  "image#blog2": {
+    "props": {
+      "src": "/arquivos/blcuarentena1920x1080.jpg",
+      "maxHeight": 300,
+      "blockClass": "img-blog"
+    }
+  },
+
+  "info-card#blog2": {
+   "props": {
+     "isFullModeStyle": true,
+     "headline": "7 tips para cuidar tu salud esta cuarentena",
+     "callToActionText": "Saber más",
+     "textPosition": "center",
+     "blockClass": "Title-blog",
+     "callToActionUrl": "/blog/tips_esta_cuarentena"
+   }
+ },
+  // Blog3
+  "flex-layout.col#blog3": {
+    "children": ["image#blog3", "info-card#blog3"],
+    "props": {
+      "width": "25%",
+      "blockClass": "blog-layout"
+    }
+  },
+  "image#blog3": {
+    "props": {
+      "src": "/arquivos/blobesidad1920x1080.jpg",
+      "maxHeight": 300,
+      "blockClass": "img-blog"
+    }
+  },
+
+   "info-card#blog3": {
+   "props": {
+     "isFullModeStyle": true,
+     "headline": "¿Qué es la obesidad? Todo lo que debes de saber",
+     "callToActionText": "Saber más",
+     "textPosition": "center",
+     "blockClass": "Title-blog",
+     "callToActionUrl": "/blog/que_es_la_obesidad"
+   }
+ },
+  // Blog4
+  "flex-layout.col#blog4": {
+    "children": ["image#blog4", "info-card#blog4"],
+
+    "props": {
+      "width": "25%",
+      "blockClass": "blog-layout"
+    }
+
+  },
+  "image#blog4": {
+    "props": {
+      "src": "/arquivos/blcoronavirus1920x1080.jpg",
+      "maxHeight": 300,
+      "blockClass": "img-blog"
+    }
+  },
+
+  "info-card#blog4": {
+   "props": {
+     "isFullModeStyle": true,
+     "headline": "Información que debes saber sobre el coronavirus",
+     "callToActionText": "Saber más",
+     "textPosition": "center",
+     "blockClass": "Title-blog",
+     "callToActionUrl": "/blog/informacion_coronavirus"
+   }
+ },
+/*footer*/
+"flex-layout.row#footer":{
+  "children": ["flex-layout.col#logo-footer","flex-layout.col#links","flex-layout.col#newsletter"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": "footer-home"
+    }
+},
+//sección 1
+"flex-layout.col#logo-footer": {
+    "children": ["image#img-footer", "rich-text#text-footer"],
+    "props": {
+      "width": "25%",
+      "blockClass": "section1-footer"
+    }
+  },
+  "image#img-footer":{
+    "props": {
+      "src": "/arquivos/logotipo.svg.jpg",
+      "maxHeight": 300,
+      "blockClass": "img-footer"
+    }
+  },
+  "rich-text#text-footer":{
+    "props": {
+      "text": "Tenemos el mejor y más amplio surtido de Medicamentos. ¡Compruébalo!",
+      "blockClass": "section1-text"
+    }
+  },
+
+//sección 2
+"flex-layout.col#links": {
+    "children": ["flex-layout.row#footer-text-link"],
+    "props": {
+      "width": "50%",
+      "blockClass": "section2-footer"
+    }
+  },
+"flex-layout.row#footer-text-link":{
+  "children": ["flex-layout.col#link1","flex-layout.col#link2","flex-layout.col#link3"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": "footer-home"
+    }
+},
+"flex-layout.col#link1": {
+    "children": ["rich-text#text-link1"],
+    "props": {
+      "width": "33%",
+      "blockClass": "section-footer"
+    }
+  },
+// "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**"
+  "rich-text#text-link1":{
+    "props": {
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "**Mapa del Sitio**\n\n [Medicamentos](/medicamentos/) \n\n [Botiquin](/botiquin/)\n\n [Suplementos y vitaminas](/suplementos-y-vitaminas/) \n\n [Cuidado personal](/cuidado-personal/)\n\n [Bebés](/bebes/)\n\n [Salud sexual](/salud-sexual/)",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "help-message"
+  }
+  },
+  "flex-layout.col#link2": {
+    "children": ["rich-text#text-link2"],
+    "props": {
+      "width": "33%",
+      "blockClass": "section-footer"
+    }
+  },
+// "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**"
+  "rich-text#text-link2":{
+    "props": {
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "**FAQ's** \n\n [Aviso de privacidad](/aviso) \n\n [Preguntas frecuentes](/preguntas-frecuentes)\n\n [Términos y condiciones](/terminos-y-condiciones)",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "help-message"
+  }
+  },
+  "flex-layout.col#link3": {
+    "children": ["rich-text#text-link3"],
+    "props": {
+      "width": "33%",
+      "blockClass": "section-footer"
+    }
+  },
+// "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**"
+  "rich-text#text-link3":{
+    "props": {
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "**Servicio al cliente** \n\n [Localizador de farmacias](/sucursales)\n\n [Facturación](/facturacion) \n\n [Bolsa de trabajo](/bolsa-de-trabajo)",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "help-message"
+  }
+  },
+
+//sección 3
+"flex-layout.col#newsletter": {
+    "children": ["newsletter", "rich-text#social", "flex-layout.row#social-icon"],
+    "props": {
+      "width": "25%",
+      "blockClass": "section-footer"
+    }
+  },
+"newsletter":{
+  "props":{
+    "label": "Suscríbete",
+    "placeholder": "Introduce tu correo eléctronico",
+    "submit": "Suscribirme      >",
+    "blockClass": "newsletter-products",
+    "textAlignment": "left",
+    "textPosition": "left"
+
+  }
+},
+"rich-text#social":{
+  "props": {
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Síguenos en",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "help-message"
+  }
+},
+
+"flex-layout.row#social-icon":{
+  "children": ["flex-layout.col#facebook","flex-layout.col#twitter","flex-layout.col#instagram"],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "flex-social"
+    }
+},
+
+"flex-layout.col#facebook": {
+    "children": ["rich-text#facebook"],
+    "props": {
+      "blockClass": "section-3-fb"
+    }
+  },
+  // "image#facebook":{
+  //   "props": {
+  //     "src": "assets/facebook.svg",
+  //     "maxHeight": 30,
+  //     "blockClass": "img-fb",
+  //     "link": "www.facebook.com/empleomultifarmacias/"
+  //   }
+  // },
+  "rich-text#facebook":{
+    "props":{
+      "text": "[![alt text](https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/facebook___81e28a02811c0acbbc9a3b22fd847958.svg)](https://www.facebook.com/empleomultifarmacias/?target=_blank)",
+      "blockClass": "img-fb"
+    }
+  },
+
+  "flex-layout.col#twitter": {
+    "children": ["rich-text#twitter"],
+    "props": {
+      "blockClass": "section-3-tw"
+    }
+  },
+  // "image#twitter":{
+  //   "props": {
+  //     "src": "assets/twitter.svg",
+  //     "maxHeight": 30,
+  //     "blockClass": "img-tw",
+  //     "link": "https://twitter.com/MULTIFARMACIAS"
+  //   }
+  // },
+  "rich-text#twitter":{
+    "props":{
+      "text": "[![twitter](https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/twitter___d4a82c2ac332b27db88987ff09b0e23c.svg)](https://twitter.com/MULTIFARMACIAS?target=_blank)",
+      "blockClass": "img-tw"
+    }
+  },
+
+  "flex-layout.col#instagram": {
+    "children": ["rich-text#instagram"],
+    "props": {
+      "blockClass": "section-3-in"
+    }
+  },
+  // "image#instagram":{
+  //   "props": {
+  //     "src": "assets/instagram.svg",
+  //     "maxHeight": 30,
+  //     "blockClass": "img-in",
+  //     "link": "https://instagram.com/multifarmaciasmx?igshid=a42s91g83xxb"
+  //   }
+  // }
+
+  "rich-text#instagram":{
+    "props":{
+      "text": "[![instagram](https://multifarmaciasmx.vtexassets.com/assets/vtex.store-theme/3.32.0/instagram___dffca570c96b996342c109dc216bf35d.svg)](https://instagram.com/multifarmaciasmx?target=_blank)",
+      "blockClass": "img-in"
+    }
+  }
+/*Fin footer*/
+
+
+}

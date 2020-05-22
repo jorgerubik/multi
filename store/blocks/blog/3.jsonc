@@ -1,0 +1,71 @@
+{
+    "store.custom#blog3":{
+        "blocks":[
+            "flex-layout.row#blogbanner3",
+            "flex-layout.row#b3main",
+            "rich-text#b1-read-more",
+            "flex-layout.row#blog-this2",
+            "flex-layout.row#cuidamos-salud",
+            "flex-layout.row#cuidamos-salud-info",
+            "flex-layout.row#footer"
+        ]
+    },
+    "flex-layout.row#blogbanner3":{
+        "props":{
+          "blockClass": "blogMBanner3",
+          "fullWidth": true
+        }
+    },
+    "flex-layout.row#b3main": {
+        "props": {
+          "marginBottom": 4
+        },
+        "children": [
+            "flex-layout.col#b3colmain"
+        ]
+    },
+    "flex-layout.col#b3colmain":{
+        "children": [
+            "rich-text#b3-title",
+            "rich-text#b3-date",
+            "rich-text#b3-text1",
+            "rich-text#b3-text2",
+            "rich-text#b3-text3"
+        ],
+        "props":{
+          "horizontalAlign": "left"
+        }
+    },
+    "rich-text#b3-title":{
+        "props":{
+            "text": "¿Qué es la obesidad? Todo lo que debes saber",
+            "font": "t-heading-2",
+            "blockClass": "blog-Title"
+        }
+    },
+    "rich-text#b3-date":{
+        "props":{
+            "text": "Publicado el 11 de Marzo del 2020",
+            "font": "t-heading-2",
+            "blockClass": "blogDate"
+        }
+    },
+    "rich-text#b3-text1":{
+        "props":{
+            "text": "La obesidad es uno de los problemas de salud más comunes a nivel mundial. A diferencia de otras enfermedades o condiciones, la obesidad es un estado que [puede tratarse y prevenirse desde los hábitos cotidianos](https://google.com) y a atención constante de estos. En este artículo te platicamos a fondo qué es la obesidad y todo lo que debes saber acerca de ella.\n\nLa obesidad es un término que refiere a la condición de un cuerpo con exceso de grasa. Este sobrante de grasa, medido en términos médicos dentro del Índice de Grasa Corporal, se calcula a partir de la comparación entre la cantidad de grasa y la altura de la persona en cuestión. Es importante, para este punto, aclarar que la obesidad no es exactamente lo mismo que el sobrepeso, pues mientras que el primer término refiere únicamente al Índice de Grasa Corporal, el sobrepeso se ocupa cabalmente de todos los factores corporales que intervienen en el peso excesivo de una persona. Los dos términos, no obstante, describen la condición de un cuerpo disfuncional según su peso.\n\nUna de las lecturas más claras para determinar la enfermedad se sostiene a partir de la medición del abdomen.\n\n**Causas de la obesidad**\n\nA pesar de que los factores que llevan a la obesidad son varios, la causa principal que se establece es que ésta es consecuencia del consumo inmoderado de calorías. Una mala alimentación, fundada en una dieta cotidiana de comida procesada, muchas azúcares y poca variedad nutritiva (alto consumo de solo un grupo de alimentos), sumada a una vida sedentaria, con poca actividad física y nulo ejercicio, significa un camino probable hacia el sobrepeso.\n\n¿Quieres conocer más sobre una buena dieta? [Sigue leyendo aquí.](https://google.com)\n\n**Otras causas de la obesidad:**\n\n- Herencia genética\n\n- Edad y sexo: las personas de mayor edad queman calorías más lentamente; por otro lado, los hombres requieren mayor volumen calórico para adquirir energía.\n\n- Poca actividad física\n\n- Embarazo\n\n- Otras enfermedades hormonales\n\n- Medicinas como corticoesteroides y algunos antidepresivos"
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b3-text2":{
+        "props":{
+            "text": "**Riesgos del sobrepeso**\n\nHay múltiples riesgos de la salud que se derivan de la obesidad. Las enfermedades cardiovasculares son las principales afecciones relacionadas con el sobrepeso. Una persona con obesidad es más propensa a sufrir ataques al corazón. Además, se conocen las siguientes complicaciones:\n\n- Diabetes.\n\n- Hipertensión.\n\n- Niveles altos de colesterol y triglicéridos en la sangre.\n\n- Problemas en huesos y articulaciones: La presión del peso ejercida sobre la estructura ósea puede provocar osteoartritis.\n\n- Apnea del sueño.\n\n- Cálculos biliares y problemas del hígado."
+            ,"blockClass":"blogText"
+        }
+    },
+    "rich-text#b3-text3":{
+        "props":{
+            "text": "Los problemas fisiológicos deben ser tomados en consideración para tomar acción y llevar una vida más larga y sana. Poca gente atiende su condición por esta falta de conciencia. Se suele pensar erróneamente que la obesidad sólo implica problemas de practicidad como fatiga, dificultad al bañarse o al cortarse las uñas, por ejemplo.\n\n**¿Cómo prevenir y tratar la obesidad?**\n\nLos cambios en los hábitos y el modo de vida se reflejan en un cuerpo sano. Es imperativo formular dietas adecuadas además de establecer rutinas de actividad corporal diarias o semanales. La consulta con un nutricionista capacitado o un médico puede ayudarte a establecer regímenes proporcionales a tus esquemas de vida. Presta atención a tu cuerpo.\n\n**Revisa más de nuestros artículos para conocer cómo llevar una dieta y costumbres más saludables.**"
+            ,"blockClass":"blogText"
+        }
+    }
+}

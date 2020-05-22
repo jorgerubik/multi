@@ -1,0 +1,67 @@
+.totalProducts--layout{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	text-align: left !important;
+	color: #004A9B;
+}
+
+.filterPopupTitle--OrderClass{
+	color: #004A9B;
+}
+
+.filterMessage--FilterClass, .categoryItemName--FilterClass, .filterTitle--FilterClass, .filterItem--FilterClass :global(.vtex-checkbox__label){
+	color: #808080 !important;
+}
+
+.categoryParent--FilterClass{
+	margin-top: 15px !important;
+}
+
+.galleryTitle--layout{
+	width: 96rem !important;
+	max-width: 100%;
+	margin-top: 15px !important;
+	margin-bottom: 5px !important;
+	color: #004A9B !important;
+	margin-left: 15px;
+}
+
+.buttonShowMore--moreButtonClass{
+	margin-top: 25px;
+}
+
+.buttonShowMore--moreButtonClass :global(.vtex-button){
+	border-radius: 20px;
+	border: solid 1px #004A9B;
+	background: #004A9B !important;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.searchNotFoundOops--NotFoundClass, .searchNotFoundInfo--NotFoundClass{
+	color: #004A9B;
+}
+
+.buttonShowMore--moreButtonClass :global(.vtex-button):hover{
+	border-radius: 20px;
+	border: solid 1px #004A9B;
+	background: white!important;
+	color: #004A9B !important;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.container--layout{
+	max-width: 100% !important;
+}
+.searchNotFoundWhatToDoDotsContainer--NotFoundClass{
+	padding-left: 0px !important;
+}
+.searchNotFoundWhatToDoDotsContainer--NotFoundClass::before{
+	content: "  Por el momento no encontramos tu producto, Es posible que el producto que buscas se encuentre en mostrador.\A Puedes buscar tu sucursal más cercana y marcar para confirmar la disponibilidad y te ayudaremos a encontrarla.\A Estamos trabajando para incrementar nuestra oferta y brindarte un mejor servicio";
+	white-space: pre;
+}
+
+.searchNotFoundWhatToDoDots--NotFoundClass{
+	display: none;
+}
